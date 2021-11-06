@@ -1,13 +1,37 @@
 <?php
 
-spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
-});
+// bootstrap.php
+use Doctrine\DBAL\DriverManager;
+use Doctrine\ORM\Tools\Setup;
+use Doctrine\ORM\EntityManager;
+
+require_once "vendor/autoload.php";
+
+
+// Create a simple "default" Doctrine ORM configuration for Annotations
+$isDevMode = true;
+$proxyDir = null;
+$cache = null;
+$useSimpleAnnotationReader = false;
+$config = Setup::createAnnotationMetadataConfiguration(array(__DIR__ . "/src"), $isDevMode, $proxyDir, $cache, $useSimpleAnnotationReader);
+
+$connectionParams = array(
+    'dbname' => 'chemtool',
+    'user' => 'chemtool',
+    'password' => 'wE8zmAHxNvS18rob',
+    'host' => 'localhost',
+    'driver' => 'pdo_mysql',
+);
+$conn = DriverManager::getConnection($connectionParams);
+
+// obtaining the entity manager
+$entityManager = EntityManager::create($conn, $config);
+
 
 /**
- * @var \classes\DataProcessor $processor
+ * @var Chemtool\DataProcessor $processor
  */
-$processor = new \classes\DataProcessor('data/chemicals.json');
+$processor = new Chemtool\DataProcessor('data/chemicals.json');
 
 ?>
 <!DOCTYPE html>

@@ -1,6 +1,6 @@
 <?php
 
-namespace classes;
+namespace Chemtool;
 
 
 class DataProcessor
@@ -157,15 +157,15 @@ class DataProcessor
 
         $steps = $chemical->getSteps();
         $this->buildSteps($results, $steps, $multiplikator);
-        echo $chemical->getId().'('.$multiplikator.'):    ';
-        /**
-         * @var Step $step
-         */
-        foreach ($steps->getSteps() as $step)
-        {
-            echo $step->generateString();
-            echo '<br />';
-        }
+//        echo $chemical->getId().'('.$multiplikator.'):    ';
+//        /**
+//         * @var Step $step
+//         */
+//        foreach ($steps->getSteps() as $step)
+//        {
+//            echo $step->generateString();
+//            echo '<br />';
+//        }
     }
 
     protected function checkParentBase(Chemical $parent)

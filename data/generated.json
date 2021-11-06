@@ -1,1 +1,6170 @@
-{"strange_reagent":{"name":"strange_reagent","id":"strange_reagent","parents":{"omnizine":1,"mutagen":1,"water_holy":1},"missing_parents_base":["omnizine","water_holy"],"produced":2,"required_heat":0,"tags":["medicine"]},"calomel":{"name":"Calomel","id":"calomel","parents":{"mercury":1,"chlorine":1},"produced":1,"required_heat":374,"tags":["medicine"]},"synthflesh":{"name":"Synthetic Flesh","id":"synthflesh","parents":{"blood":1,"carbon":1,"styptic_powder":1},"produced":3,"required_heat":0,"tags":["medicine"]},"styptic_powder":{"name":"Styptic Powder","id":"styptic_powder","parents":{"aluminium":1,"oxygen":1,"hydrogen":1,"acid":1},"produced":4,"required_heat":0,"tags":["medicine"]},"atropine":{"name":"Atropine","id":"atropine","parents":{"ethanol":1,"diethylamine":1,"acetone":1,"phenol":1,"acid":1},"produced":4,"required_heat":0,"tags":["medicine"]},"epinephrine":{"name":"Epinephrine","id":"epinephrine","parents":{"phenol":1,"hydrogen":1,"oxygen":1,"chlorine":1,"acetone":1,"diethylamine":1},"produced":4,"required_heat":0,"tags":["medicine"]},"ammoniumbicarbonate":{"name":"Ammonium Bicarbonate","id":"ammoniumbicarbonate","parents":{"ammonia":1,"carbon":1,"oxygen":1},"produced":3,"required_heat":374,"tags":["medicine"]},"ephedrine":{"name":"Ephedrine","id":"ephedrine","parents":{"sugar":1,"oil":1,"hydrogen":1,"diethylamine":1},"produced":3,"required_heat":0,"tags":["medicine"]},"cocktail_citrus":{"name":"Triple Citrus","id":"cocktail_citrus","parents":{"juice_orange":1,"juice_lemon":1,"juice_lime":1},"missing_parents_base":["juice_orange","juice_lemon","juice_lime"],"produced":3,"required_heat":0,"tags":["medicine"]},"teporone":{"name":"Teporone","id":"teporone","parents":{"silicon":1,"acetone":1,"plasma":1},"produced":2,"required_heat":0,"tags":["medicine"]},"mutadone":{"name":"Mutadone","id":"mutadone","parents":{"mutagen":1,"acetone":1,"bromine":1},"produced":3,"required_heat":0,"tags":["medicine"]},"mannitol":{"name":"Mannitol","id":"mannitol","parents":{"sugar":1,"hydrogen":1,"water":1},"produced":2,"required_heat":0,"tags":["medicine"]},"menthol":{"name":"Menthol","id":"menthol","parents":{"mint":1,"ethanol":1},"missing_parents_base":["mint"],"produced":1,"required_heat":0,"tags":["medicine"]},"cryoxadone":{"name":"Cryoxadone","id":"cryoxadone","parents":{"cryostylane":1,"mutagen":1,"plasma":1,"acetone":1},"produced":3,"required_heat":0,"tags":["medicine"]},"ether":{"name":"Ether","id":"ether","parents":{"ethanol":1,"clacid":1,"oxygen":1},"produced":1,"required_heat":0,"tags":["medicine"]},"antihol":{"name":"Antihol","id":"antihol","parents":{"ethanol":1,"charcoal":1},"produced":2,"required_heat":0,"tags":["medicine"]},"charcoal":{"name":"Activated Charcoal","id":"charcoal","parents":{"ash":1,"salt":1},"produced":2,"required_heat":374,"tags":["medicine"]},"cold_medicine":{"name":"Robustissin","id":"cold_medicine","parents":{"menthol":1,"morphine":1,"hydrogen":1,"acetone":1},"missing_parents_base":["menthol","morphine"],"produced":4,"required_heat":0,"tags":["medicine"]},"diphenhydramine":{"name":"Diphenhydramine","id":"diphenhydramine","parents":{"oil":1,"carbon":1,"bromine":1,"diethylamine":1,"ethanol":1},"produced":4,"required_heat":0,"tags":["medicine"]},"salicylic_acid":{"name":"Salicylic Acid","id":"salicylic_acid","parents":{"sodium":1,"phenol":1,"carbon":1,"oxygen":1,"acid":1},"produced":5,"required_heat":0,"tags":["medicine"]},"lexorin":{"name":"Lexorin","id":"lexorin","parents":{"plasma":1,"hydrogen":1,"nitrogen":1},"produced":3,"required_heat":0,"tags":["medicine"]},"salbutamol":{"name":"Salbutamol","id":"salbutamol","parents":{"oil":1,"lithium":1,"ammonia":1,"aluminium":1,"bromine":1},"produced":5,"required_heat":0,"tags":["medicine"]},"anti_rad":{"name":"Potassium Iodide","id":"anti_rad","parents":{"potassium":1,"iodine":1},"produced":2,"required_heat":0,"tags":["medicine"]},"penteticacid":{"name":"Pentetic Acid","id":"penteticacid","parents":{"fuel":1,"chlorine":1,"ammonia":1,"formaldehyde":1,"sodium":1,"cyanide":1},"produced":6,"required_heat":0,"tags":["medicine"]},"haloperidol":{"name":"Haloperidol","id":"haloperidol","parents":{"chlorine":1,"fluorine":1,"aluminium":1,"anti_rad":1,"oil":1},"produced":4,"required_heat":0,"tags":["medicine"]},"silver_sulfadiazine":{"name":"Silver Sulfadiazine","id":"silver_sulfadiazine","parents":{"silver":1,"sulfur":1,"oxygen":1,"chlorine":1,"ammonia":1},"produced":5,"required_heat":0,"tags":["medicine"]},"oculine":{"name":"Oculine","id":"oculine","parents":{"atropine":1,"saline":1,"spaceacillin":1},"missing_parents_base":["spaceacillin"],"produced":4,"required_heat":0,"tags":["medicine"]},"saline":{"name":"Saline-Glucose Solution","id":"saline","parents":{"salt":1,"water":1,"sugar":1},"produced":3,"required_heat":0,"tags":["medicine"]},"spaceacillin":{"name":"spaceacillin","id":"spaceacillin","parents":{"space_fungus":1,"ethanol":1},"missing_parents_base":["space_fungus"],"produced":2,"required_heat":0,"tags":["medicine"]},"perfluorodecalin":{"name":"Perfluorodecalin","id":"perfluorodecalin","parents":{"hydrogen":1,"fluorine":1,"salicylic_acid":1},"produced":2,"required_heat":374,"tags":["medicine"]},"anti_fart":{"name":"Simethicone","id":"anti_fart","parents":{"oxygen":1,"chlorine":1,"hydrogen":1,"silicon":1},"produced":3,"required_heat":0,"tags":["medicine"]},"heparin":{"name":"Heparin","id":"heparin","parents":{"sugar":1,"meat_slurry":1,"phenol":1,"acid":1},"missing_parents_base":["meat_slurry"],"produced":2,"required_heat":0,"tags":["medicine"]},"proconvertin":{"name":"Proconvertin","id":"proconvertin","parents":{"blood":1,"dna_mutagen":1,"mannitol":1,"salt":1},"produced":2,"required_heat":0,"tags":["medicine"]},"filgrastim":{"name":"Filgrastim","id":"filgrastim","parents":{"blood":1,"dna_mutagen":1,"e.coli":1,"spaceacillin":1},"missing_parents_base":["e.coli","spaceacillin"],"produced":2,"required_heat":0,"tags":["medicine"]},"hairgrownium":{"name":"Hairgrownium","id":"hairgrownium","parents":{"synthflesh":1,"ephedrine":1,"carpet":1},"missing_parents_base":["carpet"],"produced":3,"required_heat":0,"tags":["medicine"]},"super_hairgrownium":{"name":"Super Hairgrownium","id":"super_hairgrownium","parents":{"hairgrownium":1,"methamphetamine":1,"iron":1},"missing_parents_base":["hairgrownium"],"produced":3,"required_heat":0,"tags":["medicine"]},"mutagen":{"name":"Unstable mutagen","id":"mutagen","parents":{"radium":1,"plasma":1,"chlorine":1},"produced":3,"required_heat":0,"tags":["poison"]},"lipolicide":{"name":"Lipolicide","id":"lipolicide","parents":{"ephedrine":1,"diethylamine":1,"mercury":1},"produced":2,"required_heat":0,"tags":["poison"]},"neurotoxin":{"name":"neurotoxin","id":"neurotoxin","parents":{"space_drugs":1},"produced":3,"required_heat":674,"tags":["poison"]},"dna_mutagen":{"name":"Stable mutagen","id":"dna_mutagen","parents":{"mutagen":1,"lithium":1,"acetone":1,"bromine":1},"produced":3,"required_heat":0,"tags":["poison"]},"cyanide":{"name":"Cyanide","id":"cyanide","parents":{"oil":1,"ammonia":1,"oxygen":1},"produced":1,"required_heat":374,"tags":["poison"]},"sarin":{"name":"Sarin","id":"sarin","parents":{"chlorine":1,"fuel":1,"oxygen":1,"phosphorus":1,"fluorine":1,"hydrogen":1,"acetone":1,"weedkiller":1},"produced":3,"required_heat":0,"tags":["poison","secret"]},"weedkiller":{"name":"Atrazine","id":"weedkiller","parents":{"chlorine":1,"nitrogen":1,"hydrogen":1},"produced":3,"required_heat":0,"tags":["poison"]},"formaldehyde":{"name":"Formaldehyde | Embalming fluid","id":"formaldehyde","parents":{"ethanol":1,"oxygen":1,"silver":1},"produced":2,"required_heat":0,"tags":["poison"]},"acetaldehyde":{"name":"Acetaldehyde","id":"acetaldehyde","parents":{"chromium":1,"oxygen":1,"copper":1,"ethanol":1},"produced":3,"required_heat":0,"tags":["poison"]},"initropidril":{"name":"initropidril","id":"initropidril","parents":{"triplepiss":1,"histamine":1,"methamphetamine":1,"water_holy":1,"pacid":1,"neurotoxin":1,"stabiliser":1},"missing_parents_base":["triplepiss","histamine","water_holy"],"produced":4,"required_heat":0,"tags":["poison","secret"]},"royal_initrobeedril":{"name":"royal initrobeedril","id":"royal_initrobeedril","parents":{"initropidril":1,"bee":1,"honey":1,"dna_mutagen":1,"royal_jelly":1},"missing_parents_base":["initropidril","bee","honey","royal_jelly"],"produced":5,"required_heat":0,"tags":["poison","secret"]},"itching":{"name":"Itching Powder","id":"itching","parents":{"ammonia":1,"fuel":1,"space_fungus":1},"missing_parents_base":["space_fungus"],"produced":4,"required_heat":0,"tags":["poison"]},"sulfonal":{"name":"Sulfonal","id":"sulfonal","parents":{"acetone":1,"diethylamine":1,"sulfur":1},"produced":2,"required_heat":0,"tags":["poison"]},"capulettium":{"name":"Capulettium","id":"capulettium","parents":{"neurotoxin":1,"chlorine":1,"hydrogen":1},"produced":1,"required_heat":0,"tags":["poison"]},"capulettium_plus":{"name":"Capulettium Plus","id":"capulettium_plus","parents":{"capulettium":1,"ephedrine":1,"methamphetamine":1},"produced":3,"required_heat":0,"tags":["poison"]},"glitter":{"name":"glitter","id":"glitter","parents":{"itching":1,"colors":1,"paper":1,"silver":1},"missing_parents_base":["itching","colors"],"produced":4,"required_heat":0,"tags":["poison"]},"glitter_harmless":{"name":"harmless glitter","id":"glitter_harmless","parents":{"colors":1,"paper":1,"platinum":1},"missing_parents_base":["colors"],"produced":1,"required_heat":0,"tags":["poison"]},"madness_toxin":{"name":"Rajaijah","id":"madness_toxin","parents":{"prions":1,"sarin":1,"methamphetamine":1,"mercury":1,"haloperidol":1,"sulfonal":1,"plasma":1,"LSD":1},"missing_parents_base":["prions","LSD"],"produced":8,"required_heat":0,"tags":["poison","secret"]},"strychnine":{"name":"Strychnine","id":"strychnine","parents":{"cyanide":1,"phenol":1,"pacid":1,"acetic_acid":1,"aluminium":1,"iodine":1,"nickel":1},"produced":6,"required_heat":0,"tags":["poison","secret"]},"spiders":{"name":"spiders","id":"spiders","parents":{"hugs":1,"ants":1},"missing_parents_base":["hugs","ants"],"produced":2,"required_heat":0,"tags":["poison"]},"propellant":{"name":"Aeresol Propellant","id":"propellant","parents":{"chlorine":1,"sugar":1,"hydrogen":1,"platinum":1,"stabiliser":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"smokepowder":{"name":"Smoke Powder","id":"smokepowder","parents":{"potassium":1,"sugar":1,"phosphorus":1,"stabiliser":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"fluorosurfactant":{"name":"fluorosurfactant","id":"fluorosurfactant","parents":{"fluorine":1,"oil":1,"acid":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"thalmerite":{"name":"Pyrosium","id":"thalmerite","parents":{"plasma":1,"radium":1,"phosphorus":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"nitroglycerin":{"name":"Nitroglycerin","id":"nitroglycerin","parents":{"glycerol":1,"nitric_acid":1,"acid":1},"produced":3,"required_heat":0,"tags":["secret","pyrotechnic"]},"infernite":{"name":"Chlorine Triflouride","id":"infernite","parents":{"chlorine":1,"fluorine":3},"produced":2,"required_heat":0,"tags":["pyrotechnic"]},"soriumstable":{"name":"Stable Sorium","id":"soriumstable","parents":{"mercury":1,"carbon":1,"nitrogen":1,"oxygen":1,"stabiliser":1},"produced":4,"required_heat":0,"tags":["pyrotechnic"]},"ldmatterstable":{"name":"Stable Liquid Dark Matter","id":"ldmatterstable","parents":{"plasma":1,"radium":1,"carbon":1,"stabiliser":1},"produced":4,"required_heat":0,"tags":["pyrotechnic"]},"sorium":{"name":"Sorium","id":"sorium","parents":{"mercury":1,"carbon":1,"nitrogen":1,"oxygen":1},"produced":1,"required_heat":0,"tags":["pyrotechnic"]},"phlogiston":{"name":"Phlogiston Fire","id":"phlogiston","parents":{"phosphorus":1,"plasma":1,"acid":1},"produced":4,"required_heat":0,"tags":["pyrotechnic"]},"cryostylane":{"name":"Cryostylane","id":"cryostylane","parents":{"nitrogen":1,"plasma":1,"water":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"explosion_magnesium":{"name":"Magnesium Explosion","id":"explosion_magnesium","parents":{"magnesium":1,"copper":1,"oxygen":1},"produced":1,"required_heat":0,"tags":["pyrotechnic"]},"thermite":{"name":"Thermite","id":"thermite","parents":{"aluminium":1,"iron":1,"oxygen":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"kerosene":{"name":"Kerosene","id":"kerosene","parents":{"cyclopentanol":1,"oxygen":3,"acetone":1,"hydrogen":1,"aluminium":1,"nickel":1},"produced":3,"required_heat":0,"tags":["pyrotechnic","secret"]},"flashpowder":{"name":"Flash Powder","id":"flashpowder","parents":{"aluminium":1,"potassium":1,"sulfur":1,"chlorine":1,"stabiliser":1},"produced":5,"required_heat":0,"tags":["pyrotechnic"]},"sonicpowder":{"name":"Hootingium","id":"sonicpowder","parents":{"oxygen":1,"cola":1,"phosphorus":1,"stabiliser":1},"produced":2,"required_heat":0,"tags":["pyrotechnic"]},"chlorine_azide":{"name":"Chlorine Azide","id":"chlorine_azide","parents":{"sodium":1,"ammonia":1,"nitrogen":1,"oxygen":1,"silver":1,"chlorine":1},"produced":1,"required_heat":0,"tags":["pyrotechnic","secret"]},"firedust":{"name":"Phlogiston Dust","id":"firedust","parents":{"phlogiston":1,"charcoal":1,"phosphorus":1,"sulfur":1},"produced":2,"required_heat":0,"tags":["pyrotechnic"]},"napalm_goo":{"name":"Napalm","id":"napalm_goo","parents":{"fuel":1,"sugar":1,"ethanol":1},"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"big_bang":{"name":"quark-gluon plasma","id":"big_bang","parents":{"big_bang_precursor":1},"missing_parents_base":["big_bang_precursor"],"produced":50,"required_heat":0,"tags":["secret","pyrotechnic"]},"blackpowder":{"name":"Black Powder","id":"blackpowder","parents":{"charcoal":1,"sulfur":1,"saltpetre":1},"missing_parents_base":["saltpetre"],"produced":3,"required_heat":0,"tags":["pyrotechnic"]},"silver_fulminate":{"name":"Silver Fulminate","id":"silver_fulminate","parents":{"silver_nitrate":1,"nitric_acid":1,"ethanol":1},"produced":1,"required_heat":0,"tags":["pyrotechnic"]},"e.coli":{"name":"E.Coli Bacteria","id":"e.coli","parents":{"poo":1,"bacterialmedium":1},"missing_parents_base":["bacterialmedium"],"produced":1,"required_heat":0,"tags":["disease"]},"werewolf_part1":{"name":"Werewolf Serum Precursor Alpha","id":"werewolf_part1","parents":{"wolfsbane":1,"grog":1,"denatured_enzyme":0,"super_hairgrownium":1},"missing_parents_base":["wolfsbane","grog","denatured_enzyme","super_hairgrownium"],"produced":4,"required_heat":0,"tags":["disease"]},"werewolf_part2":{"name":"Werewolf Serum Precursor Beta","id":"werewolf_part2","parents":{"tongueofdog":1,"dna_mutagen":1,"omega_mutagen":1},"missing_parents_base":["tongueofdog","omega_mutagen"],"produced":3,"required_heat":0,"tags":["disease"]},"werewolf_part3":{"name":"Werewolf Serum Precursor Gamma","id":"werewolf_part3","parents":{"werewolf_part1":1,"werewolf_part2":1},"missing_parents_base":["werewolf_part1","werewolf_part2"],"produced":2,"required_heat":0,"tags":["disease"]},"werewolf_part4":{"name":"Imperfect Werewolf Serum","id":"werewolf_part4","parents":{"werewolf_part3":1,"tea":1},"missing_parents_base":["werewolf_part3","tea"],"produced":2,"required_heat":0,"tags":["disease"]},"werewolf_serum":{"name":"Werewolf Serum","id":"werewolf_serum","parents":{"werewolf_part4":1,"badgrease":1,"stabiliser":1},"missing_parents_base":["werewolf_part4","badgrease"],"produced":3,"required_heat":0,"tags":["disease"]},"vampire_serum":{"name":"Vampire Serum Omega","id":"vampire_serum","parents":{"bloodc":1,"water_holy":1,"werewolf_serum":1},"missing_parents_base":["bloodc","water_holy","werewolf_serum"],"produced":3,"required_heat":0,"tags":["disease"]},"feather_fluid":{"name":"feather fluid","id":"feather_fluid","parents":{"egg":1,"colors":1,"chickensoup":1,"strange_reagent":1,"blood":1,"sonicpowder":1,"eraser":1},"missing_parents_base":["egg","colors","chickensoup","strange_reagent","eraser"],"produced":1,"required_heat":0,"tags":["disease","secret"]},"mewtini":{"name":"Mewtini","id":"mewtini","parents":{"catdrugs":1,"mutini":1,"milk":1,"catonium":1},"missing_parents_base":["catdrugs","mutini","milk","catonium"],"produced":2,"required_heat":0,"tags":["disease"]},"rotting":{"name":"rotting","id":"rotting","parents":{"yuck":1,"denatured_enzyme":1,"something":1,"poo":1},"missing_parents_base":["yuck","denatured_enzyme"],"produced":3,"required_heat":0,"tags":["disease","secret"]},"acid":{"name":"Sulfuric Acid","id":"acid","parents":{"sulfur":1,"hydrogen":1,"oxygen":1},"produced":2,"required_heat":0,"tags":["acid"]},"pacid":{"name":"Fluorosulfuric Acid","id":"pacid","parents":{"acid":1,"fluorine":1,"hydrogen":1,"potassium":1},"produced":3,"required_heat":374,"tags":["acid"]},"clacid":{"name":"Hydrochloric Acid","id":"clacid","parents":{"hydrogen":1,"chlorine":1,"water":1},"produced":3,"required_heat":0,"tags":["acid"]},"acetic_acid":{"name":"Acetic Acid","id":"acetic_acid","parents":{"acetaldehyde":1,"oxygen":1,"nitrogen":4},"produced":3,"required_heat":0,"tags":["acid"]},"aluminium":{"name":"aluminium","id":"aluminium","produced":1,"required_heat":0,"tags":["base"]},"barium":{"name":"barium","id":"barium","produced":1,"required_heat":0,"tags":["base"]},"bromine":{"name":"bromine","id":"bromine","produced":1,"required_heat":0,"tags":["base"]},"carbon":{"name":"carbon","id":"carbon","produced":1,"required_heat":0,"tags":["base"]},"calcium":{"name":"calcium","id":"calcium","produced":1,"required_heat":0,"tags":["base"]},"chlorine":{"name":"chlorine","id":"chlorine","produced":1,"required_heat":0,"tags":["base"]},"chromium":{"name":"chromium","id":"chromium","produced":1,"required_heat":0,"tags":["base"]},"copper":{"name":"copper","id":"copper","produced":1,"required_heat":0,"tags":["base"]},"ethanol":{"name":"ethanol","id":"ethanol","produced":1,"required_heat":0,"tags":["base"]},"fluorine":{"name":"fluorine","id":"fluorine","produced":1,"required_heat":0,"tags":["base"]},"hydrogen":{"name":"hydrogen","id":"hydrogen","produced":1,"required_heat":0,"tags":["base"]},"helium":{"name":"helium","id":"helium","produced":1,"required_heat":0,"tags":["base"]},"iodine":{"name":"iodine","id":"iodine","produced":1,"required_heat":0,"tags":["base"]},"iron":{"name":"iron","id":"iron","produced":1,"required_heat":0,"tags":["base"]},"lithium":{"name":"lithium","id":"lithium","produced":1,"required_heat":0,"tags":["base"]},"magnesium":{"name":"magnesium","id":"magnesium","produced":1,"required_heat":0,"tags":["base"]},"mercury":{"name":"mercury","id":"mercury","produced":1,"required_heat":0,"tags":["base"]},"nickel":{"name":"nickel","id":"nickel","produced":1,"required_heat":0,"tags":["base"]},"nitrogen":{"name":"nitrogen","id":"nitrogen","produced":1,"required_heat":0,"tags":["base"]},"oxygen":{"name":"oxygen","id":"oxygen","produced":1,"required_heat":0,"tags":["base"]},"phosphorus":{"name":"phosphorus","id":"phosphorus","produced":1,"required_heat":0,"tags":["base"]},"plasma":{"name":"plasma","id":"plasma","produced":1,"required_heat":0,"tags":["base"]},"platinum":{"name":"platinum","id":"platinum","produced":1,"required_heat":0,"tags":["base"]},"potassium":{"name":"potassium","id":"potassium","produced":1,"required_heat":0,"tags":["base"]},"radium":{"name":"radium","id":"radium","produced":1,"required_heat":0,"tags":["base"]},"silicon":{"name":"silicon","id":"silicon","produced":1,"required_heat":0,"tags":["base"]},"silver":{"name":"silver","id":"silver","produced":1,"required_heat":0,"tags":["base"]},"sodium":{"name":"sodium","id":"sodium","produced":1,"required_heat":0,"tags":["base"]},"sugar":{"name":"sugar","id":"sugar","produced":1,"required_heat":0,"tags":["base"]},"sulfur":{"name":"sulfur","id":"sulfur","produced":1,"required_heat":0,"tags":["base"]},"water":{"name":"water","id":"water","produced":1,"required_heat":0,"tags":["base"]},"fuel":{"name":"fuel","id":"fuel","produced":1,"required_heat":0,"tags":["base"]},"blood":{"name":"blood","id":"blood","produced":1,"required_heat":0,"tags":["base"]},"paper":{"name":"paper","id":"paper","produced":1,"required_heat":0,"tags":["base"]},"poo":{"name":"Compost","id":"poo","produced":1,"required_heat":0,"tags":["base"]},"lumen":{"name":"Lumen","id":"lumen","parents":{"radium":1,"omega_mutagen":1,"hydrogen":1,"helium":1,"luminol":1},"missing_parents_base":["omega_mutagen"],"produced":3,"required_heat":0,"tags":["secret"]},"omega_mutagen":{"id":"omega_mutagen","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"luminol":{"name":"luminol","id":"luminol","parents":{"oxygen":1,"hydrogen":1,"nitrogen":1,"carbon":1},"produced":3,"required_heat":0,"tags":[]},"no_lumen_new_smoke":{"name":"no lumen new smoke","id":"no_lumen_new_smoke","parents":{"lumen":1,"chlorine":1,"sugar":1,"hydrogen":1,"platinum":1},"missing_parents_base":["lumen"],"produced":1,"required_heat":0,"tags":[]},"no_lumen_new_smoke2":{"name":"no lumen new smoke2","id":"no_lumen_new_smoke2","parents":{"lumen":1,"propellant":1},"missing_parents_base":["lumen"],"produced":1,"required_heat":0,"tags":[]},"no_lumen_smoke":{"name":"no lumen smoke","id":"no_lumen_smoke","parents":{"lumen":1,"sugar":1,"phosphorus":1,"potassium":1},"missing_parents_base":["lumen"],"produced":1,"required_heat":0,"tags":[]},"no_lumen_smoke2":{"name":"no lumen smoke 2","id":"no_lumen_smoke2","parents":{"lumen":1,"smokepowder":1},"missing_parents_base":["lumen"],"produced":1,"required_heat":0,"tags":[]},"no_lumen_foam":{"name":"no lumen foam","id":"no_lumen_foam","parents":{"lumen":1,"fluorosurfactant":1,"water":1},"missing_parents_base":["lumen"],"produced":1,"required_heat":0,"tags":[]},"no_pyrosium_foam":{"name":"no pyrosium foam","id":"no_pyrosium_foam","parents":{"thalmerite":1,"fluorosurfactant":1,"water":1},"produced":1,"required_heat":0,"tags":[]},"no_pyrosium_smoke":{"name":"no pyrosium smoke","id":"no_pyrosium_smoke","parents":{"thalmerite":1,"sugar":1,"phosphorus":1,"potassium":1},"produced":1,"required_heat":0,"tags":[]},"no_pyrosium_smoke2":{"name":"no pyrosium smoke 2","id":"no_pyrosium_smoke2","parents":{"thalmerite":1,"smokepowder":1},"produced":1,"required_heat":0,"tags":[]},"nitroglycerin_foam":{"name":"Nitroglycerin Foam","id":"nitroglycerin_foam","parents":{"nitroglycerin":1,"fluorosurfactant":1},"produced":1,"required_heat":0,"tags":[]},"nitroglycerin_smoke":{"name":"Nitroglycerin Smoke (powder)","id":"nitroglycerin_smoke","parents":{"nitroglycerin":1,"smokepowder":1},"produced":1,"required_heat":0,"tags":[]},"nitroglycerin_Propellant":{"name":"Nitroglycerin Propellant","id":"nitroglycerin_Propellant","parents":{"nitroglycerin":1,"chlorine":1,"sugar":1,"hydrogen":1,"platinum":1},"produced":1,"required_heat":0,"tags":[]},"nitroglycerin_propellant":{"name":"Nitroglycerin Propellant (powder)","id":"nitroglycerin_propellant","parents":{"nitroglycerin":1,"propellant":1},"produced":1,"required_heat":0,"tags":[]},"no_fermid_foam":{"name":"no fermid foam","id":"no_fermid_foam","parents":{"ants":1,"mutagen":1,"aranesp":1,"booster_enzyme":1,"fluorosurfactant":1,"water":1},"missing_parents_base":["ants","aranesp","booster_enzyme"],"produced":1,"required_heat":0,"tags":[]},"ants":{"id":"ants","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"aranesp":{"name":"Aranesp","id":"aranesp","parents":{"atropine":1,"epinephrine":1,"insulin":1},"missing_parents_base":["insulin"],"produced":3,"required_heat":0,"tags":[]},"booster_enzyme":{"name":"Booster Enzyme","id":"booster_enzyme","parents":{"diethylamine":1,"ethanol":1,"sulfur":1,"carbon":1,"hydrogen":1,"oxygen":1,"strange_reagent":1},"missing_parents_base":["strange_reagent"],"produced":4,"required_heat":374,"tags":["secret"]},"diethylamine":{"name":"Diethylamine","id":"diethylamine","parents":{"ammonia":1,"ethanol":1},"produced":2,"required_heat":374,"tags":[]},"denatured_enzyme":{"name":"Denatured Enzyme","id":"denatured_enzyme","parents":{"booster_enzyme":1},"missing_parents_base":["booster_enzyme"],"produced":1,"required_heat":0,"tags":[]},"water_holy":{"name":"Holy Water","id":"water_holy","parents":{"water":1,"mercury":1,"wine":1},"missing_parents_base":["wine"],"produced":3,"required_heat":0,"tags":[]},"wine":{"id":"wine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"meat_slurry":{"name":"Meat Slurry","id":"meat_slurry","parents":{"blood":1,"cornstarch":1},"missing_parents_base":["cornstarch"],"produced":2,"required_heat":0,"tags":[]},"cornstarch":{"id":"cornstarch","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"beff":{"name":"Beff","id":"beff","parents":{"meat_slurry":1,"badgrease":2,"plasma":1},"missing_parents_base":["meat_slurry","badgrease"],"produced":4,"required_heat":0,"tags":[]},"badgrease":{"name":"Partially Hydrogenated Space-Soybean Oil","id":"badgrease","parents":{"grease":1,"hydrogen":1},"missing_parents_base":["grease"],"produced":2,"required_heat":0,"tags":[]},"insulin":{"id":"insulin","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"stabiliser":{"name":"Stabilising Agent","id":"stabiliser","parents":{"iron":1,"hydrogen":1,"oxygen":1},"produced":2,"required_heat":0,"tags":[]},"ldmatter":{"name":"Liquid Dark Matter","id":"ldmatter","parents":{"plasma":1,"radium":1,"carbon":1},"produced":1,"required_heat":0,"tags":[]},"ammonia":{"name":"Ammonia","id":"ammonia","parents":{"hydrogen":3,"nitrogen":1},"produced":3,"required_heat":0,"tags":[]},"ash":{"name":"Ash","id":"ash","parents":{"paper":1},"produced":1,"required_heat":0,"tags":[]},"bilk":{"name":"Bilk","id":"bilk","parents":{"milk":1,"beer":1},"missing_parents_base":["milk","beer"],"produced":2,"required_heat":0,"tags":[]},"milk":{"id":"milk","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"beer":{"id":"beer","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"chocolate milk":{"name":"Chocolate Milk","id":"chocolate milk","parents":{"milk":1,"chocolate":1},"missing_parents_base":["milk","chocolate"],"produced":2,"required_heat":0,"tags":[]},"chocolate":{"id":"chocolate","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"strawberry milk":{"name":"Strawberry Milk","id":"strawberry milk","parents":{"milk":1,"juice_strawberry":1},"missing_parents_base":["milk","juice_strawberry"],"produced":2,"required_heat":0,"tags":[]},"juice_strawberry":{"id":"juice_strawberry","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"cheese":{"name":"Cheese","id":"cheese","parents":{"milk":1,"vomit":1},"missing_parents_base":["milk","vomit"],"produced":1,"required_heat":0,"tags":[]},"vomit":{"id":"vomit","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"gcheese":{"name":"Weird Cheese","id":"gcheese","parents":{"milk":1,"gvomit":1},"missing_parents_base":["milk","gvomit"],"produced":1,"required_heat":0,"tags":[]},"gvomit":{"id":"gvomit","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"lemonade":{"name":"Lemonade","id":"lemonade","parents":{"juice_lemon":3,"sugar":1},"missing_parents_base":["juice_lemon"],"produced":4,"required_heat":0,"tags":[]},"juice_lemon":{"id":"juice_lemon","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"limeade":{"name":"Limeade","id":"limeade","parents":{"juice_lime":3,"sugar":1},"missing_parents_base":["juice_lime"],"produced":4,"required_heat":0,"tags":[]},"juice_lime":{"id":"juice_lime","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"halfandhalf":{"name":"Half and Half","id":"halfandhalf","parents":{"lemonade":1,"tea":1},"missing_parents_base":["lemonade","tea"],"produced":2,"required_heat":0,"tags":[]},"tea":{"id":"tea","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"halfandhalf2":{"name":"halfandhalf2","id":"halfandhalf2","parents":{"juice_lemon":1,"sweet_tea":1},"missing_parents_base":["juice_lemon","sweet_tea"],"produced":2,"required_heat":0,"tags":[]},"sweet_tea":{"name":"Sweet Tea","id":"sweet_tea","parents":{"sugar":1,"tea":1},"missing_parents_base":["tea"],"produced":2,"required_heat":0,"tags":[]},"halfandhalf3":{"name":"halfandhalf3","id":"halfandhalf3","parents":{"lemonade":1,"sweet_tea":1},"missing_parents_base":["lemonade","sweet_tea"],"produced":2,"required_heat":0,"tags":[]},"eggnog":{"name":"Eggnog","id":"eggnog","parents":{"egg":1,"milk":1,"sugar":1},"missing_parents_base":["egg","milk"],"produced":3,"required_heat":0,"tags":[]},"egg":{"id":"egg","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"honey_tea":{"name":"tea","id":"honey_tea","parents":{"honey":1,"tea":1},"missing_parents_base":["honey","tea"],"produced":2,"required_heat":0,"tags":[]},"honey":{"id":"honey","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"mint_tea":{"name":"tea","id":"mint_tea","parents":{"mint":1,"tea":1},"missing_parents_base":["mint","tea"],"produced":2,"required_heat":0,"tags":[]},"mint":{"id":"mint","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"sodawater":{"name":"soda water","id":"sodawater","parents":{"carbon":1,"oxygen":1,"water":1},"produced":2,"required_heat":0,"tags":[]},"simplesyrup":{"name":"simple syrup","id":"simplesyrup","parents":{"sugar":1,"water":1},"produced":2,"required_heat":0,"tags":[]},"kalimoxto":{"name":"Kalimoxto","id":"kalimoxto","parents":{"cola":1,"wine":1},"missing_parents_base":["wine"],"produced":2,"required_heat":0,"tags":[]},"cola":{"name":"cola","id":"cola","parents":{"sodawater":1,"sugar":1},"produced":2,"required_heat":0,"tags":[]},"derby":{"name":"Derby","id":"derby","parents":{"gin":1,"bitters":1,"mint":1},"missing_parents_base":["gin","bitters","mint"],"produced":3,"required_heat":0,"tags":[]},"gin":{"id":"gin","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"bitters":{"id":"bitters","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"horsesneck":{"name":"Horse's Neck","id":"horsesneck","parents":{"bourbon":1,"bitters":1,"ginger_ale":1},"missing_parents_base":["bourbon","bitters","ginger_ale"],"produced":3,"required_heat":0,"tags":[]},"bourbon":{"id":"bourbon","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"ginger_ale":{"id":"ginger_ale","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"rose":{"name":"Rose","id":"rose","parents":{"vermouth":1,"juice_cherry":1,"juice_strawberry":1},"missing_parents_base":["vermouth","juice_cherry","juice_strawberry"],"produced":3,"required_heat":0,"tags":[]},"vermouth":{"id":"vermouth","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"juice_cherry":{"id":"juice_cherry","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"seabreeze":{"name":"Sea Breeze","id":"seabreeze","parents":{"vodka":1,"juice_cran":1,"juice_grapefruit":1},"missing_parents_base":["vodka","juice_cran","juice_grapefruit"],"produced":3,"required_heat":0,"tags":[]},"vodka":{"id":"vodka","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"juice_cran":{"id":"juice_cran","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"juice_grapefruit":{"id":"juice_grapefruit","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"brassmonkey":{"name":"Brass Monkey","id":"brassmonkey","parents":{"rum":1,"vodka":1,"juice_orange":1},"missing_parents_base":["rum","vodka","juice_orange"],"produced":3,"required_heat":0,"tags":[]},"rum":{"id":"rum","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"juice_orange":{"id":"juice_orange","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"hotbutteredrum":{"name":"Hot Buttered Rum","id":"hotbutteredrum","parents":{"rum":1,"cider":1,"butter":1},"missing_parents_base":["rum","cider","butter"],"produced":3,"required_heat":0,"tags":[]},"cider":{"id":"cider","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"butter":{"id":"butter","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"fluffycritter":{"name":"Fluffy Critter","id":"fluffycritter","parents":{"rum":1,"juice_lime":1,"lemonade":1,"juice_strawberry":1},"missing_parents_base":["rum","juice_lime","lemonade","juice_strawberry"],"produced":4,"required_heat":0,"tags":[]},"michelada":{"name":"Michelada","id":"michelada","parents":{"beer":1,"juice_tomato":1,"capsaicin":1},"missing_parents_base":["beer","juice_tomato","capsaicin"],"produced":3,"required_heat":0,"tags":[]},"juice_tomato":{"id":"juice_tomato","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"capsaicin":{"id":"capsaicin","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"gunfire":{"name":"Gunfire","id":"gunfire","parents":{"tea":1,"rum":1},"missing_parents_base":["tea","rum"],"produced":2,"required_heat":0,"tags":[]},"espressomartini":{"name":"Espresso Martini","id":"espressomartini","parents":{"vodka":1,"chocolate":1,"sugar":1,"espresso":1},"missing_parents_base":["vodka","chocolate","espresso"],"produced":4,"required_heat":0,"tags":[]},"espresso":{"id":"espresso","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"radler":{"name":"Radler","id":"radler","parents":{"beer":1,"lemonade":1},"missing_parents_base":["beer","lemonade"],"produced":2,"required_heat":0,"tags":[]},"threemileislandicedtea":{"name":"Three Mile Island Iced Tea","id":"threemileislandicedtea","parents":{"vodka":1,"gin":1,"tequila":1,"cola":1,"curacao":1},"missing_parents_base":["vodka","gin","tequila","curacao"],"produced":5,"required_heat":0,"tags":[]},"tequila":{"id":"tequila","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"curacao":{"id":"curacao","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"cocktail_triple":{"name":"Triple Triple","id":"cocktail_triple","parents":{"cocktail_citrus":1,"triplemeth":1,"triplepiss":1},"missing_parents_base":["cocktail_citrus","triplemeth","triplepiss"],"produced":1,"required_heat":0,"tags":[]},"triplemeth":{"id":"triplemeth","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"triplepiss":{"id":"triplepiss","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"beach":{"name":"Sex on the Beach","id":"beach","parents":{"vodka":1,"juice_cran":1,"juice_orange":1},"missing_parents_base":["vodka","juice_cran","juice_orange"],"produced":3,"required_heat":0,"tags":[]},"beach2":{"name":"beach2","id":"beach2","parents":{"screwdriver":2,"juice_cran":1},"missing_parents_base":["screwdriver","juice_cran"],"produced":2,"required_heat":0,"tags":[]},"screwdriver":{"name":"Screwdriver","id":"screwdriver","parents":{"vodka":1,"juice_orange":1},"missing_parents_base":["vodka","juice_orange"],"produced":2,"required_heat":0,"tags":[]},"bloody_mary":{"name":"Bloody Mary","id":"bloody_mary","parents":{"vodka":1,"juice_tomato":1},"missing_parents_base":["vodka","juice_tomato"],"produced":2,"required_heat":0,"tags":[]},"bloody_scary":{"name":"Bloody Scary","id":"bloody_scary","parents":{"vodka":1,"bloodc":1},"missing_parents_base":["vodka","bloodc"],"produced":2,"required_heat":0,"tags":[]},"bloodc":{"id":"bloodc","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"snakebite":{"name":"Snakebite","id":"snakebite","parents":{"cider":1,"beer":1},"missing_parents_base":["cider","beer"],"produced":2,"required_heat":0,"tags":[]},"diesel":{"name":"Diesel","id":"diesel","parents":{"snakebite":1,"juice_cran":1},"missing_parents_base":["snakebite","juice_cran"],"produced":2,"required_heat":0,"tags":[]},"suicider":{"name":"Suicider","id":"suicider","parents":{"cider":1,"vodka":1,"epinephrine":1,"fuel":1},"missing_parents_base":["cider","vodka"],"produced":4,"required_heat":0,"tags":[]},"boorbon":{"name":"BOOrbon","id":"boorbon","parents":{"bourbon":1,"ectoplasm":1},"missing_parents_base":["bourbon","ectoplasm"],"produced":2,"required_heat":0,"tags":[]},"ectoplasm":{"id":"ectoplasm","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"grog":{"name":"Grog","id":"grog","parents":{"fuel":1,"teporone":1,"sugar":1,"acid":1,"rum":1,"acetone":1,"bloody_scary":1,"gvomit":1,"lube":1,"pacid":1,"pepperoni":1},"missing_parents_base":["rum","bloody_scary","gvomit","pepperoni"],"produced":10,"required_heat":0,"tags":["secret"]},"acetone":{"name":"Acetone","id":"acetone","parents":{"oil":1,"fuel":1,"oxygen":1},"produced":3,"required_heat":0,"tags":[]},"lube":{"name":"Space Lube","id":"lube","parents":{"water":1,"silicon":1,"oxygen":1},"produced":3,"required_heat":0,"tags":[]},"pepperoni":{"name":"Pepperoni","id":"pepperoni","parents":{"beff":1,"synthflesh":1,"saltpetre":1},"missing_parents_base":["beff","saltpetre"],"produced":2,"required_heat":0,"tags":[]},"beepskybeer":{"name":"Beepskybr\u00e4u Security Schwarzbier","id":"beepskybeer","parents":{"beer":1,"nanites":1},"missing_parents_base":["beer","nanites"],"produced":2,"required_heat":0,"tags":[]},"nanites":{"id":"nanites","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"whiskey_sour":{"name":"Whiskey Sour","id":"whiskey_sour","parents":{"bourbon":1,"juice_lemon":1,"sugar":1},"missing_parents_base":["bourbon","juice_lemon"],"produced":3,"required_heat":0,"tags":[]},"whiskey_sour2":{"name":"whiskey_sour2","id":"whiskey_sour2","parents":{"bourbon":1,"lemonade":2},"missing_parents_base":["bourbon","lemonade"],"produced":2,"required_heat":0,"tags":[]},"daiquiri":{"name":"Daiquiri","id":"daiquiri","parents":{"rum":1,"juice_lime":1,"sugar":1},"missing_parents_base":["rum","juice_lime"],"produced":3,"required_heat":0,"tags":[]},"daiquiri2":{"name":"daiquiri2","id":"daiquiri2","parents":{"rum":1,"limeade":2},"missing_parents_base":["rum","limeade"],"produced":2,"required_heat":0,"tags":[]},"martini":{"name":"Martini","id":"martini","parents":{"gin":1,"vermouth":1},"missing_parents_base":["gin","vermouth"],"produced":2,"required_heat":0,"tags":[]},"v_martini":{"name":"Vodka Martini","id":"v_martini","parents":{"vodka":1,"vermouth":1},"missing_parents_base":["vodka","vermouth"],"produced":2,"required_heat":0,"tags":[]},"murdini":{"name":"Murdini","id":"murdini","parents":{"martini":1,"juice_apple":1,"suicider":1},"missing_parents_base":["martini","juice_apple","suicider"],"produced":3,"required_heat":0,"tags":[]},"juice_apple":{"id":"juice_apple","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"mutini":{"name":"Mutini","id":"mutini","parents":{"martini":1,"mutagen":4,"mutadone":1,"neurotoxin":1,"mannitol":1},"missing_parents_base":["martini"],"produced":4,"required_heat":0,"tags":["secret"]},"manhattan":{"name":"Manhattan","id":"manhattan","parents":{"bourbon":1,"vermouth":1,"bitters":1},"missing_parents_base":["bourbon","vermouth","bitters"],"produced":3,"required_heat":0,"tags":[]},"rcola":{"name":"Rum and Cola","id":"rcola","parents":{"rum":1,"cola":1},"missing_parents_base":["rum"],"produced":2,"required_heat":0,"tags":[]},"libre":{"name":"Space-Cuba Libre","id":"libre","parents":{"rcola":2,"juice_lime":1},"missing_parents_base":["rcola","juice_lime"],"produced":3,"required_heat":0,"tags":[]},"ginfizz":{"name":"Gin Fizz","id":"ginfizz","parents":{"gin":1,"juice_lemon":1,"water":1},"missing_parents_base":["gin","juice_lemon"],"produced":3,"required_heat":0,"tags":[]},"gimlet":{"name":"Gimlet","id":"gimlet","parents":{"gin":1,"juice_lime":1},"missing_parents_base":["gin","juice_lime"],"produced":2,"required_heat":0,"tags":[]},"cosmo":{"name":"Cosmopolitan","id":"cosmo","parents":{"vodka":1,"juice_cran":1,"juice_lime":1},"missing_parents_base":["vodka","juice_cran","juice_lime"],"produced":3,"required_heat":0,"tags":[]},"cosmo2":{"name":"cosmo2","id":"cosmo2","parents":{"v_gimlet":2,"juice_cran":1},"missing_parents_base":["v_gimlet","juice_cran"],"produced":3,"required_heat":0,"tags":[]},"v_gimlet":{"name":"Vodka Gimlet","id":"v_gimlet","parents":{"vodka":1,"juice_lime":1},"missing_parents_base":["vodka","juice_lime"],"produced":2,"required_heat":0,"tags":[]},"b_russian":{"name":"Black Russian","id":"b_russian","parents":{"vodka":1,"coffee":1},"missing_parents_base":["vodka","coffee"],"produced":2,"required_heat":0,"tags":[]},"coffee":{"id":"coffee","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"b_russian_espresso":{"name":"b_russian_espresso","id":"b_russian_espresso","parents":{"vodka":1,"espresso":1},"missing_parents_base":["vodka","espresso"],"produced":1,"required_heat":0,"tags":[]},"w_russian":{"name":"White Russian","id":"w_russian","parents":{"vodka":1,"coffee":1,"milk":1},"missing_parents_base":["vodka","coffee","milk"],"produced":3,"required_heat":0,"tags":[]},"w_russian2":{"name":"w_russian2","id":"w_russian2","parents":{"b_russian":2,"milk":1},"missing_parents_base":["b_russian","milk"],"produced":3,"required_heat":0,"tags":[]},"irishcoffee":{"name":"Irish Coffee","id":"irishcoffee","parents":{"coffee":1,"bourbon":1,"milk":1,"sugar":1},"missing_parents_base":["coffee","bourbon","milk"],"produced":4,"required_heat":0,"tags":[]},"dbreath":{"name":"Dragon's Breath","id":"dbreath","parents":{"bourbon":1,"phlogiston":1,"thalmerite":1,"fuel":1,"ghostchilijuice":1},"missing_parents_base":["bourbon","ghostchilijuice"],"produced":1,"required_heat":0,"tags":["secret"]},"ghostchilijuice":{"id":"ghostchilijuice","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"gtonic":{"name":"Gin and Tonic","id":"gtonic","parents":{"gin":1,"tonic":1},"missing_parents_base":["gin","tonic"],"produced":2,"required_heat":0,"tags":[]},"tonic":{"id":"tonic","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"vtonic":{"name":"Vodka Tonic","id":"vtonic","parents":{"vodka":1,"tonic":1},"missing_parents_base":["vodka","tonic"],"produced":2,"required_heat":0,"tags":[]},"sonic":{"name":"Gin and Sonic","id":"sonic","parents":{"gtonic":1,"methamphetamine":1},"missing_parents_base":["gtonic"],"produced":2,"required_heat":0,"tags":[]},"methamphetamine":{"name":"Methamphetamine","id":"methamphetamine","parents":{"ephedrine":1,"phosphorus":1,"hydrogen":1,"iodine":1},"produced":3,"required_heat":374,"tags":[]},"gpink":{"name":"Pink Gin and Tonic","id":"gpink","parents":{"gtonic":1,"bitters":1},"missing_parents_base":["gtonic","bitters"],"produced":2,"required_heat":0,"tags":[]},"eraser":{"name":"Mind Eraser","id":"eraser","parents":{"vtonic":1,"coffee":1},"missing_parents_base":["vtonic","coffee"],"produced":2,"required_heat":0,"tags":[]},"madmen":{"name":"Old Fashioned","id":"madmen","parents":{"bourbon":1,"bitters":1,"water":1,"sugar":1},"missing_parents_base":["bourbon","bitters"],"produced":4,"required_heat":0,"tags":[]},"planter":{"name":"Planter's Punch","id":"planter","parents":{"rum":1,"lemonade":1},"missing_parents_base":["rum","lemonade"],"produced":2,"required_heat":0,"tags":[]},"maitai":{"name":"Mai Tai","id":"maitai","parents":{"rum":1,"juice_lime":1,"juice_orange":1},"missing_parents_base":["rum","juice_lime","juice_orange"],"produced":4,"required_heat":0,"tags":[]},"harlow":{"name":"Jean Harlow","id":"harlow","parents":{"rum":1,"vermouth":1},"missing_parents_base":["rum","vermouth"],"produced":2,"required_heat":0,"tags":[]},"gchronic":{"name":"Gin and Chronic","id":"gchronic","parents":{"gtonic":1,"THC":1},"missing_parents_base":["gtonic","THC"],"produced":2,"required_heat":0,"tags":[]},"THC":{"id":"THC","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"margarita":{"name":"Margarita","id":"margarita","parents":{"tequila":1,"juice_orange":1,"juice_lime":1},"missing_parents_base":["tequila","juice_orange","juice_lime"],"produced":3,"required_heat":0,"tags":[]},"tequini":{"name":"Tequini","id":"tequini","parents":{"tequila":1,"vermouth":1},"missing_parents_base":["tequila","vermouth"],"produced":2,"required_heat":0,"tags":[]},"pfire":{"name":"Prairie Fire","id":"pfire","parents":{"tequila":1,"capsaicin":1},"missing_parents_base":["tequila","capsaicin"],"produced":2,"required_heat":0,"tags":[]},"bull":{"name":"Brave Bull","id":"bull","parents":{"tequila":1,"coffee":1},"missing_parents_base":["tequila","coffee"],"produced":2,"required_heat":0,"tags":[]},"longisland_rcola":{"name":"Long Island Iced Tea","id":"longisland_rcola","parents":{"tequila":1,"screwdriver":1,"gin":1,"juice_lemon":1,"rcola":1},"missing_parents_base":["tequila","screwdriver","gin","juice_lemon","rcola"],"produced":6,"required_heat":0,"tags":[]},"longisland":{"name":"Long Island Iced Tea","id":"longisland","parents":{"tequila":1,"screwdriver":1,"rum":1,"gin":1,"juice_lemon":1,"cola":1},"missing_parents_base":["tequila","screwdriver","rum","gin","juice_lemon"],"produced":6,"required_heat":0,"tags":[]},"lingtea":{"name":"Ling Island Iced Tea","id":"lingtea","parents":{"longisland":1,"neurotoxin":1},"missing_parents_base":["longisland"],"produced":2,"required_heat":0,"tags":[]},"longbeach":{"name":"Long Beach Iced Tea","id":"longbeach","parents":{"tequila":1,"beach":1,"rum":1,"gin":1,"juice_lemon":1},"missing_parents_base":["tequila","beach","rum","gin","juice_lemon"],"produced":5,"required_heat":0,"tags":[]},"hunchback":{"name":"Hunchback","id":"hunchback","parents":{"bourbon":1,"cola":1,"juice_tomato":1},"missing_parents_base":["bourbon","juice_tomato"],"produced":3,"required_heat":0,"tags":[]},"pinacolada":{"name":"Pi\u00f1a Colada","id":"pinacolada","parents":{"juice_pineapple":1,"rum":1,"coconut_milk":1},"missing_parents_base":["juice_pineapple","rum","coconut_milk"],"produced":4,"required_heat":0,"tags":[]},"juice_pineapple":{"id":"juice_pineapple","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"coconut_milk":{"id":"coconut_milk","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"mimosa":{"name":"Mimosa","id":"mimosa","parents":{"juice_orange":1,"champagne":1},"missing_parents_base":["juice_orange","champagne"],"produced":1,"required_heat":0,"tags":[]},"champagne":{"id":"champagne","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"french75":{"name":"French 75","id":"french75","parents":{"lemonade":1,"gin":1,"champagne":1},"missing_parents_base":["lemonade","gin","champagne"],"produced":3,"required_heat":0,"tags":[]},"tomcollins":{"name":"Tom Collins","id":"tomcollins","parents":{"gin":1,"tonic":1,"lemonade":1},"missing_parents_base":["gin","tonic","lemonade"],"produced":3,"required_heat":0,"tags":[]},"tomcollins2":{"name":"tomcollins2","id":"tomcollins2","parents":{"gtonic":2,"lemonade":1},"missing_parents_base":["gtonic","lemonade"],"produced":3,"required_heat":0,"tags":[]},"sangria":{"name":"Sangria","id":"sangria","parents":{"planter":2,"wine":1,"juice_orange":1},"missing_parents_base":["planter","wine","juice_orange"],"produced":4,"required_heat":0,"tags":[]},"sangria2":{"name":"sangria2","id":"sangria2","parents":{"wine":1,"juice_orange":1,"lemonade":1,"rum":1},"missing_parents_base":["wine","juice_orange","lemonade","rum"],"produced":4,"required_heat":0,"tags":[]},"peachschnapps":{"name":"Peach Schnapps","id":"peachschnapps","parents":{"vodka":1,"juice_peach":1},"missing_parents_base":["vodka","juice_peach"],"produced":2,"required_heat":0,"tags":[]},"juice_peach":{"id":"juice_peach","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"moscowmule":{"name":"Moscow Mule","id":"moscowmule","parents":{"v_gimlet":2,"ginger_ale":1},"missing_parents_base":["v_gimlet","ginger_ale"],"produced":3,"required_heat":0,"tags":[]},"moscowmule2":{"name":"moscowmule2","id":"moscowmule2","parents":{"vodka":1,"ginger_ale":1,"juice_lime":1},"missing_parents_base":["vodka","ginger_ale","juice_lime"],"produced":1,"required_heat":0,"tags":[]},"tequilasunrise":{"name":"Tequila Sunrise","id":"tequilasunrise","parents":{"tequila":1,"juice_orange":1,"sugar":1},"missing_parents_base":["tequila","juice_orange"],"produced":3,"required_heat":0,"tags":[]},"paloma":{"name":"Paloma","id":"paloma","parents":{"tequila":1,"juice_grapefruit":1,"juice_lime":1},"missing_parents_base":["tequila","juice_grapefruit","juice_lime"],"produced":3,"required_heat":0,"tags":[]},"mintjulep":{"name":"Mint Julep","id":"mintjulep","parents":{"mint":1,"bourbon":1,"sugar":1},"missing_parents_base":["mint","bourbon"],"produced":3,"required_heat":0,"tags":[]},"mojito":{"name":"Mojito","id":"mojito","parents":{"daiquiri":3,"mint":1},"missing_parents_base":["daiquiri","mint"],"produced":4,"required_heat":0,"tags":[]},"mojito2":{"name":"mojito2","id":"mojito2","parents":{"mint":1,"lime":1,"rum":1,"sugar":1},"missing_parents_base":["mint","rum"],"produced":4,"required_heat":0,"tags":[]},"lime":{"name":"calcium oxide","id":"lime","parents":{"calcium_carbonate":1},"produced":1,"required_heat":874,"tags":[]},"cremedementhe":{"name":"Cr\u00e9me de Menthe","id":"cremedementhe","parents":{"mint":1,"vodka":1,"sugar":1},"missing_parents_base":["mint","vodka"],"produced":3,"required_heat":0,"tags":[]},"grasshopper":{"name":"Grasshopper","id":"grasshopper","parents":{"cremedementhe":3,"chocolate":1,"vanilla":1},"missing_parents_base":["cremedementhe","chocolate","vanilla"],"produced":5,"required_heat":0,"tags":[]},"vanilla":{"id":"vanilla","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"grasshopper2":{"name":"grasshopper2","id":"grasshopper2","parents":{"mint":1,"vodka":1,"sugar":1,"chocolate":1,"vanilla":1},"missing_parents_base":["mint","vodka","chocolate","vanilla"],"produced":5,"required_heat":0,"tags":[]},"freeze":{"name":"Freeze","id":"freeze","parents":{"menthol":1,"cryostylane":1,"cryoxadone":1,"ether":1,"gin":1},"missing_parents_base":["menthol","gin"],"produced":1,"required_heat":0,"tags":["secret"]},"bluelagoon":{"name":"Blue Lagoon","id":"bluelagoon","parents":{"vodka":1,"curacao":1,"lemonade":1},"missing_parents_base":["vodka","curacao","lemonade"],"produced":3,"required_heat":0,"tags":[]},"bluehawaiian":{"name":"Blue Hawaiian","id":"bluehawaiian","parents":{"pinacolada":3,"curacao":1,"ice":1},"missing_parents_base":["pinacolada","curacao","ice"],"produced":5,"required_heat":0,"tags":[]},"ice":{"id":"ice","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"bluehawaiian2":{"name":"bluehawaiian2","id":"bluehawaiian2","parents":{"rum":1,"curacao":1,"juice_pineapple":1,"coconut_milk":1,"ice":1},"missing_parents_base":["rum","curacao","juice_pineapple","coconut_milk","ice"],"produced":3,"required_heat":0,"tags":[]},"negroni":{"name":"Negroni","id":"negroni","parents":{"gin":1,"vermouth":1,"bitters":1},"missing_parents_base":["gin","vermouth","bitters"],"produced":3,"required_heat":0,"tags":[]},"negroni2":{"name":"negroni2","id":"negroni2","parents":{"martini":2,"bitters":1},"missing_parents_base":["martini","bitters"],"produced":3,"required_heat":0,"tags":[]},"necroni":{"name":"Necroni","id":"necroni","parents":{"gin":1,"vermouth":1,"bitters":1,"ectoplasm":1},"missing_parents_base":["gin","vermouth","bitters","ectoplasm"],"produced":4,"required_heat":0,"tags":[]},"necroni2":{"name":"necroni2","id":"necroni2","parents":{"negroni":2,"ectoplasm":1},"missing_parents_base":["negroni","ectoplasm"],"produced":3,"required_heat":0,"tags":[]},"honky_tonic":{"name":"Honky Tonic","id":"honky_tonic","parents":{"tonic":1,"lube":1,"colors":1,"neurotoxin":1},"missing_parents_base":["tonic","colors"],"produced":4,"required_heat":0,"tags":[]},"colors":{"name":"colorful reagent","id":"colors","parents":{"plasma":1,"radium":1,"stabiliser":1,"space_drugs":1,"cryoxadone":1,"cocktail_citrus":1},"missing_parents_base":["cocktail_citrus"],"produced":6,"required_heat":0,"tags":[]},"hottoddy":{"name":"Hot Toddy","id":"hottoddy","parents":{"sweet_tea":1,"bourbon":1,"juice_lemon":1},"missing_parents_base":["sweet_tea","bourbon","juice_lemon"],"produced":3,"required_heat":0,"tags":[]},"beesknees":{"name":"Bee's knees","id":"beesknees","parents":{"gin":1,"honey":1,"juice_lemon":1},"missing_parents_base":["gin","honey","juice_lemon"],"produced":3,"required_heat":0,"tags":[]},"spicedrum":{"name":"Spiced Rum","id":"spicedrum","parents":{"rum":1,"capsaicin":1},"missing_parents_base":["rum","capsaicin"],"produced":2,"required_heat":0,"tags":[]},"philcollins":{"name":"Phil Collins","id":"philcollins","parents":{"vtonic":1,"lemonade":1},"missing_parents_base":["vtonic","lemonade"],"produced":2,"required_heat":0,"tags":[]},"duckfart":{"name":"Duck Fart","id":"duckfart","parents":{"bourbon":1,"coffee":1,"milk":1},"missing_parents_base":["bourbon","coffee","milk"],"produced":3,"required_heat":0,"tags":[]},"pinklemonade":{"name":"Pink lemonade","id":"pinklemonade","parents":{"grenadine":1,"lemonade":1},"missing_parents_base":["grenadine","lemonade"],"produced":2,"required_heat":0,"tags":[]},"grenadine":{"id":"grenadine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"squeeze":{"name":"Squeeze","id":"squeeze","parents":{"bread":3,"fuel":2},"missing_parents_base":["bread"],"produced":2,"required_heat":0,"tags":[]},"bread":{"id":"bread","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"ectocooler":{"name":"Ecto Cooler","id":"ectocooler","parents":{"juice_orange":1,"ectoplasm":1,"uranium":1},"missing_parents_base":["juice_orange","ectoplasm","uranium"],"produced":3,"required_heat":0,"tags":[]},"uranium":{"id":"uranium","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"explosion_potassium":{"name":"Potassium Explosion","id":"explosion_potassium","parents":{"water":1,"potassium":1},"produced":1,"required_heat":0,"tags":[]},"explosion_barium":{"name":"Barium Explosion","id":"explosion_barium","parents":{"water":1,"barium":1},"produced":1,"required_heat":0,"tags":[]},"magnesium_chloride":{"name":"Magnesium Chloride","id":"magnesium_chloride","parents":{"magnesium":1,"clacid":2},"produced":1,"required_heat":0,"tags":[]},"mg_nh3_cl":{"name":"Magnesium-Ammonium Chloride","id":"mg_nh3_cl","parents":{"magnesium_chloride":1,"ammonia":6},"produced":1,"required_heat":0,"tags":[]},"mg_nh3_cl_decomposition":{"name":"Magnesium-Ammonium Chloride Decomposition","id":"mg_nh3_cl_decomposition","parents":{"mg_nh3_cl":1},"produced":1,"required_heat":0,"tags":[]},"silicate":{"name":"Silicate","id":"silicate","parents":{"aluminium":1,"silicon":1,"oxygen":1},"produced":3,"required_heat":0,"tags":[]},"oil":{"name":"Oil","id":"oil","parents":{"carbon":1,"hydrogen":1,"fuel":1},"produced":3,"required_heat":0,"tags":[]},"dna_mutagen2":{"name":"dna_mutagen2","id":"dna_mutagen2","parents":{"mutadone":3,"lithium":1},"produced":4,"required_heat":0,"tags":[]},"morphine":{"id":"morphine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"cold_medicine2":{"name":"cold_medicine2","id":"cold_medicine2","parents":{"diphenhydramine":1,"oil":1,"salicylic_acid":1,"menthol":1},"missing_parents_base":["menthol"],"produced":1,"required_heat":0,"tags":[]},"phenol":{"name":"Phenol","id":"phenol","parents":{"oil":1,"chlorine":1,"water":1},"produced":3,"required_heat":0,"tags":[]},"space_drugs":{"name":"Space Drugs","id":"space_drugs","parents":{"mercury":1,"sugar":1,"lithium":1},"produced":3,"required_heat":0,"tags":[]},"mdma":{"name":"MDMA","id":"mdma","parents":{"safrole":1,"salbutamol":1,"nitrogen":1,"water":1},"missing_parents_base":["safrole"],"produced":1,"required_heat":0,"tags":[]},"safrole":{"id":"safrole","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"superlube":{"name":"Organic Superlube","id":"superlube","parents":{"lube":1,"helium":1},"produced":1,"required_heat":0,"tags":[]},"cyclopentanol":{"name":"Cyclopentanol","id":"cyclopentanol","parents":{"acetic_acid":1,"ether":1,"barium":1,"hydrogen":1,"oxygen":1},"produced":3,"required_heat":0,"tags":[]},"salt":{"name":"Salt","id":"salt","parents":{"chlorine":1,"sodium":1,"water":1},"produced":2,"required_heat":0,"tags":[]},"space_fungus":{"id":"space_fungus","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"mutagen2":{"name":"Strange Toxin","id":"mutagen2","parents":{"neurotoxin":1,"epinephrine":1},"produced":2,"required_heat":0,"tags":[]},"histamine":{"id":"histamine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"bee":{"id":"bee","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"royal_jelly":{"id":"royal_jelly","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"initrobeedril":{"name":"initrobeedril","id":"initrobeedril","parents":{"initropidril":1,"bee":1,"honey":1,"dna_mutagen":1},"missing_parents_base":["initropidril","bee","honey"],"produced":5,"required_heat":0,"tags":["secret"]},"fake_initropidril":{"name":"initropidril","id":"fake_initropidril","parents":{"triplepiss":1,"histamine":1,"methamphetamine":1,"water_holy":1,"pacid":1,"neurotoxin":1},"missing_parents_base":["triplepiss","histamine","water_holy"],"produced":2,"required_heat":0,"tags":[]},"honk_fart":{"name":"Honkfartium","id":"honk_fart","parents":{"anti_fart":1,"fartonium":1},"missing_parents_base":["fartonium"],"produced":1,"required_heat":374,"tags":[]},"fartonium":{"name":"fartonium","id":"fartonium","parents":{"egg":1,"refried_beans":1,"yuck":1,"fakecheese":1},"missing_parents_base":["egg","refried_beans","yuck","fakecheese"],"produced":2,"required_heat":0,"tags":[]},"flash":{"name":"Flash","id":"flash","parents":{"aluminium":1,"potassium":1,"sulfur":1,"chlorine":1},"produced":1,"required_heat":0,"tags":[]},"sonic_boom":{"name":"Hootingium","id":"sonic_boom","parents":{"oxygen":1,"cola":1,"phosphorus":1},"produced":1,"required_heat":0,"tags":[]},"clf3_firefoam":{"name":"CLF3 + FF Explosion","id":"clf3_firefoam","parents":{"infernite":1,"ff-foam":1},"produced":1,"required_heat":0,"tags":[]},"ff-foam":{"name":"Firefighting foam","id":"ff-foam","parents":{"chlorine":1,"carbon":1,"sulfur":1},"produced":3,"required_heat":0,"tags":[]},"anima":{"name":"Anima","id":"anima","parents":{"strange_reagent":1,"bloodc":1,"blood":1,"ldmatter":1,"ectoplasm":1},"missing_parents_base":["strange_reagent","bloodc","ectoplasm"],"produced":1,"required_heat":0,"tags":["secret"]},"big_bang_precursor":{"name":"stable bose-einstein macro-condensate","id":"big_bang_precursor","parents":{"ldmatter":1,"voltagen":12,"something":3,"sorium":1},"missing_parents_base":["voltagen"],"produced":1,"required_heat":0,"tags":["secret"]},"voltagen":{"name":"Voltagen","id":"voltagen","parents":{"ldmatter":1,"plasma":5,"uranium":1,"oil":1,"stabiliser":1},"missing_parents_base":["uranium"],"produced":5,"required_heat":0,"tags":["secret"]},"something":{"name":"Something","id":"something","parents":{"sorium":1,"ldmatter":1},"produced":2,"required_heat":0,"tags":[]},"smoke":{"name":"Smoke","id":"smoke","parents":{"potassium":1,"sugar":1,"phosphorus":1},"produced":3,"required_heat":0,"tags":[]},"unstable_propellant":{"name":"unstable propellant","id":"unstable_propellant","parents":{"chlorine":1,"sugar":1,"hydrogen":1,"platinum":1},"produced":1,"required_heat":0,"tags":[]},"saltpetre":{"name":"saltpetre","id":"saltpetre","parents":{"urine":1,"poo":1,"potash":1},"missing_parents_base":["urine","potash"],"produced":3,"required_heat":0,"tags":[]},"potash1":{"name":"potash","id":"potash1","parents":{"ash":1,"water":1},"produced":1,"required_heat":0,"tags":[]},"potash2":{"name":"potash","id":"potash2","parents":{"potassium":1,"chlorine":1,"acid":1},"produced":2,"required_heat":0,"tags":[]},"urine":{"id":"urine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"potash":{"id":"potash","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"jenkem":{"name":"Jenkem","id":"jenkem","parents":{"urine":1,"poo":1},"missing_parents_base":["urine"],"produced":2,"required_heat":0,"tags":[]},"plant_nutrients_grow":{"name":"Gro-Boost Plant Formula","id":"plant_nutrients_grow","parents":{"saltpetre":1,"styptic_powder":1,"salbutamol":1},"missing_parents_base":["saltpetre"],"produced":3,"required_heat":0,"tags":[]},"plant_nutrients_crop":{"name":"Top Crop Plant Formula","id":"plant_nutrients_crop","parents":{"saltpetre":1,"charcoal":1,"antihol":1},"missing_parents_base":["saltpetre"],"produced":3,"required_heat":0,"tags":[]},"plant_nutrients_potency":{"name":"Powerplant Plant Formula","id":"plant_nutrients_potency","parents":{"saltpetre":1,"silver_sulfadiazine":1,"methamphetamine":1},"missing_parents_base":["saltpetre"],"produced":3,"required_heat":0,"tags":[]},"plant_nutrients_balance":{"name":"Fruitful Farming Plant Formula","id":"plant_nutrients_balance","parents":{"saltpetre":1,"epinephrine":1,"teporone":1},"missing_parents_base":["saltpetre"],"produced":3,"required_heat":0,"tags":[]},"copper_nitrate":{"name":"Copper Nitrate","id":"copper_nitrate","parents":{"copper":1,"nitrogen":1,"oxygen":3},"produced":1,"required_heat":0,"tags":[]},"nitrogen_dioxide":{"name":"Nitrogen Dioxide","id":"nitrogen_dioxide","parents":{"copper_nitrate":1},"produced":2,"required_heat":0,"tags":[]},"nitric_acid":{"name":"Nitric Acid","id":"nitric_acid","parents":{"water":1,"nitrogen_dioxide":3},"produced":2,"required_heat":0,"tags":[]},"silver_nitrate":{"name":"Silver Nitrate","id":"silver_nitrate","parents":{"silver":1,"nitric_acid":2},"produced":1,"required_heat":374,"tags":[]},"silver_nitrate_copper_nitrate":{"name":"Silver Nitrate and Copper","id":"silver_nitrate_copper_nitrate","parents":{"silver_nitrate":2,"copper":1,"water":1},"produced":1,"required_heat":0,"tags":[]},"silver_nitrate_decomposition":{"name":"Silver Nitrate Decomposition","id":"silver_nitrate_decomposition","parents":{"silver_nitrate":1},"produced":1,"required_heat":0,"tags":[]},"allyl_chloride":{"name":"Allyl chloride","id":"allyl_chloride","parents":{"oil":1,"chlorine":2},"produced":1,"required_heat":0,"tags":[]},"epichlorohydrin":{"name":"Epichlorohydrin","id":"epichlorohydrin","parents":{"allyl_chloride":1,"clacid":1,"sodium":1,"oxygen":2,"hydrogen":1},"produced":1,"required_heat":0,"tags":[]},"glycerol":{"name":"Glycerol","id":"glycerol","parents":{"epichlorohydrin":1,"water":1},"produced":1,"required_heat":0,"tags":[]},"foam":{"name":"Foam","id":"foam","parents":{"fluorosurfactant":1,"water":1},"produced":2,"required_heat":0,"tags":[]},"metalfoam":{"name":"Metal Foam","id":"metalfoam","parents":{"aluminium":3,"fluorosurfactant":1,"acid":1},"produced":5,"required_heat":0,"tags":[]},"ironlfoam":{"name":"Iron Foam","id":"ironlfoam","parents":{"iron":3,"fluorosurfactant":1,"acid":1},"produced":5,"required_heat":0,"tags":[]},"LSD":{"name":"Lysergic acid diethylamide","id":"LSD","parents":{"diethylamine":1,"space_fungus":1},"missing_parents_base":["space_fungus"],"produced":3,"required_heat":0,"tags":[]},"bathsalts":{"name":"Bath Salts","id":"bathsalts","parents":{"msg":1,"yuck":1,"denatured_enzyme":1,"saltpetre":1,"cleaner":1,"mercury":1,"mugwort":1},"missing_parents_base":["msg","yuck","denatured_enzyme","saltpetre","mugwort"],"produced":6,"required_heat":374,"tags":[]},"msg":{"id":"msg","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"yuck":{"id":"yuck","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"cleaner":{"name":"Space cleaner","id":"cleaner","parents":{"ammonia":1,"ethanol":1,"water":1},"produced":3,"required_heat":0,"tags":[]},"mugwort":{"id":"mugwort","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"bacterialmedium":{"id":"bacterialmedium","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"catdrugs":{"name":"Cat Drugs","id":"catdrugs","parents":{"catonium":1,"psilocybin":1,"ammonia":1,"fuel":1},"missing_parents_base":["catonium","psilocybin"],"produced":3,"required_heat":374,"tags":[]},"catonium":{"id":"catonium","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"psilocybin":{"id":"psilocybin","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"boilpee":{"name":"Boiled Pee","id":"boilpee","parents":{"urine":1,"water":1},"missing_parents_base":["urine"],"produced":1,"required_heat":0,"tags":[]},"crank":{"name":"Crank","id":"crank","parents":{"diphenhydramine":1,"ammonia":1,"lithium":1,"fuel":1,"acid":1},"produced":5,"required_heat":374,"tags":[]},"krokodil":{"name":"Krokodil","id":"krokodil","parents":{"morphine":1,"diphenhydramine":1,"cleaner":1,"phosphorus":1,"potassium":1,"fuel":1},"missing_parents_base":["morphine"],"produced":5,"required_heat":374,"tags":[]},"omnizine":{"id":"omnizine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"carpet":{"name":"Carpet","id":"carpet","parents":{"space_fungus":1,"blood":1},"missing_parents_base":["space_fungus"],"produced":2,"required_heat":0,"tags":[]},"grease":{"id":"grease","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"cornsyrup":{"name":"Corn Syrup","id":"cornsyrup","parents":{"cornstarch":1,"acid":1},"missing_parents_base":["cornstarch"],"produced":2,"required_heat":374,"tags":[]},"VHFCS":{"name":"Very-High-Fructose Corn Syrup","id":"VHFCS","parents":{"cornsyrup":1,"denatured_enzyme":0},"missing_parents_base":["cornsyrup","denatured_enzyme"],"produced":1,"required_heat":0,"tags":[]},"gravy":{"name":"Gravy","id":"gravy","parents":{"porktonium":1,"milk":1,"cornstarch":1},"missing_parents_base":["porktonium","milk","cornstarch"],"produced":3,"required_heat":374,"tags":[]},"porktonium":{"id":"porktonium","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"port":{"name":"Port","id":"port","parents":{"wine":1,"sugar":1,"iron":1,"vodka":1},"missing_parents_base":["wine","vodka"],"produced":2,"required_heat":0,"tags":[]},"energydrink":{"name":"Energy Drink","id":"energydrink","parents":{"voltagen":1,"coffee":1,"cola":3},"missing_parents_base":["voltagen","coffee"],"produced":5,"required_heat":0,"tags":["secret"]},"voltagen_arc":{"name":"Voltagen Arc","id":"voltagen_arc","parents":{"ldmatter":1,"plasma":5,"uranium":1,"oil":1},"missing_parents_base":["uranium"],"produced":1,"required_heat":0,"tags":[]},"fermid":{"name":"Fermid","id":"fermid","parents":{"ants":1,"mutagen":1,"aranesp":1,"booster_enzyme":1},"missing_parents_base":["ants","aranesp","booster_enzyme"],"produced":1,"required_heat":0,"tags":["secret"]},"life":{"name":"Life","id":"life","parents":{"synthflesh":5,"blood":2,"strange_reagent":1},"missing_parents_base":["strange_reagent"],"produced":8,"required_heat":374,"tags":[]},"ageinium":{"name":"Ageinium","id":"ageinium","parents":{"acetone":1,"chocolate":1,"tea":1,"nicotine":1,"formaldehyde":1},"missing_parents_base":["chocolate","tea","nicotine"],"produced":3,"required_heat":0,"tags":["secret"]},"nicotine":{"id":"nicotine","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"wolfsbane":{"id":"wolfsbane","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"tongueofdog":{"id":"tongueofdog","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"hootagen_unstable":{"name":"unstable hootagen","id":"hootagen_unstable","parents":{"sonicpowder":1,"egg":1,"bloodc":1,"strange_reagent":1,"sorium":1,"dna_mutagen":3},"missing_parents_base":["egg","bloodc","strange_reagent"],"produced":1,"required_heat":0,"tags":["secret"]},"hootagen_stable":{"name":"stable hootagen","id":"hootagen_stable","parents":{"sonicpowder":1,"egg":1,"bloodc":1,"strange_reagent":1,"sorium":1,"dna_mutagen":3},"missing_parents_base":["egg","bloodc","strange_reagent"],"produced":3,"required_heat":0,"tags":["secret"]},"fliptonium":{"name":"fliptonium","id":"fliptonium","parents":{"sonic":1,"ldmatter":1,"chocolate":1,"ephedrine":1},"missing_parents_base":["sonic","chocolate"],"produced":4,"required_heat":0,"tags":[]},"glowing_fliptonium":{"name":"glowing fliptonium","id":"glowing_fliptonium","parents":{"fliptonium":1,"anima":1,"uranium":1,"space_drugs":1,"lumen":1},"missing_parents_base":["fliptonium","anima","uranium","lumen"],"produced":1,"required_heat":0,"tags":["secret"]},"diluted_fliptonium":{"name":"diluted fliptonium","id":"diluted_fliptonium","parents":{"fliptonium":1,"water":2},"missing_parents_base":["fliptonium"],"produced":3,"required_heat":0,"tags":[]},"refried_beans":{"id":"refried_beans","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"fakecheese":{"id":"fakecheese","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"flaptonium":{"name":"flaptonium","id":"flaptonium","parents":{"egg":1,"colors":1,"chickensoup":1,"strange_reagent":1,"blood":1},"missing_parents_base":["egg","colors","chickensoup","strange_reagent"],"produced":1,"required_heat":374,"tags":[]},"chickensoup":{"id":"chickensoup","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"love":{"name":"pure love","id":"love","parents":{"hugs":1,"chocolate":1},"missing_parents_base":["hugs","chocolate"],"produced":2,"required_heat":0,"tags":[]},"hugs":{"id":"hugs","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"nitrotri_explosion":{"name":"NI3 Explosion","id":"nitrotri_explosion","parents":{"nitrotri_dry":1},"missing_parents_base":["nitrotri_dry"],"produced":1,"required_heat":0,"tags":[]},"nitrotri_dry":{"id":"nitrotri_dry","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"prions":{"id":"prions","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"thalmerite_heat":{"name":"thalmerite heating","id":"thalmerite_heat","parents":{"thalmerite":1,"oxygen":1},"produced":1,"required_heat":0,"tags":[]},"cryostylane_cold":{"name":"cryostylane chilling","id":"cryostylane_cold","parents":{"cryostylane":1,"oxygen":1},"produced":1,"required_heat":0,"tags":[]},"reversium":{"name":"Reversium","id":"reversium","parents":{"fliptonium":1,"hugs":1,"dna_mutagen":1,"mutagen":1},"missing_parents_base":["fliptonium","hugs"],"produced":1,"required_heat":0,"tags":["secret"]},"transparium":{"name":"transparium","id":"transparium","parents":{"oculine":1,"juice_carrot":1,"luminol":1,"silicate":1,"vtonic":1},"missing_parents_base":["oculine","juice_carrot","vtonic"],"produced":1,"required_heat":0,"tags":["secret"]},"juice_carrot":{"id":"juice_carrot","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"diluted_transparium":{"name":"diluted transparium","id":"diluted_transparium","parents":{"transparium":1,"water":2},"missing_parents_base":["transparium"],"produced":3,"required_heat":0,"tags":[]},"expresso":{"name":"expresso","id":"expresso","parents":{"espresso":1,"neurotoxin":3},"missing_parents_base":["espresso"],"produced":3,"required_heat":0,"tags":[]},"badmanjuice":{"name":"Mimicillium","id":"badmanjuice","parents":{"transparium":1,"glitter":1,"port":1,"cholesterol":1},"missing_parents_base":["transparium","glitter","port","cholesterol"],"produced":2,"required_heat":0,"tags":["secret"]},"cholesterol":{"id":"cholesterol","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"bubs":{"name":"Bubsium","id":"bubs","parents":{"bee":2,"cholesterol":1,"pepperoni":1,"bourbon":1},"missing_parents_base":["bee","cholesterol","pepperoni","bourbon"],"produced":3,"required_heat":0,"tags":["secret"]},"flubber":{"name":"Liquified Space Rubber","id":"flubber","parents":{"rubber":2,"george_melonium":1,"sorium":1,"superlube":1,"radium":1},"missing_parents_base":["rubber","george_melonium"],"produced":5,"required_heat":0,"tags":[]},"rubber":{"id":"rubber","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"george_melonium":{"id":"george_melonium","missing_parents_base":[],"produced":1,"required_heat":0,"tags":[]},"calcium_carbonate":{"name":"calcium carbonate","id":"calcium_carbonate","parents":{"calcium":1,"chlorine":2,"sodium":2,"carbon":1,"oxygen":3},"produced":1,"required_heat":0,"tags":[]},"gypsum":{"name":"calcium sulfate","id":"gypsum","parents":{"acid":1,"calcium_carbonate":1},"produced":1,"required_heat":0,"tags":[]},"chalk":{"name":"chalk","id":"chalk","parents":{"gypsum":4,"oil":1},"produced":5,"required_heat":0,"tags":[]},"green_goop":{"name":"Strange Green Goop","id":"green_goop","parents":{"ash":1,"ectoplasm":1,"salt":1},"missing_parents_base":["ectoplasm"],"produced":3,"required_heat":0,"tags":[]},"sakuride":{"name":"sakuride","id":"sakuride","parents":{"love":1,"tea":1,"colors":1},"missing_parents_base":["love","tea","colors"],"produced":3,"required_heat":0,"tags":[]},"nicotini":{"name":"Nicotini","id":"nicotini","parents":{"martini":1,"nicotine":1},"missing_parents_base":["martini","nicotine"],"produced":2,"required_heat":0,"tags":[]},"silicon_dioxide":{"name":"silicon dioxide","id":"silicon_dioxide","parents":{"sodium":2,"silicon":3,"oxygen":7,"acid":1},"produced":3,"required_heat":0,"tags":[]},"perfect_cement":{"name":"perfect cement","id":"perfect_cement","parents":{"lime":1,"magnesium":1,"thermite":1,"gypsum":1,"oxygen":4,"sulfur":1},"produced":9,"required_heat":0,"tags":[]},"good_cement":{"name":"good cement","id":"good_cement","parents":{"lime":1,"magnesium":1,"thermite":1,"gypsum":1,"oxygen":1},"produced":5,"required_heat":0,"tags":[]},"okay_cement":{"name":"okay cement","id":"okay_cement","parents":{"lime":1,"magnesium":1,"thermite":1,"oxygen":1},"produced":4,"required_heat":0,"tags":[]},"poor_cement":{"name":"poor cement","id":"poor_cement","parents":{"lime":1,"thermite":1},"produced":2,"required_heat":0,"tags":[]},"perfect_concrete":{"name":"perfect concrete","id":"perfect_concrete","parents":{"perfect_cement":1,"silicon_dioxide":5,"water":1},"produced":7,"required_heat":0,"tags":[]},"good_concrete":{"name":"good concrete","id":"good_concrete","parents":{"good_cement":1,"silicon_dioxide":5,"water":1},"produced":7,"required_heat":0,"tags":[]},"okay_concrete":{"name":"okay concrete","id":"okay_concrete","parents":{"okay_cement":1,"silicon_dioxide":5,"water":1},"produced":7,"required_heat":0,"tags":[]},"poor concrete":{"name":"poor concrete","id":"poor concrete","parents":{"poor_cement":1,"silicon_dioxide":5,"water":1},"produced":7,"required_heat":0,"tags":[]}}
+{
+  "strange_reagent": {
+    "name": "strange_reagent",
+    "id": "strange_reagent",
+    "parents": {
+      "omnizine": 1,
+      "mutagen": 1,
+      "water_holy": 1
+    },
+    "missing_parents_base": [
+      "omnizine",
+      "water_holy"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "calomel": {
+    "name": "Calomel",
+    "id": "calomel",
+    "parents": {
+      "mercury": 1,
+      "chlorine": 1
+    },
+    "produced": 1,
+    "required_heat": 374,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "synthflesh": {
+    "name": "Synthetic Flesh",
+    "id": "synthflesh",
+    "parents": {
+      "blood": 1,
+      "carbon": 1,
+      "styptic_powder": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "styptic_powder": {
+    "name": "Styptic Powder",
+    "id": "styptic_powder",
+    "parents": {
+      "aluminium": 1,
+      "oxygen": 1,
+      "hydrogen": 1,
+      "acid": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "atropine": {
+    "name": "Atropine",
+    "id": "atropine",
+    "parents": {
+      "ethanol": 1,
+      "diethylamine": 1,
+      "acetone": 1,
+      "phenol": 1,
+      "acid": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "epinephrine": {
+    "name": "Epinephrine",
+    "id": "epinephrine",
+    "parents": {
+      "phenol": 1,
+      "hydrogen": 1,
+      "oxygen": 1,
+      "chlorine": 1,
+      "acetone": 1,
+      "diethylamine": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "ammoniumbicarbonate": {
+    "name": "Ammonium Bicarbonate",
+    "id": "ammoniumbicarbonate",
+    "parents": {
+      "ammonia": 1,
+      "carbon": 1,
+      "oxygen": 1
+    },
+    "produced": 3,
+    "required_heat": 374,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "ephedrine": {
+    "name": "Ephedrine",
+    "id": "ephedrine",
+    "parents": {
+      "sugar": 1,
+      "oil": 1,
+      "hydrogen": 1,
+      "diethylamine": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "cocktail_citrus": {
+    "name": "Triple Citrus",
+    "id": "cocktail_citrus",
+    "parents": {
+      "juice_orange": 1,
+      "juice_lemon": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "juice_orange",
+      "juice_lemon",
+      "juice_lime"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "teporone": {
+    "name": "Teporone",
+    "id": "teporone",
+    "parents": {
+      "silicon": 1,
+      "acetone": 1,
+      "plasma": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "mutadone": {
+    "name": "Mutadone",
+    "id": "mutadone",
+    "parents": {
+      "mutagen": 1,
+      "acetone": 1,
+      "bromine": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "mannitol": {
+    "name": "Mannitol",
+    "id": "mannitol",
+    "parents": {
+      "sugar": 1,
+      "hydrogen": 1,
+      "water": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "menthol": {
+    "name": "Menthol",
+    "id": "menthol",
+    "parents": {
+      "mint": 1,
+      "ethanol": 1
+    },
+    "missing_parents_base": [
+      "mint"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "cryoxadone": {
+    "name": "Cryoxadone",
+    "id": "cryoxadone",
+    "parents": {
+      "cryostylane": 1,
+      "mutagen": 1,
+      "plasma": 1,
+      "acetone": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "ether": {
+    "name": "Ether",
+    "id": "ether",
+    "parents": {
+      "ethanol": 1,
+      "clacid": 1,
+      "oxygen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "antihol": {
+    "name": "Antihol",
+    "id": "antihol",
+    "parents": {
+      "ethanol": 1,
+      "charcoal": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "charcoal": {
+    "name": "Activated Charcoal",
+    "id": "charcoal",
+    "parents": {
+      "ash": 1,
+      "salt": 1
+    },
+    "produced": 2,
+    "required_heat": 374,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "cold_medicine": {
+    "name": "Robustissin",
+    "id": "cold_medicine",
+    "parents": {
+      "menthol": 1,
+      "morphine": 1,
+      "hydrogen": 1,
+      "acetone": 1
+    },
+    "missing_parents_base": [
+      "menthol",
+      "morphine"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "diphenhydramine": {
+    "name": "Diphenhydramine",
+    "id": "diphenhydramine",
+    "parents": {
+      "oil": 1,
+      "carbon": 1,
+      "bromine": 1,
+      "diethylamine": 1,
+      "ethanol": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "salicylic_acid": {
+    "name": "Salicylic Acid",
+    "id": "salicylic_acid",
+    "parents": {
+      "sodium": 1,
+      "phenol": 1,
+      "carbon": 1,
+      "oxygen": 1,
+      "acid": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "lexorin": {
+    "name": "Lexorin",
+    "id": "lexorin",
+    "parents": {
+      "plasma": 1,
+      "hydrogen": 1,
+      "nitrogen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "salbutamol": {
+    "name": "Salbutamol",
+    "id": "salbutamol",
+    "parents": {
+      "oil": 1,
+      "lithium": 1,
+      "ammonia": 1,
+      "aluminium": 1,
+      "bromine": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "anti_rad": {
+    "name": "Potassium Iodide",
+    "id": "anti_rad",
+    "parents": {
+      "potassium": 1,
+      "iodine": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "penteticacid": {
+    "name": "Pentetic Acid",
+    "id": "penteticacid",
+    "parents": {
+      "fuel": 1,
+      "chlorine": 1,
+      "ammonia": 1,
+      "formaldehyde": 1,
+      "sodium": 1,
+      "cyanide": 1
+    },
+    "produced": 6,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "haloperidol": {
+    "name": "Haloperidol",
+    "id": "haloperidol",
+    "parents": {
+      "chlorine": 1,
+      "fluorine": 1,
+      "aluminium": 1,
+      "anti_rad": 1,
+      "oil": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "silver_sulfadiazine": {
+    "name": "Silver Sulfadiazine",
+    "id": "silver_sulfadiazine",
+    "parents": {
+      "silver": 1,
+      "sulfur": 1,
+      "oxygen": 1,
+      "chlorine": 1,
+      "ammonia": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "oculine": {
+    "name": "Oculine",
+    "id": "oculine",
+    "parents": {
+      "atropine": 1,
+      "saline": 1,
+      "spaceacillin": 1
+    },
+    "missing_parents_base": [
+      "spaceacillin"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "saline": {
+    "name": "Saline-Glucose Solution",
+    "id": "saline",
+    "parents": {
+      "salt": 1,
+      "water": 1,
+      "sugar": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "spaceacillin": {
+    "name": "spaceacillin",
+    "id": "spaceacillin",
+    "parents": {
+      "space_fungus": 1,
+      "ethanol": 1
+    },
+    "missing_parents_base": [
+      "space_fungus"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "perfluorodecalin": {
+    "name": "Perfluorodecalin",
+    "id": "perfluorodecalin",
+    "parents": {
+      "hydrogen": 1,
+      "fluorine": 1,
+      "salicylic_acid": 1
+    },
+    "produced": 2,
+    "required_heat": 374,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "anti_fart": {
+    "name": "Simethicone",
+    "id": "anti_fart",
+    "parents": {
+      "oxygen": 1,
+      "chlorine": 1,
+      "hydrogen": 1,
+      "silicon": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "heparin": {
+    "name": "Heparin",
+    "id": "heparin",
+    "parents": {
+      "sugar": 1,
+      "meat_slurry": 1,
+      "phenol": 1,
+      "acid": 1
+    },
+    "missing_parents_base": [
+      "meat_slurry"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "proconvertin": {
+    "name": "Proconvertin",
+    "id": "proconvertin",
+    "parents": {
+      "blood": 1,
+      "dna_mutagen": 1,
+      "mannitol": 1,
+      "salt": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "filgrastim": {
+    "name": "Filgrastim",
+    "id": "filgrastim",
+    "parents": {
+      "blood": 1,
+      "dna_mutagen": 1,
+      "e.coli": 1,
+      "spaceacillin": 1
+    },
+    "missing_parents_base": [
+      "e.coli",
+      "spaceacillin"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "hairgrownium": {
+    "name": "Hairgrownium",
+    "id": "hairgrownium",
+    "parents": {
+      "synthflesh": 1,
+      "ephedrine": 1,
+      "carpet": 1
+    },
+    "missing_parents_base": [
+      "carpet"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "super_hairgrownium": {
+    "name": "Super Hairgrownium",
+    "id": "super_hairgrownium",
+    "parents": {
+      "hairgrownium": 1,
+      "methamphetamine": 1,
+      "iron": 1
+    },
+    "missing_parents_base": [
+      "hairgrownium"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "medicine"
+    ]
+  },
+  "mutagen": {
+    "name": "Unstable mutagen",
+    "id": "mutagen",
+    "parents": {
+      "radium": 1,
+      "plasma": 1,
+      "chlorine": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "lipolicide": {
+    "name": "Lipolicide",
+    "id": "lipolicide",
+    "parents": {
+      "ephedrine": 1,
+      "diethylamine": 1,
+      "mercury": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "neurotoxin": {
+    "name": "neurotoxin",
+    "id": "neurotoxin",
+    "parents": {
+      "space_drugs": 1
+    },
+    "produced": 3,
+    "required_heat": 674,
+    "tags": [
+      "poison"
+    ]
+  },
+  "dna_mutagen": {
+    "name": "Stable mutagen",
+    "id": "dna_mutagen",
+    "parents": {
+      "mutagen": 1,
+      "lithium": 1,
+      "acetone": 1,
+      "bromine": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "cyanide": {
+    "name": "Cyanide",
+    "id": "cyanide",
+    "parents": {
+      "oil": 1,
+      "ammonia": 1,
+      "oxygen": 1
+    },
+    "produced": 1,
+    "required_heat": 374,
+    "tags": [
+      "poison"
+    ]
+  },
+  "sarin": {
+    "name": "Sarin",
+    "id": "sarin",
+    "parents": {
+      "chlorine": 1,
+      "fuel": 1,
+      "oxygen": 1,
+      "phosphorus": 1,
+      "fluorine": 1,
+      "hydrogen": 1,
+      "acetone": 1,
+      "weedkiller": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "poison",
+      "secret"
+    ]
+  },
+  "weedkiller": {
+    "name": "Atrazine",
+    "id": "weedkiller",
+    "parents": {
+      "chlorine": 1,
+      "nitrogen": 1,
+      "hydrogen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "formaldehyde": {
+    "name": "Formaldehyde | Embalming fluid",
+    "id": "formaldehyde",
+    "parents": {
+      "ethanol": 1,
+      "oxygen": 1,
+      "silver": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "acetaldehyde": {
+    "name": "Acetaldehyde",
+    "id": "acetaldehyde",
+    "parents": {
+      "chromium": 1,
+      "oxygen": 1,
+      "copper": 1,
+      "ethanol": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "initropidril": {
+    "name": "initropidril",
+    "id": "initropidril",
+    "parents": {
+      "triplepiss": 1,
+      "histamine": 1,
+      "methamphetamine": 1,
+      "water_holy": 1,
+      "pacid": 1,
+      "neurotoxin": 1,
+      "stabiliser": 1
+    },
+    "missing_parents_base": [
+      "triplepiss",
+      "histamine",
+      "water_holy"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "poison",
+      "secret"
+    ]
+  },
+  "royal_initrobeedril": {
+    "name": "royal initrobeedril",
+    "id": "royal_initrobeedril",
+    "parents": {
+      "initropidril": 1,
+      "bee": 1,
+      "honey": 1,
+      "dna_mutagen": 1,
+      "royal_jelly": 1
+    },
+    "missing_parents_base": [
+      "initropidril",
+      "bee",
+      "honey",
+      "royal_jelly"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "poison",
+      "secret"
+    ]
+  },
+  "itching": {
+    "name": "Itching Powder",
+    "id": "itching",
+    "parents": {
+      "ammonia": 1,
+      "fuel": 1,
+      "space_fungus": 1
+    },
+    "missing_parents_base": [
+      "space_fungus"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "sulfonal": {
+    "name": "Sulfonal",
+    "id": "sulfonal",
+    "parents": {
+      "acetone": 1,
+      "diethylamine": 1,
+      "sulfur": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "capulettium": {
+    "name": "Capulettium",
+    "id": "capulettium",
+    "parents": {
+      "neurotoxin": 1,
+      "chlorine": 1,
+      "hydrogen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "capulettium_plus": {
+    "name": "Capulettium Plus",
+    "id": "capulettium_plus",
+    "parents": {
+      "capulettium": 1,
+      "ephedrine": 1,
+      "methamphetamine": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "glitter": {
+    "name": "glitter",
+    "id": "glitter",
+    "parents": {
+      "itching": 1,
+      "colors": 1,
+      "paper": 1,
+      "silver": 1
+    },
+    "missing_parents_base": [
+      "itching",
+      "colors"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "glitter_harmless": {
+    "name": "harmless glitter",
+    "id": "glitter_harmless",
+    "parents": {
+      "colors": 1,
+      "paper": 1,
+      "platinum": 1
+    },
+    "missing_parents_base": [
+      "colors"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "madness_toxin": {
+    "name": "Rajaijah",
+    "id": "madness_toxin",
+    "parents": {
+      "prions": 1,
+      "sarin": 1,
+      "methamphetamine": 1,
+      "mercury": 1,
+      "haloperidol": 1,
+      "sulfonal": 1,
+      "plasma": 1,
+      "LSD": 1
+    },
+    "missing_parents_base": [
+      "prions",
+      "LSD"
+    ],
+    "produced": 8,
+    "required_heat": 0,
+    "tags": [
+      "poison",
+      "secret"
+    ]
+  },
+  "strychnine": {
+    "name": "Strychnine",
+    "id": "strychnine",
+    "parents": {
+      "cyanide": 1,
+      "phenol": 1,
+      "pacid": 1,
+      "acetic_acid": 1,
+      "aluminium": 1,
+      "iodine": 1,
+      "nickel": 1
+    },
+    "produced": 6,
+    "required_heat": 0,
+    "tags": [
+      "poison",
+      "secret"
+    ]
+  },
+  "spiders": {
+    "name": "spiders",
+    "id": "spiders",
+    "parents": {
+      "hugs": 1,
+      "ants": 1
+    },
+    "missing_parents_base": [
+      "hugs",
+      "ants"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "poison"
+    ]
+  },
+  "propellant": {
+    "name": "Aeresol Propellant",
+    "id": "propellant",
+    "parents": {
+      "chlorine": 1,
+      "sugar": 1,
+      "hydrogen": 1,
+      "platinum": 1,
+      "stabiliser": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "smokepowder": {
+    "name": "Smoke Powder",
+    "id": "smokepowder",
+    "parents": {
+      "potassium": 1,
+      "sugar": 1,
+      "phosphorus": 1,
+      "stabiliser": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "fluorosurfactant": {
+    "name": "fluorosurfactant",
+    "id": "fluorosurfactant",
+    "parents": {
+      "fluorine": 1,
+      "oil": 1,
+      "acid": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "thalmerite": {
+    "name": "Pyrosium",
+    "id": "thalmerite",
+    "parents": {
+      "plasma": 1,
+      "radium": 1,
+      "phosphorus": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "nitroglycerin": {
+    "name": "Nitroglycerin",
+    "id": "nitroglycerin",
+    "parents": {
+      "glycerol": 1,
+      "nitric_acid": 1,
+      "acid": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "secret",
+      "pyrotechnic"
+    ]
+  },
+  "infernite": {
+    "name": "Chlorine Triflouride",
+    "id": "infernite",
+    "parents": {
+      "chlorine": 1,
+      "fluorine": 3
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "soriumstable": {
+    "name": "Stable Sorium",
+    "id": "soriumstable",
+    "parents": {
+      "mercury": 1,
+      "carbon": 1,
+      "nitrogen": 1,
+      "oxygen": 1,
+      "stabiliser": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "ldmatterstable": {
+    "name": "Stable Liquid Dark Matter",
+    "id": "ldmatterstable",
+    "parents": {
+      "plasma": 1,
+      "radium": 1,
+      "carbon": 1,
+      "stabiliser": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "sorium": {
+    "name": "Sorium",
+    "id": "sorium",
+    "parents": {
+      "mercury": 1,
+      "carbon": 1,
+      "nitrogen": 1,
+      "oxygen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "phlogiston": {
+    "name": "Phlogiston Fire",
+    "id": "phlogiston",
+    "parents": {
+      "phosphorus": 1,
+      "plasma": 1,
+      "acid": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "cryostylane": {
+    "name": "Cryostylane",
+    "id": "cryostylane",
+    "parents": {
+      "nitrogen": 1,
+      "plasma": 1,
+      "water": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "explosion_magnesium": {
+    "name": "Magnesium Explosion",
+    "id": "explosion_magnesium",
+    "parents": {
+      "magnesium": 1,
+      "copper": 1,
+      "oxygen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "thermite": {
+    "name": "Thermite",
+    "id": "thermite",
+    "parents": {
+      "aluminium": 1,
+      "iron": 1,
+      "oxygen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "kerosene": {
+    "name": "Kerosene",
+    "id": "kerosene",
+    "parents": {
+      "cyclopentanol": 1,
+      "oxygen": 3,
+      "acetone": 1,
+      "hydrogen": 1,
+      "aluminium": 1,
+      "nickel": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic",
+      "secret"
+    ]
+  },
+  "flashpowder": {
+    "name": "Flash Powder",
+    "id": "flashpowder",
+    "parents": {
+      "aluminium": 1,
+      "potassium": 1,
+      "sulfur": 1,
+      "chlorine": 1,
+      "stabiliser": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "sonicpowder": {
+    "name": "Hootingium",
+    "id": "sonicpowder",
+    "parents": {
+      "oxygen": 1,
+      "cola": 1,
+      "phosphorus": 1,
+      "stabiliser": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "chlorine_azide": {
+    "name": "Chlorine Azide",
+    "id": "chlorine_azide",
+    "parents": {
+      "sodium": 1,
+      "ammonia": 1,
+      "nitrogen": 1,
+      "oxygen": 1,
+      "silver": 1,
+      "chlorine": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic",
+      "secret"
+    ]
+  },
+  "firedust": {
+    "name": "Phlogiston Dust",
+    "id": "firedust",
+    "parents": {
+      "phlogiston": 1,
+      "charcoal": 1,
+      "phosphorus": 1,
+      "sulfur": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "napalm_goo": {
+    "name": "Napalm",
+    "id": "napalm_goo",
+    "parents": {
+      "fuel": 1,
+      "sugar": 1,
+      "ethanol": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "big_bang": {
+    "name": "quark-gluon plasma",
+    "id": "big_bang",
+    "parents": {
+      "big_bang_precursor": 1
+    },
+    "missing_parents_base": [
+      "big_bang_precursor"
+    ],
+    "produced": 50,
+    "required_heat": 0,
+    "tags": [
+      "secret",
+      "pyrotechnic"
+    ]
+  },
+  "blackpowder": {
+    "name": "Black Powder",
+    "id": "blackpowder",
+    "parents": {
+      "charcoal": 1,
+      "sulfur": 1,
+      "saltpetre": 1
+    },
+    "missing_parents_base": [
+      "saltpetre"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "silver_fulminate": {
+    "name": "Silver Fulminate",
+    "id": "silver_fulminate",
+    "parents": {
+      "silver_nitrate": 1,
+      "nitric_acid": 1,
+      "ethanol": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "pyrotechnic"
+    ]
+  },
+  "e.coli": {
+    "name": "E.Coli Bacteria",
+    "id": "e.coli",
+    "parents": {
+      "poo": 1,
+      "bacterialmedium": 1
+    },
+    "missing_parents_base": [
+      "bacterialmedium"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "werewolf_part1": {
+    "name": "Werewolf Serum Precursor Alpha",
+    "id": "werewolf_part1",
+    "parents": {
+      "wolfsbane": 1,
+      "grog": 1,
+      "denatured_enzyme": 0,
+      "super_hairgrownium": 1
+    },
+    "missing_parents_base": [
+      "wolfsbane",
+      "grog",
+      "denatured_enzyme",
+      "super_hairgrownium"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "werewolf_part2": {
+    "name": "Werewolf Serum Precursor Beta",
+    "id": "werewolf_part2",
+    "parents": {
+      "tongueofdog": 1,
+      "dna_mutagen": 1,
+      "omega_mutagen": 1
+    },
+    "missing_parents_base": [
+      "tongueofdog",
+      "omega_mutagen"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "werewolf_part3": {
+    "name": "Werewolf Serum Precursor Gamma",
+    "id": "werewolf_part3",
+    "parents": {
+      "werewolf_part1": 1,
+      "werewolf_part2": 1
+    },
+    "missing_parents_base": [
+      "werewolf_part1",
+      "werewolf_part2"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "werewolf_part4": {
+    "name": "Imperfect Werewolf Serum",
+    "id": "werewolf_part4",
+    "parents": {
+      "werewolf_part3": 1,
+      "tea": 1
+    },
+    "missing_parents_base": [
+      "werewolf_part3",
+      "tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "werewolf_serum": {
+    "name": "Werewolf Serum",
+    "id": "werewolf_serum",
+    "parents": {
+      "werewolf_part4": 1,
+      "badgrease": 1,
+      "stabiliser": 1
+    },
+    "missing_parents_base": [
+      "werewolf_part4",
+      "badgrease"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "vampire_serum": {
+    "name": "Vampire Serum Omega",
+    "id": "vampire_serum",
+    "parents": {
+      "bloodc": 1,
+      "water_holy": 1,
+      "werewolf_serum": 1
+    },
+    "missing_parents_base": [
+      "bloodc",
+      "water_holy",
+      "werewolf_serum"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "feather_fluid": {
+    "name": "feather fluid",
+    "id": "feather_fluid",
+    "parents": {
+      "egg": 1,
+      "colors": 1,
+      "chickensoup": 1,
+      "strange_reagent": 1,
+      "blood": 1,
+      "sonicpowder": 1,
+      "eraser": 1
+    },
+    "missing_parents_base": [
+      "egg",
+      "colors",
+      "chickensoup",
+      "strange_reagent",
+      "eraser"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "disease",
+      "secret"
+    ]
+  },
+  "mewtini": {
+    "name": "Mewtini",
+    "id": "mewtini",
+    "parents": {
+      "catdrugs": 1,
+      "mutini": 1,
+      "milk": 1,
+      "catonium": 1
+    },
+    "missing_parents_base": [
+      "catdrugs",
+      "mutini",
+      "milk",
+      "catonium"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "disease"
+    ]
+  },
+  "rotting": {
+    "name": "rotting",
+    "id": "rotting",
+    "parents": {
+      "yuck": 1,
+      "denatured_enzyme": 1,
+      "something": 1,
+      "poo": 1
+    },
+    "missing_parents_base": [
+      "yuck",
+      "denatured_enzyme"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "disease",
+      "secret"
+    ]
+  },
+  "acid": {
+    "name": "Sulfuric Acid",
+    "id": "acid",
+    "parents": {
+      "sulfur": 1,
+      "hydrogen": 1,
+      "oxygen": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "acid"
+    ]
+  },
+  "pacid": {
+    "name": "Fluorosulfuric Acid",
+    "id": "pacid",
+    "parents": {
+      "acid": 1,
+      "fluorine": 1,
+      "hydrogen": 1,
+      "potassium": 1
+    },
+    "produced": 3,
+    "required_heat": 374,
+    "tags": [
+      "acid"
+    ]
+  },
+  "clacid": {
+    "name": "Hydrochloric Acid",
+    "id": "clacid",
+    "parents": {
+      "hydrogen": 1,
+      "chlorine": 1,
+      "water": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "acid"
+    ]
+  },
+  "acetic_acid": {
+    "name": "Acetic Acid",
+    "id": "acetic_acid",
+    "parents": {
+      "acetaldehyde": 1,
+      "oxygen": 1,
+      "nitrogen": 4
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "acid"
+    ]
+  },
+  "aluminium": {
+    "name": "aluminium",
+    "id": "aluminium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "barium": {
+    "name": "barium",
+    "id": "barium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "bromine": {
+    "name": "bromine",
+    "id": "bromine",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "carbon": {
+    "name": "carbon",
+    "id": "carbon",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "calcium": {
+    "name": "calcium",
+    "id": "calcium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "chlorine": {
+    "name": "chlorine",
+    "id": "chlorine",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "chromium": {
+    "name": "chromium",
+    "id": "chromium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "copper": {
+    "name": "copper",
+    "id": "copper",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "ethanol": {
+    "name": "ethanol",
+    "id": "ethanol",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "fluorine": {
+    "name": "fluorine",
+    "id": "fluorine",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "hydrogen": {
+    "name": "hydrogen",
+    "id": "hydrogen",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "helium": {
+    "name": "helium",
+    "id": "helium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "iodine": {
+    "name": "iodine",
+    "id": "iodine",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "iron": {
+    "name": "iron",
+    "id": "iron",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "lithium": {
+    "name": "lithium",
+    "id": "lithium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "magnesium": {
+    "name": "magnesium",
+    "id": "magnesium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "mercury": {
+    "name": "mercury",
+    "id": "mercury",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "nickel": {
+    "name": "nickel",
+    "id": "nickel",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "nitrogen": {
+    "name": "nitrogen",
+    "id": "nitrogen",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "oxygen": {
+    "name": "oxygen",
+    "id": "oxygen",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "phosphorus": {
+    "name": "phosphorus",
+    "id": "phosphorus",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "plasma": {
+    "name": "plasma",
+    "id": "plasma",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "platinum": {
+    "name": "platinum",
+    "id": "platinum",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "potassium": {
+    "name": "potassium",
+    "id": "potassium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "radium": {
+    "name": "radium",
+    "id": "radium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "silicon": {
+    "name": "silicon",
+    "id": "silicon",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "silver": {
+    "name": "silver",
+    "id": "silver",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "sodium": {
+    "name": "sodium",
+    "id": "sodium",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "sugar": {
+    "name": "sugar",
+    "id": "sugar",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "sulfur": {
+    "name": "sulfur",
+    "id": "sulfur",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "water": {
+    "name": "water",
+    "id": "water",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "fuel": {
+    "name": "fuel",
+    "id": "fuel",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "blood": {
+    "name": "blood",
+    "id": "blood",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "paper": {
+    "name": "paper",
+    "id": "paper",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "poo": {
+    "name": "Compost",
+    "id": "poo",
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "base"
+    ]
+  },
+  "lumen": {
+    "name": "Lumen",
+    "id": "lumen",
+    "parents": {
+      "radium": 1,
+      "omega_mutagen": 1,
+      "hydrogen": 1,
+      "helium": 1,
+      "luminol": 1
+    },
+    "missing_parents_base": [
+      "omega_mutagen"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "omega_mutagen": {
+    "id": "omega_mutagen",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "luminol": {
+    "name": "luminol",
+    "id": "luminol",
+    "parents": {
+      "oxygen": 1,
+      "hydrogen": 1,
+      "nitrogen": 1,
+      "carbon": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_lumen_new_smoke": {
+    "name": "no lumen new smoke",
+    "id": "no_lumen_new_smoke",
+    "parents": {
+      "lumen": 1,
+      "chlorine": 1,
+      "sugar": 1,
+      "hydrogen": 1,
+      "platinum": 1
+    },
+    "missing_parents_base": [
+      "lumen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_lumen_new_smoke2": {
+    "name": "no lumen new smoke2",
+    "id": "no_lumen_new_smoke2",
+    "parents": {
+      "lumen": 1,
+      "propellant": 1
+    },
+    "missing_parents_base": [
+      "lumen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_lumen_smoke": {
+    "name": "no lumen smoke",
+    "id": "no_lumen_smoke",
+    "parents": {
+      "lumen": 1,
+      "sugar": 1,
+      "phosphorus": 1,
+      "potassium": 1
+    },
+    "missing_parents_base": [
+      "lumen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_lumen_smoke2": {
+    "name": "no lumen smoke 2",
+    "id": "no_lumen_smoke2",
+    "parents": {
+      "lumen": 1,
+      "smokepowder": 1
+    },
+    "missing_parents_base": [
+      "lumen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_lumen_foam": {
+    "name": "no lumen foam",
+    "id": "no_lumen_foam",
+    "parents": {
+      "lumen": 1,
+      "fluorosurfactant": 1,
+      "water": 1
+    },
+    "missing_parents_base": [
+      "lumen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_pyrosium_foam": {
+    "name": "no pyrosium foam",
+    "id": "no_pyrosium_foam",
+    "parents": {
+      "thalmerite": 1,
+      "fluorosurfactant": 1,
+      "water": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_pyrosium_smoke": {
+    "name": "no pyrosium smoke",
+    "id": "no_pyrosium_smoke",
+    "parents": {
+      "thalmerite": 1,
+      "sugar": 1,
+      "phosphorus": 1,
+      "potassium": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_pyrosium_smoke2": {
+    "name": "no pyrosium smoke 2",
+    "id": "no_pyrosium_smoke2",
+    "parents": {
+      "thalmerite": 1,
+      "smokepowder": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitroglycerin_foam": {
+    "name": "Nitroglycerin Foam",
+    "id": "nitroglycerin_foam",
+    "parents": {
+      "nitroglycerin": 1,
+      "fluorosurfactant": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitroglycerin_smoke": {
+    "name": "Nitroglycerin Smoke (powder)",
+    "id": "nitroglycerin_smoke",
+    "parents": {
+      "nitroglycerin": 1,
+      "smokepowder": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitroglycerin_Propellant": {
+    "name": "Nitroglycerin Propellant",
+    "id": "nitroglycerin_Propellant",
+    "parents": {
+      "nitroglycerin": 1,
+      "chlorine": 1,
+      "sugar": 1,
+      "hydrogen": 1,
+      "platinum": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitroglycerin_propellant": {
+    "name": "Nitroglycerin Propellant (powder)",
+    "id": "nitroglycerin_propellant",
+    "parents": {
+      "nitroglycerin": 1,
+      "propellant": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "no_fermid_foam": {
+    "name": "no fermid foam",
+    "id": "no_fermid_foam",
+    "parents": {
+      "ants": 1,
+      "mutagen": 1,
+      "aranesp": 1,
+      "booster_enzyme": 1,
+      "fluorosurfactant": 1,
+      "water": 1
+    },
+    "missing_parents_base": [
+      "ants",
+      "aranesp",
+      "booster_enzyme"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ants": {
+    "id": "ants",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "aranesp": {
+    "name": "Aranesp",
+    "id": "aranesp",
+    "parents": {
+      "atropine": 1,
+      "epinephrine": 1,
+      "insulin": 1
+    },
+    "missing_parents_base": [
+      "insulin"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "booster_enzyme": {
+    "name": "Booster Enzyme",
+    "id": "booster_enzyme",
+    "parents": {
+      "diethylamine": 1,
+      "ethanol": 1,
+      "sulfur": 1,
+      "carbon": 1,
+      "hydrogen": 1,
+      "oxygen": 1,
+      "strange_reagent": 1
+    },
+    "missing_parents_base": [
+      "strange_reagent"
+    ],
+    "produced": 4,
+    "required_heat": 374,
+    "tags": [
+      "secret"
+    ]
+  },
+  "diethylamine": {
+    "name": "Diethylamine",
+    "id": "diethylamine",
+    "parents": {
+      "ammonia": 1,
+      "ethanol": 1
+    },
+    "produced": 2,
+    "required_heat": 374,
+    "tags": []
+  },
+  "denatured_enzyme": {
+    "name": "Denatured Enzyme",
+    "id": "denatured_enzyme",
+    "parents": {
+      "booster_enzyme": 1
+    },
+    "missing_parents_base": [
+      "booster_enzyme"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "water_holy": {
+    "name": "Holy Water",
+    "id": "water_holy",
+    "parents": {
+      "water": 1,
+      "mercury": 1,
+      "wine": 1
+    },
+    "missing_parents_base": [
+      "wine"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "wine": {
+    "id": "wine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "meat_slurry": {
+    "name": "Meat Slurry",
+    "id": "meat_slurry",
+    "parents": {
+      "blood": 1,
+      "cornstarch": 1
+    },
+    "missing_parents_base": [
+      "cornstarch"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cornstarch": {
+    "id": "cornstarch",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "beff": {
+    "name": "Beff",
+    "id": "beff",
+    "parents": {
+      "meat_slurry": 1,
+      "badgrease": 2,
+      "plasma": 1
+    },
+    "missing_parents_base": [
+      "meat_slurry",
+      "badgrease"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "badgrease": {
+    "name": "Partially Hydrogenated Space-Soybean Oil",
+    "id": "badgrease",
+    "parents": {
+      "grease": 1,
+      "hydrogen": 1
+    },
+    "missing_parents_base": [
+      "grease"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "insulin": {
+    "id": "insulin",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "stabiliser": {
+    "name": "Stabilising Agent",
+    "id": "stabiliser",
+    "parents": {
+      "iron": 1,
+      "hydrogen": 1,
+      "oxygen": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ldmatter": {
+    "name": "Liquid Dark Matter",
+    "id": "ldmatter",
+    "parents": {
+      "plasma": 1,
+      "radium": 1,
+      "carbon": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ammonia": {
+    "name": "Ammonia",
+    "id": "ammonia",
+    "parents": {
+      "hydrogen": 3,
+      "nitrogen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ash": {
+    "name": "Ash",
+    "id": "ash",
+    "parents": {
+      "paper": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bilk": {
+    "name": "Bilk",
+    "id": "bilk",
+    "parents": {
+      "milk": 1,
+      "beer": 1
+    },
+    "missing_parents_base": [
+      "milk",
+      "beer"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "milk": {
+    "id": "milk",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "beer": {
+    "id": "beer",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "chocolate milk": {
+    "name": "Chocolate Milk",
+    "id": "chocolate milk",
+    "parents": {
+      "milk": 1,
+      "chocolate": 1
+    },
+    "missing_parents_base": [
+      "milk",
+      "chocolate"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "chocolate": {
+    "id": "chocolate",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "strawberry milk": {
+    "name": "Strawberry Milk",
+    "id": "strawberry milk",
+    "parents": {
+      "milk": 1,
+      "juice_strawberry": 1
+    },
+    "missing_parents_base": [
+      "milk",
+      "juice_strawberry"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_strawberry": {
+    "id": "juice_strawberry",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cheese": {
+    "name": "Cheese",
+    "id": "cheese",
+    "parents": {
+      "milk": 1,
+      "vomit": 1
+    },
+    "missing_parents_base": [
+      "milk",
+      "vomit"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "vomit": {
+    "id": "vomit",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gcheese": {
+    "name": "Weird Cheese",
+    "id": "gcheese",
+    "parents": {
+      "milk": 1,
+      "gvomit": 1
+    },
+    "missing_parents_base": [
+      "milk",
+      "gvomit"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gvomit": {
+    "id": "gvomit",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "lemonade": {
+    "name": "Lemonade",
+    "id": "lemonade",
+    "parents": {
+      "juice_lemon": 3,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "juice_lemon"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_lemon": {
+    "id": "juice_lemon",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "limeade": {
+    "name": "Limeade",
+    "id": "limeade",
+    "parents": {
+      "juice_lime": 3,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "juice_lime"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_lime": {
+    "id": "juice_lime",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "halfandhalf": {
+    "name": "Half and Half",
+    "id": "halfandhalf",
+    "parents": {
+      "lemonade": 1,
+      "tea": 1
+    },
+    "missing_parents_base": [
+      "lemonade",
+      "tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tea": {
+    "id": "tea",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "halfandhalf2": {
+    "name": "halfandhalf2",
+    "id": "halfandhalf2",
+    "parents": {
+      "juice_lemon": 1,
+      "sweet_tea": 1
+    },
+    "missing_parents_base": [
+      "juice_lemon",
+      "sweet_tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sweet_tea": {
+    "name": "Sweet Tea",
+    "id": "sweet_tea",
+    "parents": {
+      "sugar": 1,
+      "tea": 1
+    },
+    "missing_parents_base": [
+      "tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "halfandhalf3": {
+    "name": "halfandhalf3",
+    "id": "halfandhalf3",
+    "parents": {
+      "lemonade": 1,
+      "sweet_tea": 1
+    },
+    "missing_parents_base": [
+      "lemonade",
+      "sweet_tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "eggnog": {
+    "name": "Eggnog",
+    "id": "eggnog",
+    "parents": {
+      "egg": 1,
+      "milk": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "egg",
+      "milk"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "egg": {
+    "id": "egg",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "honey_tea": {
+    "name": "tea",
+    "id": "honey_tea",
+    "parents": {
+      "honey": 1,
+      "tea": 1
+    },
+    "missing_parents_base": [
+      "honey",
+      "tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "honey": {
+    "id": "honey",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mint_tea": {
+    "name": "tea",
+    "id": "mint_tea",
+    "parents": {
+      "mint": 1,
+      "tea": 1
+    },
+    "missing_parents_base": [
+      "mint",
+      "tea"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mint": {
+    "id": "mint",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sodawater": {
+    "name": "soda water",
+    "id": "sodawater",
+    "parents": {
+      "carbon": 1,
+      "oxygen": 1,
+      "water": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "simplesyrup": {
+    "name": "simple syrup",
+    "id": "simplesyrup",
+    "parents": {
+      "sugar": 1,
+      "water": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "kalimoxto": {
+    "name": "Kalimoxto",
+    "id": "kalimoxto",
+    "parents": {
+      "cola": 1,
+      "wine": 1
+    },
+    "missing_parents_base": [
+      "wine"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cola": {
+    "name": "cola",
+    "id": "cola",
+    "parents": {
+      "sodawater": 1,
+      "sugar": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "derby": {
+    "name": "Derby",
+    "id": "derby",
+    "parents": {
+      "gin": 1,
+      "bitters": 1,
+      "mint": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "bitters",
+      "mint"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gin": {
+    "id": "gin",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bitters": {
+    "id": "bitters",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "horsesneck": {
+    "name": "Horse's Neck",
+    "id": "horsesneck",
+    "parents": {
+      "bourbon": 1,
+      "bitters": 1,
+      "ginger_ale": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "bitters",
+      "ginger_ale"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bourbon": {
+    "id": "bourbon",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ginger_ale": {
+    "id": "ginger_ale",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "rose": {
+    "name": "Rose",
+    "id": "rose",
+    "parents": {
+      "vermouth": 1,
+      "juice_cherry": 1,
+      "juice_strawberry": 1
+    },
+    "missing_parents_base": [
+      "vermouth",
+      "juice_cherry",
+      "juice_strawberry"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "vermouth": {
+    "id": "vermouth",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_cherry": {
+    "id": "juice_cherry",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "seabreeze": {
+    "name": "Sea Breeze",
+    "id": "seabreeze",
+    "parents": {
+      "vodka": 1,
+      "juice_cran": 1,
+      "juice_grapefruit": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_cran",
+      "juice_grapefruit"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "vodka": {
+    "id": "vodka",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_cran": {
+    "id": "juice_cran",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_grapefruit": {
+    "id": "juice_grapefruit",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "brassmonkey": {
+    "name": "Brass Monkey",
+    "id": "brassmonkey",
+    "parents": {
+      "rum": 1,
+      "vodka": 1,
+      "juice_orange": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "vodka",
+      "juice_orange"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "rum": {
+    "id": "rum",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_orange": {
+    "id": "juice_orange",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "hotbutteredrum": {
+    "name": "Hot Buttered Rum",
+    "id": "hotbutteredrum",
+    "parents": {
+      "rum": 1,
+      "cider": 1,
+      "butter": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "cider",
+      "butter"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cider": {
+    "id": "cider",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "butter": {
+    "id": "butter",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "fluffycritter": {
+    "name": "Fluffy Critter",
+    "id": "fluffycritter",
+    "parents": {
+      "rum": 1,
+      "juice_lime": 1,
+      "lemonade": 1,
+      "juice_strawberry": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "juice_lime",
+      "lemonade",
+      "juice_strawberry"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "michelada": {
+    "name": "Michelada",
+    "id": "michelada",
+    "parents": {
+      "beer": 1,
+      "juice_tomato": 1,
+      "capsaicin": 1
+    },
+    "missing_parents_base": [
+      "beer",
+      "juice_tomato",
+      "capsaicin"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_tomato": {
+    "id": "juice_tomato",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "capsaicin": {
+    "id": "capsaicin",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gunfire": {
+    "name": "Gunfire",
+    "id": "gunfire",
+    "parents": {
+      "tea": 1,
+      "rum": 1
+    },
+    "missing_parents_base": [
+      "tea",
+      "rum"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "espressomartini": {
+    "name": "Espresso Martini",
+    "id": "espressomartini",
+    "parents": {
+      "vodka": 1,
+      "chocolate": 1,
+      "sugar": 1,
+      "espresso": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "chocolate",
+      "espresso"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "espresso": {
+    "id": "espresso",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "radler": {
+    "name": "Radler",
+    "id": "radler",
+    "parents": {
+      "beer": 1,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "beer",
+      "lemonade"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "threemileislandicedtea": {
+    "name": "Three Mile Island Iced Tea",
+    "id": "threemileislandicedtea",
+    "parents": {
+      "vodka": 1,
+      "gin": 1,
+      "tequila": 1,
+      "cola": 1,
+      "curacao": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "gin",
+      "tequila",
+      "curacao"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tequila": {
+    "id": "tequila",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "curacao": {
+    "id": "curacao",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cocktail_triple": {
+    "name": "Triple Triple",
+    "id": "cocktail_triple",
+    "parents": {
+      "cocktail_citrus": 1,
+      "triplemeth": 1,
+      "triplepiss": 1
+    },
+    "missing_parents_base": [
+      "cocktail_citrus",
+      "triplemeth",
+      "triplepiss"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "triplemeth": {
+    "id": "triplemeth",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "triplepiss": {
+    "id": "triplepiss",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "beach": {
+    "name": "Sex on the Beach",
+    "id": "beach",
+    "parents": {
+      "vodka": 1,
+      "juice_cran": 1,
+      "juice_orange": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_cran",
+      "juice_orange"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "beach2": {
+    "name": "beach2",
+    "id": "beach2",
+    "parents": {
+      "screwdriver": 2,
+      "juice_cran": 1
+    },
+    "missing_parents_base": [
+      "screwdriver",
+      "juice_cran"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "screwdriver": {
+    "name": "Screwdriver",
+    "id": "screwdriver",
+    "parents": {
+      "vodka": 1,
+      "juice_orange": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_orange"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bloody_mary": {
+    "name": "Bloody Mary",
+    "id": "bloody_mary",
+    "parents": {
+      "vodka": 1,
+      "juice_tomato": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_tomato"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bloody_scary": {
+    "name": "Bloody Scary",
+    "id": "bloody_scary",
+    "parents": {
+      "vodka": 1,
+      "bloodc": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "bloodc"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bloodc": {
+    "id": "bloodc",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "snakebite": {
+    "name": "Snakebite",
+    "id": "snakebite",
+    "parents": {
+      "cider": 1,
+      "beer": 1
+    },
+    "missing_parents_base": [
+      "cider",
+      "beer"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "diesel": {
+    "name": "Diesel",
+    "id": "diesel",
+    "parents": {
+      "snakebite": 1,
+      "juice_cran": 1
+    },
+    "missing_parents_base": [
+      "snakebite",
+      "juice_cran"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "suicider": {
+    "name": "Suicider",
+    "id": "suicider",
+    "parents": {
+      "cider": 1,
+      "vodka": 1,
+      "epinephrine": 1,
+      "fuel": 1
+    },
+    "missing_parents_base": [
+      "cider",
+      "vodka"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "boorbon": {
+    "name": "BOOrbon",
+    "id": "boorbon",
+    "parents": {
+      "bourbon": 1,
+      "ectoplasm": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "ectoplasm"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ectoplasm": {
+    "id": "ectoplasm",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "grog": {
+    "name": "Grog",
+    "id": "grog",
+    "parents": {
+      "fuel": 1,
+      "teporone": 1,
+      "sugar": 1,
+      "acid": 1,
+      "rum": 1,
+      "acetone": 1,
+      "bloody_scary": 1,
+      "gvomit": 1,
+      "lube": 1,
+      "pacid": 1,
+      "pepperoni": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "bloody_scary",
+      "gvomit",
+      "pepperoni"
+    ],
+    "produced": 10,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "acetone": {
+    "name": "Acetone",
+    "id": "acetone",
+    "parents": {
+      "oil": 1,
+      "fuel": 1,
+      "oxygen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "lube": {
+    "name": "Space Lube",
+    "id": "lube",
+    "parents": {
+      "water": 1,
+      "silicon": 1,
+      "oxygen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "pepperoni": {
+    "name": "Pepperoni",
+    "id": "pepperoni",
+    "parents": {
+      "beff": 1,
+      "synthflesh": 1,
+      "saltpetre": 1
+    },
+    "missing_parents_base": [
+      "beff",
+      "saltpetre"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "beepskybeer": {
+    "name": "Beepskybr\u00e4u Security Schwarzbier",
+    "id": "beepskybeer",
+    "parents": {
+      "beer": 1,
+      "nanites": 1
+    },
+    "missing_parents_base": [
+      "beer",
+      "nanites"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nanites": {
+    "id": "nanites",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "whiskey_sour": {
+    "name": "Whiskey Sour",
+    "id": "whiskey_sour",
+    "parents": {
+      "bourbon": 1,
+      "juice_lemon": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "juice_lemon"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "whiskey_sour2": {
+    "name": "whiskey_sour2",
+    "id": "whiskey_sour2",
+    "parents": {
+      "bourbon": 1,
+      "lemonade": 2
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "lemonade"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "daiquiri": {
+    "name": "Daiquiri",
+    "id": "daiquiri",
+    "parents": {
+      "rum": 1,
+      "juice_lime": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "juice_lime"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "daiquiri2": {
+    "name": "daiquiri2",
+    "id": "daiquiri2",
+    "parents": {
+      "rum": 1,
+      "limeade": 2
+    },
+    "missing_parents_base": [
+      "rum",
+      "limeade"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "martini": {
+    "name": "Martini",
+    "id": "martini",
+    "parents": {
+      "gin": 1,
+      "vermouth": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "vermouth"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "v_martini": {
+    "name": "Vodka Martini",
+    "id": "v_martini",
+    "parents": {
+      "vodka": 1,
+      "vermouth": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "vermouth"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "murdini": {
+    "name": "Murdini",
+    "id": "murdini",
+    "parents": {
+      "martini": 1,
+      "juice_apple": 1,
+      "suicider": 1
+    },
+    "missing_parents_base": [
+      "martini",
+      "juice_apple",
+      "suicider"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_apple": {
+    "id": "juice_apple",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mutini": {
+    "name": "Mutini",
+    "id": "mutini",
+    "parents": {
+      "martini": 1,
+      "mutagen": 4,
+      "mutadone": 1,
+      "neurotoxin": 1,
+      "mannitol": 1
+    },
+    "missing_parents_base": [
+      "martini"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "manhattan": {
+    "name": "Manhattan",
+    "id": "manhattan",
+    "parents": {
+      "bourbon": 1,
+      "vermouth": 1,
+      "bitters": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "vermouth",
+      "bitters"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "rcola": {
+    "name": "Rum and Cola",
+    "id": "rcola",
+    "parents": {
+      "rum": 1,
+      "cola": 1
+    },
+    "missing_parents_base": [
+      "rum"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "libre": {
+    "name": "Space-Cuba Libre",
+    "id": "libre",
+    "parents": {
+      "rcola": 2,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "rcola",
+      "juice_lime"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ginfizz": {
+    "name": "Gin Fizz",
+    "id": "ginfizz",
+    "parents": {
+      "gin": 1,
+      "juice_lemon": 1,
+      "water": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "juice_lemon"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gimlet": {
+    "name": "Gimlet",
+    "id": "gimlet",
+    "parents": {
+      "gin": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "juice_lime"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cosmo": {
+    "name": "Cosmopolitan",
+    "id": "cosmo",
+    "parents": {
+      "vodka": 1,
+      "juice_cran": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_cran",
+      "juice_lime"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cosmo2": {
+    "name": "cosmo2",
+    "id": "cosmo2",
+    "parents": {
+      "v_gimlet": 2,
+      "juice_cran": 1
+    },
+    "missing_parents_base": [
+      "v_gimlet",
+      "juice_cran"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "v_gimlet": {
+    "name": "Vodka Gimlet",
+    "id": "v_gimlet",
+    "parents": {
+      "vodka": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_lime"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "b_russian": {
+    "name": "Black Russian",
+    "id": "b_russian",
+    "parents": {
+      "vodka": 1,
+      "coffee": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "coffee"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "coffee": {
+    "id": "coffee",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "b_russian_espresso": {
+    "name": "b_russian_espresso",
+    "id": "b_russian_espresso",
+    "parents": {
+      "vodka": 1,
+      "espresso": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "espresso"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "w_russian": {
+    "name": "White Russian",
+    "id": "w_russian",
+    "parents": {
+      "vodka": 1,
+      "coffee": 1,
+      "milk": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "coffee",
+      "milk"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "w_russian2": {
+    "name": "w_russian2",
+    "id": "w_russian2",
+    "parents": {
+      "b_russian": 2,
+      "milk": 1
+    },
+    "missing_parents_base": [
+      "b_russian",
+      "milk"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "irishcoffee": {
+    "name": "Irish Coffee",
+    "id": "irishcoffee",
+    "parents": {
+      "coffee": 1,
+      "bourbon": 1,
+      "milk": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "coffee",
+      "bourbon",
+      "milk"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "dbreath": {
+    "name": "Dragon's Breath",
+    "id": "dbreath",
+    "parents": {
+      "bourbon": 1,
+      "phlogiston": 1,
+      "thalmerite": 1,
+      "fuel": 1,
+      "ghostchilijuice": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "ghostchilijuice"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "ghostchilijuice": {
+    "id": "ghostchilijuice",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gtonic": {
+    "name": "Gin and Tonic",
+    "id": "gtonic",
+    "parents": {
+      "gin": 1,
+      "tonic": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "tonic"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tonic": {
+    "id": "tonic",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "vtonic": {
+    "name": "Vodka Tonic",
+    "id": "vtonic",
+    "parents": {
+      "vodka": 1,
+      "tonic": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "tonic"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sonic": {
+    "name": "Gin and Sonic",
+    "id": "sonic",
+    "parents": {
+      "gtonic": 1,
+      "methamphetamine": 1
+    },
+    "missing_parents_base": [
+      "gtonic"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "methamphetamine": {
+    "name": "Methamphetamine",
+    "id": "methamphetamine",
+    "parents": {
+      "ephedrine": 1,
+      "phosphorus": 1,
+      "hydrogen": 1,
+      "iodine": 1
+    },
+    "produced": 3,
+    "required_heat": 374,
+    "tags": []
+  },
+  "gpink": {
+    "name": "Pink Gin and Tonic",
+    "id": "gpink",
+    "parents": {
+      "gtonic": 1,
+      "bitters": 1
+    },
+    "missing_parents_base": [
+      "gtonic",
+      "bitters"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "eraser": {
+    "name": "Mind Eraser",
+    "id": "eraser",
+    "parents": {
+      "vtonic": 1,
+      "coffee": 1
+    },
+    "missing_parents_base": [
+      "vtonic",
+      "coffee"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "madmen": {
+    "name": "Old Fashioned",
+    "id": "madmen",
+    "parents": {
+      "bourbon": 1,
+      "bitters": 1,
+      "water": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "bitters"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "planter": {
+    "name": "Planter's Punch",
+    "id": "planter",
+    "parents": {
+      "rum": 1,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "lemonade"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "maitai": {
+    "name": "Mai Tai",
+    "id": "maitai",
+    "parents": {
+      "rum": 1,
+      "juice_lime": 1,
+      "juice_orange": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "juice_lime",
+      "juice_orange"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "harlow": {
+    "name": "Jean Harlow",
+    "id": "harlow",
+    "parents": {
+      "rum": 1,
+      "vermouth": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "vermouth"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gchronic": {
+    "name": "Gin and Chronic",
+    "id": "gchronic",
+    "parents": {
+      "gtonic": 1,
+      "THC": 1
+    },
+    "missing_parents_base": [
+      "gtonic",
+      "THC"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "THC": {
+    "id": "THC",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "margarita": {
+    "name": "Margarita",
+    "id": "margarita",
+    "parents": {
+      "tequila": 1,
+      "juice_orange": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "juice_orange",
+      "juice_lime"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tequini": {
+    "name": "Tequini",
+    "id": "tequini",
+    "parents": {
+      "tequila": 1,
+      "vermouth": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "vermouth"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "pfire": {
+    "name": "Prairie Fire",
+    "id": "pfire",
+    "parents": {
+      "tequila": 1,
+      "capsaicin": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "capsaicin"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bull": {
+    "name": "Brave Bull",
+    "id": "bull",
+    "parents": {
+      "tequila": 1,
+      "coffee": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "coffee"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "longisland_rcola": {
+    "name": "Long Island Iced Tea",
+    "id": "longisland_rcola",
+    "parents": {
+      "tequila": 1,
+      "screwdriver": 1,
+      "gin": 1,
+      "juice_lemon": 1,
+      "rcola": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "screwdriver",
+      "gin",
+      "juice_lemon",
+      "rcola"
+    ],
+    "produced": 6,
+    "required_heat": 0,
+    "tags": []
+  },
+  "longisland": {
+    "name": "Long Island Iced Tea",
+    "id": "longisland",
+    "parents": {
+      "tequila": 1,
+      "screwdriver": 1,
+      "rum": 1,
+      "gin": 1,
+      "juice_lemon": 1,
+      "cola": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "screwdriver",
+      "rum",
+      "gin",
+      "juice_lemon"
+    ],
+    "produced": 6,
+    "required_heat": 0,
+    "tags": []
+  },
+  "lingtea": {
+    "name": "Ling Island Iced Tea",
+    "id": "lingtea",
+    "parents": {
+      "longisland": 1,
+      "neurotoxin": 1
+    },
+    "missing_parents_base": [
+      "longisland"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "longbeach": {
+    "name": "Long Beach Iced Tea",
+    "id": "longbeach",
+    "parents": {
+      "tequila": 1,
+      "beach": 1,
+      "rum": 1,
+      "gin": 1,
+      "juice_lemon": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "beach",
+      "rum",
+      "gin",
+      "juice_lemon"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "hunchback": {
+    "name": "Hunchback",
+    "id": "hunchback",
+    "parents": {
+      "bourbon": 1,
+      "cola": 1,
+      "juice_tomato": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "juice_tomato"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "pinacolada": {
+    "name": "Pi\u00f1a Colada",
+    "id": "pinacolada",
+    "parents": {
+      "juice_pineapple": 1,
+      "rum": 1,
+      "coconut_milk": 1
+    },
+    "missing_parents_base": [
+      "juice_pineapple",
+      "rum",
+      "coconut_milk"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_pineapple": {
+    "id": "juice_pineapple",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "coconut_milk": {
+    "id": "coconut_milk",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mimosa": {
+    "name": "Mimosa",
+    "id": "mimosa",
+    "parents": {
+      "juice_orange": 1,
+      "champagne": 1
+    },
+    "missing_parents_base": [
+      "juice_orange",
+      "champagne"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "champagne": {
+    "id": "champagne",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "french75": {
+    "name": "French 75",
+    "id": "french75",
+    "parents": {
+      "lemonade": 1,
+      "gin": 1,
+      "champagne": 1
+    },
+    "missing_parents_base": [
+      "lemonade",
+      "gin",
+      "champagne"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tomcollins": {
+    "name": "Tom Collins",
+    "id": "tomcollins",
+    "parents": {
+      "gin": 1,
+      "tonic": 1,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "tonic",
+      "lemonade"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tomcollins2": {
+    "name": "tomcollins2",
+    "id": "tomcollins2",
+    "parents": {
+      "gtonic": 2,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "gtonic",
+      "lemonade"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sangria": {
+    "name": "Sangria",
+    "id": "sangria",
+    "parents": {
+      "planter": 2,
+      "wine": 1,
+      "juice_orange": 1
+    },
+    "missing_parents_base": [
+      "planter",
+      "wine",
+      "juice_orange"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sangria2": {
+    "name": "sangria2",
+    "id": "sangria2",
+    "parents": {
+      "wine": 1,
+      "juice_orange": 1,
+      "lemonade": 1,
+      "rum": 1
+    },
+    "missing_parents_base": [
+      "wine",
+      "juice_orange",
+      "lemonade",
+      "rum"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "peachschnapps": {
+    "name": "Peach Schnapps",
+    "id": "peachschnapps",
+    "parents": {
+      "vodka": 1,
+      "juice_peach": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "juice_peach"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "juice_peach": {
+    "id": "juice_peach",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "moscowmule": {
+    "name": "Moscow Mule",
+    "id": "moscowmule",
+    "parents": {
+      "v_gimlet": 2,
+      "ginger_ale": 1
+    },
+    "missing_parents_base": [
+      "v_gimlet",
+      "ginger_ale"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "moscowmule2": {
+    "name": "moscowmule2",
+    "id": "moscowmule2",
+    "parents": {
+      "vodka": 1,
+      "ginger_ale": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "ginger_ale",
+      "juice_lime"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tequilasunrise": {
+    "name": "Tequila Sunrise",
+    "id": "tequilasunrise",
+    "parents": {
+      "tequila": 1,
+      "juice_orange": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "juice_orange"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "paloma": {
+    "name": "Paloma",
+    "id": "paloma",
+    "parents": {
+      "tequila": 1,
+      "juice_grapefruit": 1,
+      "juice_lime": 1
+    },
+    "missing_parents_base": [
+      "tequila",
+      "juice_grapefruit",
+      "juice_lime"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mintjulep": {
+    "name": "Mint Julep",
+    "id": "mintjulep",
+    "parents": {
+      "mint": 1,
+      "bourbon": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "mint",
+      "bourbon"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mojito": {
+    "name": "Mojito",
+    "id": "mojito",
+    "parents": {
+      "daiquiri": 3,
+      "mint": 1
+    },
+    "missing_parents_base": [
+      "daiquiri",
+      "mint"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mojito2": {
+    "name": "mojito2",
+    "id": "mojito2",
+    "parents": {
+      "mint": 1,
+      "lime": 1,
+      "rum": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "mint",
+      "rum"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "lime": {
+    "name": "calcium oxide",
+    "id": "lime",
+    "parents": {
+      "calcium_carbonate": 1
+    },
+    "produced": 1,
+    "required_heat": 874,
+    "tags": []
+  },
+  "cremedementhe": {
+    "name": "Cr\u00e9me de Menthe",
+    "id": "cremedementhe",
+    "parents": {
+      "mint": 1,
+      "vodka": 1,
+      "sugar": 1
+    },
+    "missing_parents_base": [
+      "mint",
+      "vodka"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "grasshopper": {
+    "name": "Grasshopper",
+    "id": "grasshopper",
+    "parents": {
+      "cremedementhe": 3,
+      "chocolate": 1,
+      "vanilla": 1
+    },
+    "missing_parents_base": [
+      "cremedementhe",
+      "chocolate",
+      "vanilla"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "vanilla": {
+    "id": "vanilla",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "grasshopper2": {
+    "name": "grasshopper2",
+    "id": "grasshopper2",
+    "parents": {
+      "mint": 1,
+      "vodka": 1,
+      "sugar": 1,
+      "chocolate": 1,
+      "vanilla": 1
+    },
+    "missing_parents_base": [
+      "mint",
+      "vodka",
+      "chocolate",
+      "vanilla"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "freeze": {
+    "name": "Freeze",
+    "id": "freeze",
+    "parents": {
+      "menthol": 1,
+      "cryostylane": 1,
+      "cryoxadone": 1,
+      "ether": 1,
+      "gin": 1
+    },
+    "missing_parents_base": [
+      "menthol",
+      "gin"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "bluelagoon": {
+    "name": "Blue Lagoon",
+    "id": "bluelagoon",
+    "parents": {
+      "vodka": 1,
+      "curacao": 1,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "vodka",
+      "curacao",
+      "lemonade"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bluehawaiian": {
+    "name": "Blue Hawaiian",
+    "id": "bluehawaiian",
+    "parents": {
+      "pinacolada": 3,
+      "curacao": 1,
+      "ice": 1
+    },
+    "missing_parents_base": [
+      "pinacolada",
+      "curacao",
+      "ice"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ice": {
+    "id": "ice",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bluehawaiian2": {
+    "name": "bluehawaiian2",
+    "id": "bluehawaiian2",
+    "parents": {
+      "rum": 1,
+      "curacao": 1,
+      "juice_pineapple": 1,
+      "coconut_milk": 1,
+      "ice": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "curacao",
+      "juice_pineapple",
+      "coconut_milk",
+      "ice"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "negroni": {
+    "name": "Negroni",
+    "id": "negroni",
+    "parents": {
+      "gin": 1,
+      "vermouth": 1,
+      "bitters": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "vermouth",
+      "bitters"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "negroni2": {
+    "name": "negroni2",
+    "id": "negroni2",
+    "parents": {
+      "martini": 2,
+      "bitters": 1
+    },
+    "missing_parents_base": [
+      "martini",
+      "bitters"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "necroni": {
+    "name": "Necroni",
+    "id": "necroni",
+    "parents": {
+      "gin": 1,
+      "vermouth": 1,
+      "bitters": 1,
+      "ectoplasm": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "vermouth",
+      "bitters",
+      "ectoplasm"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "necroni2": {
+    "name": "necroni2",
+    "id": "necroni2",
+    "parents": {
+      "negroni": 2,
+      "ectoplasm": 1
+    },
+    "missing_parents_base": [
+      "negroni",
+      "ectoplasm"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "honky_tonic": {
+    "name": "Honky Tonic",
+    "id": "honky_tonic",
+    "parents": {
+      "tonic": 1,
+      "lube": 1,
+      "colors": 1,
+      "neurotoxin": 1
+    },
+    "missing_parents_base": [
+      "tonic",
+      "colors"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "colors": {
+    "name": "colorful reagent",
+    "id": "colors",
+    "parents": {
+      "plasma": 1,
+      "radium": 1,
+      "stabiliser": 1,
+      "space_drugs": 1,
+      "cryoxadone": 1,
+      "cocktail_citrus": 1
+    },
+    "missing_parents_base": [
+      "cocktail_citrus"
+    ],
+    "produced": 6,
+    "required_heat": 0,
+    "tags": []
+  },
+  "hottoddy": {
+    "name": "Hot Toddy",
+    "id": "hottoddy",
+    "parents": {
+      "sweet_tea": 1,
+      "bourbon": 1,
+      "juice_lemon": 1
+    },
+    "missing_parents_base": [
+      "sweet_tea",
+      "bourbon",
+      "juice_lemon"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "beesknees": {
+    "name": "Bee's knees",
+    "id": "beesknees",
+    "parents": {
+      "gin": 1,
+      "honey": 1,
+      "juice_lemon": 1
+    },
+    "missing_parents_base": [
+      "gin",
+      "honey",
+      "juice_lemon"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "spicedrum": {
+    "name": "Spiced Rum",
+    "id": "spicedrum",
+    "parents": {
+      "rum": 1,
+      "capsaicin": 1
+    },
+    "missing_parents_base": [
+      "rum",
+      "capsaicin"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "philcollins": {
+    "name": "Phil Collins",
+    "id": "philcollins",
+    "parents": {
+      "vtonic": 1,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "vtonic",
+      "lemonade"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "duckfart": {
+    "name": "Duck Fart",
+    "id": "duckfart",
+    "parents": {
+      "bourbon": 1,
+      "coffee": 1,
+      "milk": 1
+    },
+    "missing_parents_base": [
+      "bourbon",
+      "coffee",
+      "milk"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "pinklemonade": {
+    "name": "Pink lemonade",
+    "id": "pinklemonade",
+    "parents": {
+      "grenadine": 1,
+      "lemonade": 1
+    },
+    "missing_parents_base": [
+      "grenadine",
+      "lemonade"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "grenadine": {
+    "id": "grenadine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "squeeze": {
+    "name": "Squeeze",
+    "id": "squeeze",
+    "parents": {
+      "bread": 3,
+      "fuel": 2
+    },
+    "missing_parents_base": [
+      "bread"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bread": {
+    "id": "bread",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ectocooler": {
+    "name": "Ecto Cooler",
+    "id": "ectocooler",
+    "parents": {
+      "juice_orange": 1,
+      "ectoplasm": 1,
+      "uranium": 1
+    },
+    "missing_parents_base": [
+      "juice_orange",
+      "ectoplasm",
+      "uranium"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "uranium": {
+    "id": "uranium",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "explosion_potassium": {
+    "name": "Potassium Explosion",
+    "id": "explosion_potassium",
+    "parents": {
+      "water": 1,
+      "potassium": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "explosion_barium": {
+    "name": "Barium Explosion",
+    "id": "explosion_barium",
+    "parents": {
+      "water": 1,
+      "barium": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "magnesium_chloride": {
+    "name": "Magnesium Chloride",
+    "id": "magnesium_chloride",
+    "parents": {
+      "magnesium": 1,
+      "clacid": 2
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mg_nh3_cl": {
+    "name": "Magnesium-Ammonium Chloride",
+    "id": "mg_nh3_cl",
+    "parents": {
+      "magnesium_chloride": 1,
+      "ammonia": 6
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mg_nh3_cl_decomposition": {
+    "name": "Magnesium-Ammonium Chloride Decomposition",
+    "id": "mg_nh3_cl_decomposition",
+    "parents": {
+      "mg_nh3_cl": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "silicate": {
+    "name": "Silicate",
+    "id": "silicate",
+    "parents": {
+      "aluminium": 1,
+      "silicon": 1,
+      "oxygen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "oil": {
+    "name": "Oil",
+    "id": "oil",
+    "parents": {
+      "carbon": 1,
+      "hydrogen": 1,
+      "fuel": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "dna_mutagen2": {
+    "name": "dna_mutagen2",
+    "id": "dna_mutagen2",
+    "parents": {
+      "mutadone": 3,
+      "lithium": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "morphine": {
+    "id": "morphine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cold_medicine2": {
+    "name": "cold_medicine2",
+    "id": "cold_medicine2",
+    "parents": {
+      "diphenhydramine": 1,
+      "oil": 1,
+      "salicylic_acid": 1,
+      "menthol": 1
+    },
+    "missing_parents_base": [
+      "menthol"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "phenol": {
+    "name": "Phenol",
+    "id": "phenol",
+    "parents": {
+      "oil": 1,
+      "chlorine": 1,
+      "water": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "space_drugs": {
+    "name": "Space Drugs",
+    "id": "space_drugs",
+    "parents": {
+      "mercury": 1,
+      "sugar": 1,
+      "lithium": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mdma": {
+    "name": "MDMA",
+    "id": "mdma",
+    "parents": {
+      "safrole": 1,
+      "salbutamol": 1,
+      "nitrogen": 1,
+      "water": 1
+    },
+    "missing_parents_base": [
+      "safrole"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "safrole": {
+    "id": "safrole",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "superlube": {
+    "name": "Organic Superlube",
+    "id": "superlube",
+    "parents": {
+      "lube": 1,
+      "helium": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cyclopentanol": {
+    "name": "Cyclopentanol",
+    "id": "cyclopentanol",
+    "parents": {
+      "acetic_acid": 1,
+      "ether": 1,
+      "barium": 1,
+      "hydrogen": 1,
+      "oxygen": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "salt": {
+    "name": "Salt",
+    "id": "salt",
+    "parents": {
+      "chlorine": 1,
+      "sodium": 1,
+      "water": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "space_fungus": {
+    "id": "space_fungus",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mutagen2": {
+    "name": "Strange Toxin",
+    "id": "mutagen2",
+    "parents": {
+      "neurotoxin": 1,
+      "epinephrine": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "histamine": {
+    "id": "histamine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bee": {
+    "id": "bee",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "royal_jelly": {
+    "id": "royal_jelly",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "initrobeedril": {
+    "name": "initrobeedril",
+    "id": "initrobeedril",
+    "parents": {
+      "initropidril": 1,
+      "bee": 1,
+      "honey": 1,
+      "dna_mutagen": 1
+    },
+    "missing_parents_base": [
+      "initropidril",
+      "bee",
+      "honey"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "fake_initropidril": {
+    "name": "initropidril",
+    "id": "fake_initropidril",
+    "parents": {
+      "triplepiss": 1,
+      "histamine": 1,
+      "methamphetamine": 1,
+      "water_holy": 1,
+      "pacid": 1,
+      "neurotoxin": 1
+    },
+    "missing_parents_base": [
+      "triplepiss",
+      "histamine",
+      "water_holy"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "honk_fart": {
+    "name": "Honkfartium",
+    "id": "honk_fart",
+    "parents": {
+      "anti_fart": 1,
+      "fartonium": 1
+    },
+    "missing_parents_base": [
+      "fartonium"
+    ],
+    "produced": 1,
+    "required_heat": 374,
+    "tags": []
+  },
+  "fartonium": {
+    "name": "fartonium",
+    "id": "fartonium",
+    "parents": {
+      "egg": 1,
+      "refried_beans": 1,
+      "yuck": 1,
+      "fakecheese": 1
+    },
+    "missing_parents_base": [
+      "egg",
+      "refried_beans",
+      "yuck",
+      "fakecheese"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "flash": {
+    "name": "Flash",
+    "id": "flash",
+    "parents": {
+      "aluminium": 1,
+      "potassium": 1,
+      "sulfur": 1,
+      "chlorine": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sonic_boom": {
+    "name": "Hootingium",
+    "id": "sonic_boom",
+    "parents": {
+      "oxygen": 1,
+      "cola": 1,
+      "phosphorus": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "clf3_firefoam": {
+    "name": "CLF3 + FF Explosion",
+    "id": "clf3_firefoam",
+    "parents": {
+      "infernite": 1,
+      "ff-foam": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ff-foam": {
+    "name": "Firefighting foam",
+    "id": "ff-foam",
+    "parents": {
+      "chlorine": 1,
+      "carbon": 1,
+      "sulfur": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "anima": {
+    "name": "Anima",
+    "id": "anima",
+    "parents": {
+      "strange_reagent": 1,
+      "bloodc": 1,
+      "blood": 1,
+      "ldmatter": 1,
+      "ectoplasm": 1
+    },
+    "missing_parents_base": [
+      "strange_reagent",
+      "bloodc",
+      "ectoplasm"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "big_bang_precursor": {
+    "name": "stable bose-einstein macro-condensate",
+    "id": "big_bang_precursor",
+    "parents": {
+      "ldmatter": 1,
+      "voltagen": 12,
+      "something": 3,
+      "sorium": 1
+    },
+    "missing_parents_base": [
+      "voltagen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "voltagen": {
+    "name": "Voltagen",
+    "id": "voltagen",
+    "parents": {
+      "ldmatter": 1,
+      "plasma": 5,
+      "uranium": 1,
+      "oil": 1,
+      "stabiliser": 1
+    },
+    "missing_parents_base": [
+      "uranium"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "something": {
+    "name": "Something",
+    "id": "something",
+    "parents": {
+      "sorium": 1,
+      "ldmatter": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "smoke": {
+    "name": "Smoke",
+    "id": "smoke",
+    "parents": {
+      "potassium": 1,
+      "sugar": 1,
+      "phosphorus": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "unstable_propellant": {
+    "name": "unstable propellant",
+    "id": "unstable_propellant",
+    "parents": {
+      "chlorine": 1,
+      "sugar": 1,
+      "hydrogen": 1,
+      "platinum": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "saltpetre": {
+    "name": "saltpetre",
+    "id": "saltpetre",
+    "parents": {
+      "urine": 1,
+      "poo": 1,
+      "potash": 1
+    },
+    "missing_parents_base": [
+      "urine",
+      "potash"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "potash1": {
+    "name": "potash",
+    "id": "potash1",
+    "parents": {
+      "ash": 1,
+      "water": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "potash2": {
+    "name": "potash",
+    "id": "potash2",
+    "parents": {
+      "potassium": 1,
+      "chlorine": 1,
+      "acid": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "urine": {
+    "id": "urine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "potash": {
+    "id": "potash",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "jenkem": {
+    "name": "Jenkem",
+    "id": "jenkem",
+    "parents": {
+      "urine": 1,
+      "poo": 1
+    },
+    "missing_parents_base": [
+      "urine"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "plant_nutrients_grow": {
+    "name": "Gro-Boost Plant Formula",
+    "id": "plant_nutrients_grow",
+    "parents": {
+      "saltpetre": 1,
+      "styptic_powder": 1,
+      "salbutamol": 1
+    },
+    "missing_parents_base": [
+      "saltpetre"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "plant_nutrients_crop": {
+    "name": "Top Crop Plant Formula",
+    "id": "plant_nutrients_crop",
+    "parents": {
+      "saltpetre": 1,
+      "charcoal": 1,
+      "antihol": 1
+    },
+    "missing_parents_base": [
+      "saltpetre"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "plant_nutrients_potency": {
+    "name": "Powerplant Plant Formula",
+    "id": "plant_nutrients_potency",
+    "parents": {
+      "saltpetre": 1,
+      "silver_sulfadiazine": 1,
+      "methamphetamine": 1
+    },
+    "missing_parents_base": [
+      "saltpetre"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "plant_nutrients_balance": {
+    "name": "Fruitful Farming Plant Formula",
+    "id": "plant_nutrients_balance",
+    "parents": {
+      "saltpetre": 1,
+      "epinephrine": 1,
+      "teporone": 1
+    },
+    "missing_parents_base": [
+      "saltpetre"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "copper_nitrate": {
+    "name": "Copper Nitrate",
+    "id": "copper_nitrate",
+    "parents": {
+      "copper": 1,
+      "nitrogen": 1,
+      "oxygen": 3
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitrogen_dioxide": {
+    "name": "Nitrogen Dioxide",
+    "id": "nitrogen_dioxide",
+    "parents": {
+      "copper_nitrate": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitric_acid": {
+    "name": "Nitric Acid",
+    "id": "nitric_acid",
+    "parents": {
+      "water": 1,
+      "nitrogen_dioxide": 3
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "silver_nitrate": {
+    "name": "Silver Nitrate",
+    "id": "silver_nitrate",
+    "parents": {
+      "silver": 1,
+      "nitric_acid": 2
+    },
+    "produced": 1,
+    "required_heat": 374,
+    "tags": []
+  },
+  "silver_nitrate_copper_nitrate": {
+    "name": "Silver Nitrate and Copper",
+    "id": "silver_nitrate_copper_nitrate",
+    "parents": {
+      "silver_nitrate": 2,
+      "copper": 1,
+      "water": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "silver_nitrate_decomposition": {
+    "name": "Silver Nitrate Decomposition",
+    "id": "silver_nitrate_decomposition",
+    "parents": {
+      "silver_nitrate": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "allyl_chloride": {
+    "name": "Allyl chloride",
+    "id": "allyl_chloride",
+    "parents": {
+      "oil": 1,
+      "chlorine": 2
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "epichlorohydrin": {
+    "name": "Epichlorohydrin",
+    "id": "epichlorohydrin",
+    "parents": {
+      "allyl_chloride": 1,
+      "clacid": 1,
+      "sodium": 1,
+      "oxygen": 2,
+      "hydrogen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "glycerol": {
+    "name": "Glycerol",
+    "id": "glycerol",
+    "parents": {
+      "epichlorohydrin": 1,
+      "water": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "foam": {
+    "name": "Foam",
+    "id": "foam",
+    "parents": {
+      "fluorosurfactant": 1,
+      "water": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "metalfoam": {
+    "name": "Metal Foam",
+    "id": "metalfoam",
+    "parents": {
+      "aluminium": 3,
+      "fluorosurfactant": 1,
+      "acid": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "ironlfoam": {
+    "name": "Iron Foam",
+    "id": "ironlfoam",
+    "parents": {
+      "iron": 3,
+      "fluorosurfactant": 1,
+      "acid": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "LSD": {
+    "name": "Lysergic acid diethylamide",
+    "id": "LSD",
+    "parents": {
+      "diethylamine": 1,
+      "space_fungus": 1
+    },
+    "missing_parents_base": [
+      "space_fungus"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bathsalts": {
+    "name": "Bath Salts",
+    "id": "bathsalts",
+    "parents": {
+      "msg": 1,
+      "yuck": 1,
+      "denatured_enzyme": 1,
+      "saltpetre": 1,
+      "cleaner": 1,
+      "mercury": 1,
+      "mugwort": 1
+    },
+    "missing_parents_base": [
+      "msg",
+      "yuck",
+      "denatured_enzyme",
+      "saltpetre",
+      "mugwort"
+    ],
+    "produced": 6,
+    "required_heat": 374,
+    "tags": []
+  },
+  "msg": {
+    "id": "msg",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "yuck": {
+    "id": "yuck",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cleaner": {
+    "name": "Space cleaner",
+    "id": "cleaner",
+    "parents": {
+      "ammonia": 1,
+      "ethanol": 1,
+      "water": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "mugwort": {
+    "id": "mugwort",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bacterialmedium": {
+    "id": "bacterialmedium",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "catdrugs": {
+    "name": "Cat Drugs",
+    "id": "catdrugs",
+    "parents": {
+      "catonium": 1,
+      "psilocybin": 1,
+      "ammonia": 1,
+      "fuel": 1
+    },
+    "missing_parents_base": [
+      "catonium",
+      "psilocybin"
+    ],
+    "produced": 3,
+    "required_heat": 374,
+    "tags": []
+  },
+  "catonium": {
+    "id": "catonium",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "psilocybin": {
+    "id": "psilocybin",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "boilpee": {
+    "name": "Boiled Pee",
+    "id": "boilpee",
+    "parents": {
+      "urine": 1,
+      "water": 1
+    },
+    "missing_parents_base": [
+      "urine"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "crank": {
+    "name": "Crank",
+    "id": "crank",
+    "parents": {
+      "diphenhydramine": 1,
+      "ammonia": 1,
+      "lithium": 1,
+      "fuel": 1,
+      "acid": 1
+    },
+    "produced": 5,
+    "required_heat": 374,
+    "tags": []
+  },
+  "krokodil": {
+    "name": "Krokodil",
+    "id": "krokodil",
+    "parents": {
+      "morphine": 1,
+      "diphenhydramine": 1,
+      "cleaner": 1,
+      "phosphorus": 1,
+      "potassium": 1,
+      "fuel": 1
+    },
+    "missing_parents_base": [
+      "morphine"
+    ],
+    "produced": 5,
+    "required_heat": 374,
+    "tags": []
+  },
+  "omnizine": {
+    "id": "omnizine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "carpet": {
+    "name": "Carpet",
+    "id": "carpet",
+    "parents": {
+      "space_fungus": 1,
+      "blood": 1
+    },
+    "missing_parents_base": [
+      "space_fungus"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "grease": {
+    "id": "grease",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cornsyrup": {
+    "name": "Corn Syrup",
+    "id": "cornsyrup",
+    "parents": {
+      "cornstarch": 1,
+      "acid": 1
+    },
+    "missing_parents_base": [
+      "cornstarch"
+    ],
+    "produced": 2,
+    "required_heat": 374,
+    "tags": []
+  },
+  "VHFCS": {
+    "name": "Very-High-Fructose Corn Syrup",
+    "id": "VHFCS",
+    "parents": {
+      "cornsyrup": 1,
+      "denatured_enzyme": 0
+    },
+    "missing_parents_base": [
+      "cornsyrup",
+      "denatured_enzyme"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gravy": {
+    "name": "Gravy",
+    "id": "gravy",
+    "parents": {
+      "porktonium": 1,
+      "milk": 1,
+      "cornstarch": 1
+    },
+    "missing_parents_base": [
+      "porktonium",
+      "milk",
+      "cornstarch"
+    ],
+    "produced": 3,
+    "required_heat": 374,
+    "tags": []
+  },
+  "porktonium": {
+    "id": "porktonium",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "port": {
+    "name": "Port",
+    "id": "port",
+    "parents": {
+      "wine": 1,
+      "sugar": 1,
+      "iron": 1,
+      "vodka": 1
+    },
+    "missing_parents_base": [
+      "wine",
+      "vodka"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "energydrink": {
+    "name": "Energy Drink",
+    "id": "energydrink",
+    "parents": {
+      "voltagen": 1,
+      "coffee": 1,
+      "cola": 3
+    },
+    "missing_parents_base": [
+      "voltagen",
+      "coffee"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "voltagen_arc": {
+    "name": "Voltagen Arc",
+    "id": "voltagen_arc",
+    "parents": {
+      "ldmatter": 1,
+      "plasma": 5,
+      "uranium": 1,
+      "oil": 1
+    },
+    "missing_parents_base": [
+      "uranium"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "fermid": {
+    "name": "Fermid",
+    "id": "fermid",
+    "parents": {
+      "ants": 1,
+      "mutagen": 1,
+      "aranesp": 1,
+      "booster_enzyme": 1
+    },
+    "missing_parents_base": [
+      "ants",
+      "aranesp",
+      "booster_enzyme"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "life": {
+    "name": "Life",
+    "id": "life",
+    "parents": {
+      "synthflesh": 5,
+      "blood": 2,
+      "strange_reagent": 1
+    },
+    "missing_parents_base": [
+      "strange_reagent"
+    ],
+    "produced": 8,
+    "required_heat": 374,
+    "tags": []
+  },
+  "ageinium": {
+    "name": "Ageinium",
+    "id": "ageinium",
+    "parents": {
+      "acetone": 1,
+      "chocolate": 1,
+      "tea": 1,
+      "nicotine": 1,
+      "formaldehyde": 1
+    },
+    "missing_parents_base": [
+      "chocolate",
+      "tea",
+      "nicotine"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "nicotine": {
+    "id": "nicotine",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "wolfsbane": {
+    "id": "wolfsbane",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "tongueofdog": {
+    "id": "tongueofdog",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "hootagen_unstable": {
+    "name": "unstable hootagen",
+    "id": "hootagen_unstable",
+    "parents": {
+      "sonicpowder": 1,
+      "egg": 1,
+      "bloodc": 1,
+      "strange_reagent": 1,
+      "sorium": 1,
+      "dna_mutagen": 3
+    },
+    "missing_parents_base": [
+      "egg",
+      "bloodc",
+      "strange_reagent"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "hootagen_stable": {
+    "name": "stable hootagen",
+    "id": "hootagen_stable",
+    "parents": {
+      "sonicpowder": 1,
+      "egg": 1,
+      "bloodc": 1,
+      "strange_reagent": 1,
+      "sorium": 1,
+      "dna_mutagen": 3
+    },
+    "missing_parents_base": [
+      "egg",
+      "bloodc",
+      "strange_reagent"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "fliptonium": {
+    "name": "fliptonium",
+    "id": "fliptonium",
+    "parents": {
+      "sonic": 1,
+      "ldmatter": 1,
+      "chocolate": 1,
+      "ephedrine": 1
+    },
+    "missing_parents_base": [
+      "sonic",
+      "chocolate"
+    ],
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "glowing_fliptonium": {
+    "name": "glowing fliptonium",
+    "id": "glowing_fliptonium",
+    "parents": {
+      "fliptonium": 1,
+      "anima": 1,
+      "uranium": 1,
+      "space_drugs": 1,
+      "lumen": 1
+    },
+    "missing_parents_base": [
+      "fliptonium",
+      "anima",
+      "uranium",
+      "lumen"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "diluted_fliptonium": {
+    "name": "diluted fliptonium",
+    "id": "diluted_fliptonium",
+    "parents": {
+      "fliptonium": 1,
+      "water": 2
+    },
+    "missing_parents_base": [
+      "fliptonium"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "refried_beans": {
+    "id": "refried_beans",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "fakecheese": {
+    "id": "fakecheese",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "flaptonium": {
+    "name": "flaptonium",
+    "id": "flaptonium",
+    "parents": {
+      "egg": 1,
+      "colors": 1,
+      "chickensoup": 1,
+      "strange_reagent": 1,
+      "blood": 1
+    },
+    "missing_parents_base": [
+      "egg",
+      "colors",
+      "chickensoup",
+      "strange_reagent"
+    ],
+    "produced": 1,
+    "required_heat": 374,
+    "tags": []
+  },
+  "chickensoup": {
+    "id": "chickensoup",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "love": {
+    "name": "pure love",
+    "id": "love",
+    "parents": {
+      "hugs": 1,
+      "chocolate": 1
+    },
+    "missing_parents_base": [
+      "hugs",
+      "chocolate"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "hugs": {
+    "id": "hugs",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitrotri_explosion": {
+    "name": "NI3 Explosion",
+    "id": "nitrotri_explosion",
+    "parents": {
+      "nitrotri_dry": 1
+    },
+    "missing_parents_base": [
+      "nitrotri_dry"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nitrotri_dry": {
+    "id": "nitrotri_dry",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "prions": {
+    "id": "prions",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "thalmerite_heat": {
+    "name": "thalmerite heating",
+    "id": "thalmerite_heat",
+    "parents": {
+      "thalmerite": 1,
+      "oxygen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "cryostylane_cold": {
+    "name": "cryostylane chilling",
+    "id": "cryostylane_cold",
+    "parents": {
+      "cryostylane": 1,
+      "oxygen": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "reversium": {
+    "name": "Reversium",
+    "id": "reversium",
+    "parents": {
+      "fliptonium": 1,
+      "hugs": 1,
+      "dna_mutagen": 1,
+      "mutagen": 1
+    },
+    "missing_parents_base": [
+      "fliptonium",
+      "hugs"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "transparium": {
+    "name": "transparium",
+    "id": "transparium",
+    "parents": {
+      "oculine": 1,
+      "juice_carrot": 1,
+      "luminol": 1,
+      "silicate": 1,
+      "vtonic": 1
+    },
+    "missing_parents_base": [
+      "oculine",
+      "juice_carrot",
+      "vtonic"
+    ],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "juice_carrot": {
+    "id": "juice_carrot",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "diluted_transparium": {
+    "name": "diluted transparium",
+    "id": "diluted_transparium",
+    "parents": {
+      "transparium": 1,
+      "water": 2
+    },
+    "missing_parents_base": [
+      "transparium"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "expresso": {
+    "name": "expresso",
+    "id": "expresso",
+    "parents": {
+      "espresso": 1,
+      "neurotoxin": 3
+    },
+    "missing_parents_base": [
+      "espresso"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "badmanjuice": {
+    "name": "Mimicillium",
+    "id": "badmanjuice",
+    "parents": {
+      "transparium": 1,
+      "glitter": 1,
+      "port": 1,
+      "cholesterol": 1
+    },
+    "missing_parents_base": [
+      "transparium",
+      "glitter",
+      "port",
+      "cholesterol"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "cholesterol": {
+    "id": "cholesterol",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "bubs": {
+    "name": "Bubsium",
+    "id": "bubs",
+    "parents": {
+      "bee": 2,
+      "cholesterol": 1,
+      "pepperoni": 1,
+      "bourbon": 1
+    },
+    "missing_parents_base": [
+      "bee",
+      "cholesterol",
+      "pepperoni",
+      "bourbon"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": [
+      "secret"
+    ]
+  },
+  "flubber": {
+    "name": "Liquified Space Rubber",
+    "id": "flubber",
+    "parents": {
+      "rubber": 2,
+      "george_melonium": 1,
+      "sorium": 1,
+      "superlube": 1,
+      "radium": 1
+    },
+    "missing_parents_base": [
+      "rubber",
+      "george_melonium"
+    ],
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "rubber": {
+    "id": "rubber",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "george_melonium": {
+    "id": "george_melonium",
+    "missing_parents_base": [],
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "calcium_carbonate": {
+    "name": "calcium carbonate",
+    "id": "calcium_carbonate",
+    "parents": {
+      "calcium": 1,
+      "chlorine": 2,
+      "sodium": 2,
+      "carbon": 1,
+      "oxygen": 3
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "gypsum": {
+    "name": "calcium sulfate",
+    "id": "gypsum",
+    "parents": {
+      "acid": 1,
+      "calcium_carbonate": 1
+    },
+    "produced": 1,
+    "required_heat": 0,
+    "tags": []
+  },
+  "chalk": {
+    "name": "chalk",
+    "id": "chalk",
+    "parents": {
+      "gypsum": 4,
+      "oil": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "green_goop": {
+    "name": "Strange Green Goop",
+    "id": "green_goop",
+    "parents": {
+      "ash": 1,
+      "ectoplasm": 1,
+      "salt": 1
+    },
+    "missing_parents_base": [
+      "ectoplasm"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "sakuride": {
+    "name": "sakuride",
+    "id": "sakuride",
+    "parents": {
+      "love": 1,
+      "tea": 1,
+      "colors": 1
+    },
+    "missing_parents_base": [
+      "love",
+      "tea",
+      "colors"
+    ],
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "nicotini": {
+    "name": "Nicotini",
+    "id": "nicotini",
+    "parents": {
+      "martini": 1,
+      "nicotine": 1
+    },
+    "missing_parents_base": [
+      "martini",
+      "nicotine"
+    ],
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "silicon_dioxide": {
+    "name": "silicon dioxide",
+    "id": "silicon_dioxide",
+    "parents": {
+      "sodium": 2,
+      "silicon": 3,
+      "oxygen": 7,
+      "acid": 1
+    },
+    "produced": 3,
+    "required_heat": 0,
+    "tags": []
+  },
+  "perfect_cement": {
+    "name": "perfect cement",
+    "id": "perfect_cement",
+    "parents": {
+      "lime": 1,
+      "magnesium": 1,
+      "thermite": 1,
+      "gypsum": 1,
+      "oxygen": 4,
+      "sulfur": 1
+    },
+    "produced": 9,
+    "required_heat": 0,
+    "tags": []
+  },
+  "good_cement": {
+    "name": "good cement",
+    "id": "good_cement",
+    "parents": {
+      "lime": 1,
+      "magnesium": 1,
+      "thermite": 1,
+      "gypsum": 1,
+      "oxygen": 1
+    },
+    "produced": 5,
+    "required_heat": 0,
+    "tags": []
+  },
+  "okay_cement": {
+    "name": "okay cement",
+    "id": "okay_cement",
+    "parents": {
+      "lime": 1,
+      "magnesium": 1,
+      "thermite": 1,
+      "oxygen": 1
+    },
+    "produced": 4,
+    "required_heat": 0,
+    "tags": []
+  },
+  "poor_cement": {
+    "name": "poor cement",
+    "id": "poor_cement",
+    "parents": {
+      "lime": 1,
+      "thermite": 1
+    },
+    "produced": 2,
+    "required_heat": 0,
+    "tags": []
+  },
+  "perfect_concrete": {
+    "name": "perfect concrete",
+    "id": "perfect_concrete",
+    "parents": {
+      "perfect_cement": 1,
+      "silicon_dioxide": 5,
+      "water": 1
+    },
+    "produced": 7,
+    "required_heat": 0,
+    "tags": []
+  },
+  "good_concrete": {
+    "name": "good concrete",
+    "id": "good_concrete",
+    "parents": {
+      "good_cement": 1,
+      "silicon_dioxide": 5,
+      "water": 1
+    },
+    "produced": 7,
+    "required_heat": 0,
+    "tags": []
+  },
+  "okay_concrete": {
+    "name": "okay concrete",
+    "id": "okay_concrete",
+    "parents": {
+      "okay_cement": 1,
+      "silicon_dioxide": 5,
+      "water": 1
+    },
+    "produced": 7,
+    "required_heat": 0,
+    "tags": []
+  },
+  "poor concrete": {
+    "name": "poor concrete",
+    "id": "poor concrete",
+    "parents": {
+      "poor_cement": 1,
+      "silicon_dioxide": 5,
+      "water": 1
+    },
+    "produced": 7,
+    "required_heat": 0,
+    "tags": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "require": {
+    "php": "^8.0",
+    "laminas/laminas-servicemanager": "^3.10",
+    "laminas/laminas-config": "^3.7",
+    "laminas/laminas-config-aggregator": "^1.7",
+    "laminas/laminas-diactoros": "^2.8",
+    "laminas/laminas-view": "^2.14",
+    "mezzio/mezzio": "^3.6",
+    "mezzio/mezzio-helpers": "^5.7",
+    "mezzio/mezzio-laminasrouter": "^3.1",
+    "mezzio/mezzio-laminasviewrenderer": "^2.3",
+    "symfony/cache": "^5.3",
+    "doctrine/orm": "^2.10",
+    "zordius/lightncandy": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chemtool\\": "src/"
+    }
+  }
+}
