@@ -81,29 +81,11 @@
 			mix_phrase = "The substance violently detonates!"
 			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
 
-		nitroglycerin_violent_reaction3
-			name = "Nitroglycerin Smoke (powder)"
-			id = "nitroglycerin_smoke"
-			result = "nitroglycerin_smoke"
-			required_reagents = list("nitroglycerin" = 1, "smokepowder" = 1)
-			instant = 1
-			mix_phrase = "The substance violently detonates!"
-			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
-
 		nitroglycerin_violent_reaction4
 			name = "Nitroglycerin Propellant"
 			id = "nitroglycerin_Propellant"
 			result = "nitroglycerin_propellant"
 			required_reagents = list("nitroglycerin" = 1, "chlorine" = 1, "sugar" = 1, "hydrogen" = 1, "platinum" = 1)
-			instant = 1
-			mix_phrase = "The substance violently detonates!"
-			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
-
-		nitroglycerin_violent_reaction5
-			name = "Nitroglycerin Propellant (powder)"
-			id = "nitroglycerin_propellant"
-			result = "nitroglycerin_propellant"
-			required_reagents = list("nitroglycerin" = 1, "propellant" = 1)
 			instant = 1
 			mix_phrase = "The substance violently detonates!"
 			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
@@ -347,16 +329,6 @@
 			mix_phrase = "The tea and lemonade combine without much fuss."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
-
-		halfandhalf/halfandhalf2
-			id = "halfandhalf2"
-			required_reagents = list("juice_lemon" = 1, "sweet_tea" = 1)
-			result_amount = 2
-
-		halfandhalf/halfandhalf3
-			id = "halfandhalf3"
-			required_reagents = list("lemonade" = 1, "sweet_tea" = 1)
-			result_amount = 2
 
 		eggnog
 			name = "Eggnog"
@@ -1900,15 +1872,6 @@
 			result_amount = 2
 			mix_phrase = "The substance becomes a pile of burning dust."
 
-		napalmfire
-			name = "Phlogiston Fire"
-			id = "phlogiston"
-			result = "phlogiston"
-			required_reagents = list("phosphorus" = 1, "plasma" = 1, "acid" = 1 )
-			inhibitors = list("stabiliser")
-			instant = 1
-			mix_phrase = "The substance erupts into wild flames."
-
 		napalm_goo
 			name = "Napalm"
 			id = "napalm_goo"
@@ -2109,14 +2072,6 @@
 			id = "silver_nitrate_copper_nitrate"
 			result = "copper_nitrate"
 			required_reagents = list ("silver_nitrate" = 2, "copper" = 1, "water" = 1)
-			result_amount = 1
-			mix_phrase = "Silver hairlike strands of silver form in the mixture, and the mixture becomes more blue."
-
-		silver_nitrate_copper_nitrate_2
-			name = "Silver Nitrate and Copper"
-			id = "silver_nitrate_copper_nitrate"
-			result = "copper_nitrate"
-			required_reagents = list ("silver_nitrate" = 2, "copper" = 1, "ethanol" = 1)
 			result_amount = 1
 			mix_phrase = "Silver hairlike strands of silver form in the mixture, and the mixture becomes more blue."
 

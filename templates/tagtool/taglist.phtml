@@ -1,0 +1,16 @@
+<div class="row">
+    <?php
+
+    use Chemtool\Doctrine\Entities\Chemical;
+
+    /**
+     * @var Chemical $chemical
+     */
+    foreach ($this->tags as $tag): ?>
+        <div class="tag list-group-item col-sm-2" style="border: thin solid black">
+            ID=<?=$tag->getId()?><br />
+            Name=<?=$tag->getName()?>
+        </div>
+    <?php endforeach; ?>
+</div>
+<a href="<?=$this->url('tag',['action'=>'add', 'id'=>0]);?>">Neues Tag</a>

@@ -1,0 +1,7 @@
+<div class="row">
+    <?=$this->response??''?>
+    <form action="<?=$this->url('tag',['action'=>'add']);?>" method="post">
+        <input type="text" name="name" />
+        <input type="submit" />
+    </form>
+</div>

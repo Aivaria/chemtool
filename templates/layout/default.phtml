@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <?=$this->headTitle();?>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+    </head>
     <body>
-        <main>
+        <main class="container-fluid">
             <?=$this->content;?>
         </main>
     </body>

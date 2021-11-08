@@ -3,9 +3,11 @@
 declare(strict_types=1);
 
 use Chemtool\Webservice\Handler\ChemtoolHandler;
+use Chemtool\Webservice\Handler\TagHandler;
+use Interop\Container\ContainerInterface;
+use Laminas\Router\Http\Hostname;
 use Mezzio\Application;
 use Mezzio\MiddlewareFactory;
-use Psr\Container\ContainerInterface;
 
 /**
  * FastRoute route configuration.
@@ -38,5 +40,7 @@ use Psr\Container\ContainerInterface;
  * );
  */
 return static function (Application $app, MiddlewareFactory $factory, ContainerInterface $container): void {
-    $app->get('/', ChemtoolHandler::class, 'test');
+    $app->route('/', ChemtoolHandler::class, ['GET','POST'], 'index');
+    $app->route('/chemtool[/:action[/:id]][/]', ChemtoolHandler::class, ['GET','POST'], 'chemtool');
+    $app->route('/tag[/:action[/:id]][/]', TagHandler::class, ['GET','POST'], 'tag');
 };

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use Laminas\Router\Http\TranslatorAwareTreeRouteStack;
 use Laminas\Stratigility\Middleware\ErrorHandler;
 use Mezzio\Application;
 use Mezzio\Handler\NotFoundHandler;
