@@ -26,6 +26,12 @@ class Tag
     protected string $name;
 
     /**
+     * @ORM\Column(type="integer", nullable=true)
+     * @var ?int
+     */
+    protected ?int $priority = 0;
+
+    /**
      * @ORM\ManyToMany(targetEntity="Chemical", mappedBy="tags")
      * @var Collection
      */
@@ -59,6 +65,24 @@ class Tag
     public function setName(string $name): Tag
     {
         $this->name = $name;
+        return $this;
+    }
+
+    /**
+     * @return ?int
+     */
+    public function getPriority(): ?int
+    {
+        return $this->priority;
+    }
+
+    /**
+     * @param int $priority
+     * @return Tag
+     */
+    public function setPriority(int $priority): Tag
+    {
+        $this->priority = $priority;
         return $this;
     }
 

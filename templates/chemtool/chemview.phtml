@@ -1,1 +1,23 @@
-test2
+<div class="chemical list-group-item" style="border: thin solid black">
+    Id=<?=$this->chemical->getId();?><br />
+    Name=<?=$this->chemical->getName();?><br />
+    Idname=<?=$this->chemical->getIdName();?><br />
+    Heat-Required=<?=$this->chemical->getRequireHeat();?><br />
+
+    Recipe: <ul>
+        <?php foreach ($this->chemical->getParent() as $child):
+            $childChemical = $child->getParent();?>
+            <li>
+                <?=$childChemical->getName().':'.$child->getAmount();?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+    Used In: <ul>
+        <?php foreach ($this->chemical->getChilds() as $child):
+            $childChemical = $child->getChemical();?>
+            <li>
+                <?=$childChemical->getName().':'.$child->getAmount();?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+</div>

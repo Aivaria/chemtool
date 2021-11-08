@@ -33,7 +33,6 @@ class ChemtoolHandler implements MiddlewareInterface
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $action = $request->getAttribute('action', 'list');
-        $chemicalId = $request->getAttribute('id');
 
         $response = match ($action) {
             'view' => $this->viewAction($request),

@@ -9,7 +9,10 @@
     foreach ($this->tags as $tag): ?>
         <div class="tag list-group-item col-sm-2" style="border: thin solid black">
             ID=<?=$tag->getId()?><br />
-            Name=<?=$tag->getName()?>
+            Name=<?=$tag->getName()?><br />
+            Priority=<?=$tag->getPriority()?><br />
+            <a href="<?=$this->url('tag',['action'=>'edit', 'id'=>$tag->getId()]);?>">edit</a>
+            <a href="<?=$this->url('tag',['action'=>'delete', 'id'=>$tag->getId()]);?>" onclick="return confirm('Are you sure?')">delete</a>
         </div>
     <?php endforeach; ?>
 </div>
