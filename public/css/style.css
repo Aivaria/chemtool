@@ -1,0 +1,13 @@
+
+.chemical.closed[class*="tag_"]:not([class*="_active"]) {
+    display: none;
+}
+.chemical.open[class*="tag_"]:not([class*="_active"]) {
+    background-color: lightgray;
+}
+.chemical[class*="_active"]{
+    display: block;
+}
+.chemical.closed .content{
+    display: none;
+}

@@ -11,6 +11,8 @@
             ID=<?=$tag->getId()?><br />
             Name=<?=$tag->getName()?><br />
             Priority=<?=$tag->getPriority()?><br />
+            Hidden=<?=$tag->isHidden()?'true':'false';?><br />
+            Color=<span class="badge badge-light" style="background-color: <?=$tag->getColor();?>"><?=$tag->getColor();?></span> <br />
             <a href="<?=$this->url('tag',['action'=>'edit', 'id'=>$tag->getId()]);?>">edit</a>
             <a href="<?=$this->url('tag',['action'=>'delete', 'id'=>$tag->getId()]);?>" onclick="return confirm('Are you sure?')">delete</a>
         </div>

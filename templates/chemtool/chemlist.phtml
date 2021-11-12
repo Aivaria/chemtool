@@ -1,34 +1,62 @@
 <div class="row">
-<?php
+    <?php
 
-use Chemtool\Doctrine\Entities\Chemical;
-/**
- * @var Chemical $chemical
- */
-foreach ($this->chemicals as $chemical){
-    ?>
-    <div class="chemical list-group-item col-sm-2" style="border: thin solid black">
-        Id=<?=$chemical->getId();?><br />
-        Name=<?=$chemical->getName();?><br />
-        Idname=<?=$chemical->getIdName();?><br />
-        Heat-Required=<?=$chemical->getRequireHeat();?><br />
+    use Chemtool\Doctrine\Entities\Chemical;
 
-        Recipe: <ul>
-        <?php foreach ($chemical->getParent() as $child):
-            $childChemical = $child->getParent();?>
-            <li>
-                <?=$childChemical->getName().':'.$child->getAmount();?>
-            </li>
-        <?php endforeach; ?>
-        </ul>
-        Used In: <ul>
-            <?php foreach ($chemical->getChilds() as $child):
-                $childChemical = $child->getChemical();?>
-                <li>
-                    <?=$childChemical->getName().':'.$child->getAmount();?>
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    </div>
-    <?php }?>
+    /**
+     * @var Chemical $chemical
+     */
+    foreach ($this->chemicals as $chemical) {
+        $appender = '';
+        $badges = '';
+        foreach ($chemical->getTags() as $tag) {
+            $appender .= 'tag_' . $tag->getId().' ';
+            $appender .= !$tag->isHidden() ? 'tag_' . $tag->getId() . '_active ':'';
+            $badges.='<span class="badge badge-light" style="background-color: '.$tag->getColor().'">'.$tag->getName().'</span>';
+        }
+
+            ?>
+        <div class="chemical list-group-item col-sm-2 closed <?=$appender?>" style="border: thin solid black"
+             id="chemical_<?= $chemical->getId() ?>">
+            <div class="header"><?= $chemical->getName() != ''?$chemical->getName():'XX__'.$chemical->getIdName(); ?>
+                <?=$badges?>
+            </div>
+            <div class="content">
+                Name=<?= $chemical->getName(); ?><br/>
+                Idname=<?= $chemical->getIdName(); ?><br/>
+                Produced=<?= $chemical->getProduced(); ?><br/>
+                Heat-Required=<?= $chemical->getRequireHeat(); ?><br/>
+
+                Recipe:
+                <ul>
+                    <?php foreach ($chemical->getParent() as $child):
+                        $childChemical = $child->getParent();
+                        if (count($childChemical->getParent()) > 0):?>
+                            <li>
+                                <a data-id="<?= $childChemical->getId() ?>" href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>
+                            </li>
+                        <?php else: ?>
+                            <li>
+                                <?= $childChemical->getName() . ':' . $child->getAmount(); ?>
+                            </li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </ul>
+                <?php if (count($chemical->getChilds()) > 0): ?>
+                    Used In: <a href="javascript:void(0);"
+                                onclick="$('#used_id_<?= $chemical->getId() ?>').toggle()">toggle</a>
+                    <ul style="display: none" id="used_id_<?= $chemical->getId() ?>">
+                        <?php foreach ($chemical->getChilds() as $child):
+                            $childChemical = $child->getChemical(); ?>
+                            <li>
+                                <a data-id="<?= $childChemical->getId() ?>" href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+                <a href="<?= $this->url('chemtool', ['action' => 'edit', 'id' => $chemical->getId()]); ?>">edit</a>
+            </div>
+        </div>
+    <?php } ?>
 </div>
+<a href="<?=$this->url('chemtool', ['action'=>'add', 'id'=>0]);?>">add</a>

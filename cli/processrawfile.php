@@ -13,7 +13,7 @@ $container = require 'src/bootstrap.php';
  */
 $em = $container->get(EntityManager::class);
 
-$file = file_get_contents("data/rawfile");
+$file = file_get_contents("data/rawfile2");
 $chems = explode("\r\n\r\n", $file);
 echo "Processor: start\n";
 foreach ($chems as $chem) {
@@ -51,16 +51,19 @@ foreach ($chems as $chem) {
         if (strstr($entry, "required_reagents")) {
             echo "Processor: processing parents\n";
 
-            $parents = explode(",", trim(str_replace(['required_reagents = list(', ")"], "", $entry)));
+            $parents = explode(",", trim(str_replace(['required_reagents = list(', ')'], "", $entry)));
             foreach ($parents as $parent) {
                 $parentName = explode("=", str_replace(['"'], '', trim($parent)));
                 echo "Processor: parent {$parentName[0]}\n";
                 $parent = $em->getRepository(Chemical::class)->findOneBy(['idName' => trim($parentName[0])]);
                 if ($parent == null) {
                     echo "Processor: parent not found, creating new\n";
+                    $idname = trim($parentName[0]);
+                    var_dump($idname);
                     $parent = new Chemical();
-                    $parent->setIdName(trim($parentName[0]));
-                    $parent->setName(trim($parentName[0]));
+                    $parent->setIdName('ERROR');
+                    $parent->setIdName($idname);
+                    $parent->setName($idname);
                     $em->persist($parent);
                     $em->flush($parent);
                 }
@@ -78,7 +81,7 @@ foreach ($chems as $chem) {
             echo "Processor: set produced to {$produced}\n";
             $chemical->setProduced($produced);
         }
-        if (strstr($entry, "required_temperature = T0C + 100")) {
+        if (strstr($entry, "required_temperature = T0C + ")) {
             $temperature = intval(trim(str_replace(['"', 'T0C + '], "", explode("=", $entry)[1]))) + 274;
             echo "Processor: set RequireHeat to {$temperature}\n";
             $chemical->setRequireHeat($temperature);

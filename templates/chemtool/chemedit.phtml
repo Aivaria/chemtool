@@ -1,0 +1,21 @@
+<div class="row">
+    <a href="<?=$this->url('chemtool',['action'=>'edit','id'=>$this->chemical->getId()+1]);?>"> >> </a>
+
+    <?=$this->response??''?>
+    <div>Chemical base Information</div>
+    <form action="<?=$this->url('chemtool',['action'=>'edit','id'=>$this->chemical->getId()]);?>" method="post">
+        <label>Name: <input type="text" name="name" value="<?=$this->chemical->getName();?>" /></label><br/>
+        <label>Idname: <input type="text" value="<?=$this->chemical->getIdName();?>" disabled="disabled" /></label><br/>
+        <label>Heat: <input type="number" name="heat" value="<?=$this->chemical->getRequireHeat();?>" /></label><br/>
+        <label>Produced: <input type="number" name="produced" value="<?=$this->chemical->getProduced();?>" /></label><br/>
+        <input type="submit" name="baseinformation" />
+    </form>
+    <div>Chemical Tags Information:</div>
+    <form action="<?=$this->url('chemtool',['action'=>'edit','id'=>$this->chemical->getId()]);?>" method="post">
+        <?php foreach ($this->tags as $tag):?>
+        <Label><input type="checkbox" name="tags[<?=$tag->getId();?>]" <?=$this->chemical->getTags()->contains($tag)?'checked':'';?>> <?=$tag->getName();?></Label><br />
+        <?php endforeach;?>
+        <input type="submit" name="submittags" />
+    </form>
+    
+</div>

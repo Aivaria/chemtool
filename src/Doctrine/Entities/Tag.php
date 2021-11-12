@@ -32,6 +32,19 @@ class Tag
     protected ?int $priority = 0;
 
     /**
+     * @ORM\Column(type="boolean")
+     * @var bool
+     */
+    protected bool $hidden = false;
+
+    /**
+     * @ORM\Column (type="string", nullable=true);
+     * @var string
+     */
+    protected ?string $color;
+
+
+    /**
      * @ORM\ManyToMany(targetEntity="Chemical", mappedBy="tags")
      * @var Collection
      */
@@ -83,6 +96,42 @@ class Tag
     public function setPriority(int $priority): Tag
     {
         $this->priority = $priority;
+        return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isHidden(): bool
+    {
+        return $this->hidden;
+    }
+
+    /**
+     * @param bool $hidden
+     * @return Tag
+     */
+    public function setHidden(bool $hidden): Tag
+    {
+        $this->hidden = $hidden;
+        return $this;
+    }
+
+    /**
+     * @return ?string
+     */
+    public function getColor(): ?string
+    {
+        return $this->color;
+    }
+
+    /**
+     * @param string $color
+     * @return Tag
+     */
+    public function setColor(string $color): Tag
+    {
+        $this->color = $color;
         return $this;
     }
 

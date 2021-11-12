@@ -1,8 +1,10 @@
 <div class="row">
-    <?=$this->response??''?>
-    <form action="<?=$this->url('tag',['action'=>'edit']);?>" method="post">
-        <input type="text" name="name" value="<?=$this->tag->getName();?>" />
-        <input type="number" name="priority" value="<?=$this->tag->getPriority();?>" />
-        <input type="submit" />
+    <?= $this->response ?? '' ?>
+    <form action="<?= $this->url('tag', ['action' => 'edit']); ?>" method="post">
+        <input type="text" name="name" value="<?= $this->tag->getName(); ?>"/> <br/>
+        <input type="number" name="priority" value="<?= $this->tag->getPriority(); ?>"/> <br/>
+        <input type="checkbox" name="hidden" <?= $this->tag->isHidden() ? 'checked' : ''; ?>> <br/>
+        <input type="text" name="color" value="<?= $this->tag->getColor() ?>"/> <br/>
+        <input type="submit"/>
     </form>
 </div>

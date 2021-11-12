@@ -1,0 +1,11 @@
+<div class="row">
+    <?=$this->response??''?>
+    <div>Chemical base Information</div>
+    <form action="<?=$this->url('chemtool',['action'=>'edit','id'=>0]);?>" method="post">
+        <label>Name: <input type="text" name="name" /></label><br/>
+        <label>Idname: <input type="text" name="idname" /></label><br/>
+        <label>Heat: <input type="number" name="heat" /></label><br/>
+        <label>Produced: <input type="number" name="produced" /></label><br/>
+        <input type="submit"/>
+    </form>
+</div>

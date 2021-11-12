@@ -199,5 +199,24 @@ class Chemical
         return $this->tags;
     }
 
+    /**
+     * @param Collection $tags
+     * @return Chemical
+     */
+    public function setTags(ArrayCollection|Collection $tags): Chemical
+    {
+        $this->tags = $tags;
+        return $this;
+    }
+
+    /**
+     * @param Tag $tag
+     * @return Chemical
+     */
+    public function addTag(Tag $tag):Chemical{
+        $this->tags->add($tag);
+        return $this;
+    }
+
 
 }

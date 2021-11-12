@@ -50,6 +50,8 @@ class TagHandler implements MiddlewareInterface
         if (isset($tag)) {
             $tag->setName($request->getParsedBody()['name']);
             $tag->setPriority((int)$request->getParsedBody()['priority']);
+            $tag->setHidden($request->getParsedBody()['hidden']??false);
+            $tag->setColor($request->getParsedBody()['color']);
             $this->entityManager->flush($tag);
             $params['response']='success';
         }else{
