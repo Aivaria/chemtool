@@ -11,3 +11,7 @@
 .chemical.closed .content{
     display: none;
 }
+.tags .hidden{
+    background-color: lightgray !important;
+    color: darkgray !important;
+}

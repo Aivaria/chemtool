@@ -6,6 +6,7 @@ use Doctrine\Common\Collections\Criteria;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
+use GMP;
 
 /**
  * @ORM\Entity
@@ -158,7 +159,8 @@ class Chemical
         $criteria->where($expr->eq('parent', $parent));
 
         $linker = $this->parent->matching($criteria)->getKeys();
-        var_dump($linker);die;
+        var_dump($linker);
+        die;
         $parents = $this->parent->filter(['chemical_id' => $this->getId(), 'parent_id' => $parent->getId()]);
         var_dump($parents);
         die;
@@ -213,9 +215,65 @@ class Chemical
      * @param Tag $tag
      * @return Chemical
      */
-    public function addTag(Tag $tag):Chemical{
-        $this->tags->add($tag);
+    public function addTag(Tag $tag): Chemical
+    {
+        if (!$this->tags->contains($tag)) {
+            $this->tags->add($tag);
+        }
         return $this;
+    }
+
+    /**
+     * @return
+     */
+    public function getRecipe($needed=1, $multiplicator = 1, &$steps=[], $depth=0){
+        /**
+         * @var ChemicalLinker $parent
+         */
+        $step = '';
+
+        $lcd = $this->getLCD($this);
+//        echo $lcd;
+
+        foreach ($this->getParent() as $parent){
+            if(count($parent->getParent()->getParent())>0){
+                $parent->getParent()->getRecipe($parent->getAmount(), 1, $steps, $depth++);
+                continue;
+            }
+            $step.=$parent->getParent()->getName().'='.$parent->getAmount().';';
+        }
+
+        $steps[]=$step;
+        return $steps;
+    }
+
+    protected function getLCD(chemical $chemical):int{
+        $lcd = 1;
+        if(count($chemical->getParent())>0){
+            foreach ($chemical->getParent() as $parent){
+                if(count($parent->getParent()->getParent())>0){
+                    echo 1;
+                }
+                if($parent->getParent()->getProduced() ==1){
+                    echo 2;
+                    $lcd=gmp_lcm($lcd, 1);
+                    var_dump($lcd);
+                    continue;
+                }
+                if($parent->getParent()->getProduced()>$parent->getAmount()){
+                    echo 3;
+                    $lcd=gmp_lcm($lcd, $parent->getAmount());
+                    var_dump($lcd);
+
+                }else{
+                    echo 4;
+                    $lcd = gmp_lcm($lcd,$parent->getAmount()/$parent->getParent()->getProduced());
+                    var_dump($lcd);
+
+                }
+            }
+        }
+        return (int)$lcd;
     }
 
 

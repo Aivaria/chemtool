@@ -5,7 +5,6 @@ declare(strict_types=1);
 use FastRoute\RouteCollector;
 use Mezzio\Application;
 use Mezzio\MiddlewareFactory;
-
 error_reporting(E_ALL & ~E_USER_DEPRECATED & ~E_DEPRECATED & ~E_STRICT & ~E_NOTICE);
 chdir(dirname(__DIR__));
 $container = require "src/bootstrap.php";

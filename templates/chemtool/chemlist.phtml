@@ -1,4 +1,11 @@
 <div class="row">
+    <div class="tags">
+        <?php foreach ($this->tags as $tag): ?>
+            <span class="tagtoggler badge badge-light <?= $tag->isHidden() ? 'hidden' : ''; ?>"
+                  data-id="<?= $tag->getId(); ?>"
+                  style="background-color: <?= $tag->getColor(); ?>"><?= $tag->getName(); ?></span>
+        <?php endforeach; ?>
+    </div>
     <?php
 
     use Chemtool\Doctrine\Entities\Chemical;
@@ -10,30 +17,38 @@
         $appender = '';
         $badges = '';
         foreach ($chemical->getTags() as $tag) {
-            $appender .= 'tag_' . $tag->getId().' ';
-            $appender .= !$tag->isHidden() ? 'tag_' . $tag->getId() . '_active ':'';
-            $badges.='<span class="badge badge-light" style="background-color: '.$tag->getColor().'">'.$tag->getName().'</span>';
+            $appender .= 'tag_' . $tag->getId() . ' ';
+            $appender .= !$tag->isHidden() ? 'tag_' . $tag->getId() . '_active ' : '';
+            $badges .= '<span class="badge badge-light" style="background-color: ' . $tag->getColor() . '">' . $tag->getName() . '</span>';
         }
 
-            ?>
-        <div class="chemical list-group-item col-sm-2 closed <?=$appender?>" style="border: thin solid black"
+        ?>
+        <div class="chemical list-group-item col-sm-2 closed <?= $appender ?>" style="border: thin solid black"
              id="chemical_<?= $chemical->getId() ?>">
-            <div class="header"><?= $chemical->getName() != ''?$chemical->getName():'XX__'.$chemical->getIdName(); ?>
-                <?=$badges?>
+            <div class="header"><?= $chemical->getName() != '' ? $chemical->getName() : 'XX__' . $chemical->getIdName(); ?>
+                <?= $badges ?>
             </div>
             <div class="content">
                 Name=<?= $chemical->getName(); ?><br/>
-                Idname=<?= $chemical->getIdName(); ?><br/>
                 Produced=<?= $chemical->getProduced(); ?><br/>
                 Heat-Required=<?= $chemical->getRequireHeat(); ?><br/>
 
-                Recipe:
+                Recipe String:
+                <div class="ingredientString">
+<ul>
+                    <?php foreach ($chemical->getRecipe() as $row): ?>
+                        <li><?=$row?></li>
+                    <?php endforeach; ?>
+</ul>
+                </div>
+                Ingredients:
                 <ul>
                     <?php foreach ($chemical->getParent() as $child):
                         $childChemical = $child->getParent();
                         if (count($childChemical->getParent()) > 0):?>
                             <li>
-                                <a data-id="<?= $childChemical->getId() ?>" href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>
+                                <a data-id="<?= $childChemical->getId() ?>"
+                                   href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>
                             </li>
                         <?php else: ?>
                             <li>
@@ -49,7 +64,8 @@
                         <?php foreach ($chemical->getChilds() as $child):
                             $childChemical = $child->getChemical(); ?>
                             <li>
-                                <a data-id="<?= $childChemical->getId() ?>" href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>
+                                <a data-id="<?= $childChemical->getId() ?>"
+                                   href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>
                             </li>
                         <?php endforeach; ?>
                     </ul>
@@ -59,4 +75,4 @@
         </div>
     <?php } ?>
 </div>
-<a href="<?=$this->url('chemtool', ['action'=>'add', 'id'=>0]);?>">add</a>
+<a href="<?= $this->url('chemtool', ['action' => 'add', 'id' => 0]); ?>">add</a>

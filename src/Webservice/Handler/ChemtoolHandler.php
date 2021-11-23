@@ -7,6 +7,8 @@ use Chemtool\Doctrine\Entities\Tag;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\Query\ResultSetMapping;
+use Doctrine\ORM\Query\ResultSetMappingBuilder;
 use Fig\Http\Message\StatusCodeInterface;
 use Laminas\Diactoros\Response\EmptyResponse;
 use Laminas\Diactoros\Response\HtmlResponse;
@@ -24,8 +26,21 @@ class ChemtoolHandler implements MiddlewareInterface
 
     public function listAction(ServerRequestInterface $request)
     {
-        $chemicals = $this->entityManager->getRepository(Chemical::class)->findAll();
-        return new HtmlResponse($this->renderer->render('chemtool::chemlist', ['chemicals' => $chemicals]));
+        $rsm = new ResultSetMappingBuilder($this->entityManager);
+        $rsm->addRootEntityFromClassMetadata(Chemical::class, 'chemical');
+        $chemicals = $this->entityManager->createNativeQuery(
+            'SELECT 
+                chemical.*
+                FROM chemical 
+                LEFT JOIN chemical_tag ON chemical.id = chemical_tag.chemical_id
+                LEFT JOIN tag ON tag.id = chemical_tag.tag_id
+                GROUP BY chemical.id
+                ORDER BY CASE WHEN(tag.priority IS NULL) THEN 0 ELSE 1 END DESC, tag.priority, chemical.name;',
+            $rsm
+        )->execute();
+
+        $tags = $this->entityManager->getRepository(Tag::class)->findAll();
+        return new HtmlResponse($this->renderer->render('chemtool::chemlist', ['chemicals' => $chemicals, 'tags'=>$tags]));
     }
 
     public function viewAction(ServerRequestInterface $request): ResponseInterface
