@@ -10,11 +10,19 @@ use Throwable;
 
 class JsonErrorResponseGenerator
 {
+    /**
+     * @param bool $debugmode
+     */
     public function __construct(protected bool $debugmode)
     {
-
     }
 
+    /**
+     * @param Throwable $e
+     * @param ServerRequestInterface $request
+     * @param ResponseInterface $response
+     * @return ResponseInterface
+     */
     public function __invoke(
         Throwable              $e,
         ServerRequestInterface $request,
@@ -34,6 +42,10 @@ class JsonErrorResponseGenerator
         return new JsonResponse($responseData, $statusCode);
     }
 
+    /**
+     * @param Throwable $e
+     * @return array
+     */
     protected function prepareStackTrace(Throwable $e): array
     {
         $result = [];
@@ -45,7 +57,7 @@ class JsonErrorResponseGenerator
                 'line' => $e->getLine(),
                 'tace' => $e->getTrace()
             ];
-        } while($e = $e->getPrevious());
+        } while ($e = $e->getPrevious());
         return $result;
     }
 }

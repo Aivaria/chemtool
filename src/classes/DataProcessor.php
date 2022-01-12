@@ -2,7 +2,11 @@
 
 namespace Chemtool;
 
-
+/**
+ * First version, just imported here to keep it. Dont use it, its neither supported not compatible!
+ *
+ * @deprecated
+ */
 class DataProcessor
 {
     /**

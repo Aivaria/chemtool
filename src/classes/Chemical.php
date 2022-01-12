@@ -4,6 +4,9 @@ namespace Chemtool;
 
 use http\Encoding\Stream;
 
+/**
+ * 
+ */
 class Chemical
 {
     /**

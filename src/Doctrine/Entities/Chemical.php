@@ -232,7 +232,7 @@ class Chemical
          */
         $step = '';
 
-        $lcd = $this->getLCD($this);
+//        $lcd = $this->getLCD($this);
 //        echo $lcd;
 
         foreach ($this->getParent() as $parent){

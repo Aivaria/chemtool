@@ -18,12 +18,23 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
+/**
+ * Handles fronted handling of chemicals
+ */
 class ChemtoolHandler implements MiddlewareInterface
 {
+    /**
+     * @param TemplateRendererInterface $renderer
+     * @param EntityManager $entityManager
+     */
     public function __construct(protected TemplateRendererInterface $renderer, protected EntityManager $entityManager)
     {
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @return HtmlResponse
+     */
     public function listAction(ServerRequestInterface $request)
     {
         $rsm = new ResultSetMappingBuilder($this->entityManager);
@@ -40,14 +51,24 @@ class ChemtoolHandler implements MiddlewareInterface
         )->execute();
 
         $tags = $this->entityManager->getRepository(Tag::class)->findAll();
-        return new HtmlResponse($this->renderer->render('chemtool::chemlist', ['chemicals' => $chemicals, 'tags'=>$tags]));
+        return new HtmlResponse($this->renderer->render('chemtool::chemlist', ['chemicals' => $chemicals, 'tags' => $tags]));
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @return ResponseInterface
+     */
     public function viewAction(ServerRequestInterface $request): ResponseInterface
     {
         return new HtmlResponse($this->renderer->render('chemtool::chemview', []));
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @return HtmlResponse
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
     protected function editPostAction(ServerRequestInterface $request)
     {
         /**
@@ -76,6 +97,11 @@ class ChemtoolHandler implements MiddlewareInterface
         return $this->editGetAction($request);
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @param array $params
+     * @return HtmlResponse
+     */
     protected function editGetAction(ServerRequestInterface $request, $params = [])
     {
         $chemical = $this->entityManager->getRepository(Chemical::class)->find($request->getAttribute('id', 0));
@@ -88,6 +114,12 @@ class ChemtoolHandler implements MiddlewareInterface
         return $this->listAction($request);
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @return HtmlResponse
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
     protected function addPostAction(ServerRequestInterface $request)
     {
         /**
@@ -105,12 +137,22 @@ class ChemtoolHandler implements MiddlewareInterface
         return $this->addGetAction($request);
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @param array $params
+     * @return HtmlResponse
+     */
     protected function addGetAction(ServerRequestInterface $request, $params = [])
     {
         return new HtmlResponse($this->renderer->render('chemtool::chemadd', $params));
     }
 
-
+    /**
+     * @param ServerRequestInterface $request
+     * @return HtmlResponse
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
     public function editAction(ServerRequestInterface $request)
     {
         if ($request->getMethod() === 'POST') {
@@ -119,6 +161,12 @@ class ChemtoolHandler implements MiddlewareInterface
         return $this->editGetAction($request);
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @return HtmlResponse
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
     public function addAction(ServerRequestInterface $request)
     {
         if ($request->getMethod() === 'POST') {
@@ -127,6 +175,13 @@ class ChemtoolHandler implements MiddlewareInterface
         return $this->addGetAction($request);
     }
 
+    /**
+     * @param ServerRequestInterface $request
+     * @param RequestHandlerInterface $handler
+     * @return ResponseInterface
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $action = $request->getAttribute('action', 'list');
