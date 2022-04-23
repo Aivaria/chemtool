@@ -2589,7 +2589,7 @@
 			id = "something"
 			result = "something"
 			required_reagents = list("sorium" = 1, "ldmatter" = 1)
-			result_amount = 12
+			result_amount = 2
 			mix_phrase = "The solution swirls violently and forms...something."
 
 		voltagen
