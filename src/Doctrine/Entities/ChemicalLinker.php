@@ -31,7 +31,7 @@ class ChemicalLinker
      * @ORM\JoinColumn(name="parent_id", referencedColumnName="id", nullable=false)
      * @var Chemical
      */
-    protected Chemical $parent;
+    protected Chemical $parentChemical;
 
     /**
      * @ORM\Column(type="integer")
@@ -62,9 +62,9 @@ class ChemicalLinker
     /**
      * @return Chemical
      */
-    public function getParent(): Chemical
+    public function getParentChemical(): Chemical
     {
-        return $this->parent;
+        return $this->parentChemical;
     }
 
     /**
@@ -96,12 +96,12 @@ class ChemicalLinker
     }
 
     /**
-     * @param Chemical $parent
+     * @param Chemical $parentChemical
      * @return ChemicalLinker
      */
-    public function setParent(Chemical $parent): ChemicalLinker
+    public function setParentChemical(Chemical $parentChemical): ChemicalLinker
     {
-        $this->parent = $parent;
+        $this->parentChemical = $parentChemical;
         return $this;
     }
 

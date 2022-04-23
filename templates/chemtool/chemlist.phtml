@@ -36,16 +36,16 @@
                 Recipe String:
                 <div class="ingredientString">
                     <ul>
-                        <?php foreach ($chemical->getRecipe() as $row): ?>
+                        <?php foreach ($chemical->getRecipe()['string'] as $row): ?>
                             <li><?= $row ?></li>
                         <?php endforeach; ?>
                     </ul>
                 </div>
                 Ingredients:
                 <ul>
-                    <?php foreach ($chemical->getParent() as $child):
-                        $childChemical = $child->getParent();
-                        if (count($childChemical->getParent()) > 0):?>
+                    <?php foreach ($chemical->getParents() as $child):
+                        $childChemical = $child->getParentChemical();
+                        if (count($childChemical->getParents()) > 0):?>
                             <li>
                                 <a data-id="<?= $childChemical->getId() ?>"
                                    href="#chemical_<?= $childChemical->getId() ?>"><?= $childChemical->getName() . ':' . $child->getAmount(); ?></a>

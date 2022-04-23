@@ -2,11 +2,10 @@
 
 namespace Chemtool\Doctrine\Entities;
 
-use Doctrine\Common\Collections\Criteria;
-use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use GMP;
+use Doctrine\Common\Collections\Criteria;
+use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
@@ -53,7 +52,7 @@ class Chemical
     protected Collection $parent;
 
     /**
-     * @ORM\OneToMany (targetEntity="ChemicalLinker", mappedBy="parent", cascade={"persist"})
+     * @ORM\OneToMany (targetEntity="ChemicalLinker", mappedBy="parentChemical", cascade={"persist"})
      * @var Collection
      */
     protected Collection $childs;
@@ -172,7 +171,7 @@ class Chemical
         $chemicalLink = new ChemicalLinker();
         $chemicalLink->setAmount($amount);
         $chemicalLink->setChemical($this);
-        $chemicalLink->setParent($parent);
+        $chemicalLink->setParentChemical($parent);
         $this->parent->add($chemicalLink);
         return $this;
     }
@@ -180,7 +179,7 @@ class Chemical
     /**
      * @return Collection
      */
-    public function getParent(): ArrayCollection|Collection
+    public function getParents(): ArrayCollection|Collection
     {
         return $this->parent;
     }
@@ -226,55 +225,74 @@ class Chemical
     /**
      * @return
      */
-    public function getRecipe($needed=1, $multiplicator = 1, &$steps=[], $depth=0){
+    public function getRecipe($needed = 1, $multiplicator = 1, &$steps = [], $depth = 0)
+    {
+        if ($depth == 0) {
+            echo $this->getLCM() . '<br /><br />';
+        }
         /**
          * @var ChemicalLinker $parent
          */
         $step = '';
 
-//        $lcd = $this->getLCD($this);
-//        echo $lcd;
 
-        foreach ($this->getParent() as $parent){
-            if(count($parent->getParent()->getParent())>0){
-                $parent->getParent()->getRecipe($parent->getAmount(), 1, $steps, $depth++);
+        foreach ($this->getParents() as $parent) {
+            if (count($parent->getParentChemical()->getParents()) > 0) {
+                $parent->getParentChemical()->getRecipe($parent->getAmount(), 1, $steps, ++$depth);
                 continue;
             }
-            $step.=$parent->getParent()->getName().'='.$parent->getAmount().';';
+            $step .= $parent->getParentChemical()->getName() . '=' . $parent->getAmount() . ';';
+        }
+        if ($this->getRequireHeat() > 0) {
+            $step .= '   #heat!';
         }
 
-        $steps[]=$step;
+        $steps['string'][] = $step;
         return $steps;
     }
 
-    protected function getLCD(chemical $chemical):int{
-        $lcd = 1;
-        if(count($chemical->getParent())>0){
-            foreach ($chemical->getParent() as $parent){
-                if(count($parent->getParent()->getParent())>0){
-                    echo 1;
-                }
-                if($parent->getParent()->getProduced() ==1){
-                    echo 2;
-                    $lcd=gmp_lcm($lcd, 1);
-                    var_dump($lcd);
-                    continue;
-                }
-                if($parent->getParent()->getProduced()>$parent->getAmount()){
-                    echo 3;
-                    $lcd=gmp_lcm($lcd, $parent->getAmount());
-                    var_dump($lcd);
-
-                }else{
-                    echo 4;
-                    $lcd = gmp_lcm($lcd,$parent->getAmount()/$parent->getParent()->getProduced());
-                    var_dump($lcd);
-
-                }
-            }
+    public function getLCM(): int
+    {
+        $myLCM = $this->getProduced();
+        foreach ($this->getParents() as $relation) {
+            $myLCM = gmp_lcm($relation->getParentChemical()->getLCM(), $myLCM);
         }
-        return (int)$lcd;
+        return (int)$myLCM;
+
     }
 
+//    public function getLCM(int $needed = 1, $_timesReceipt = 1): int  // 5 1 1 1 1, || 4
+//    {
+//        $myLCM = $this->getProduced();  // 3
+//
+//        $lcm = 1;
+//        foreach ($this->getParents() as $relation) {
+//            $lcm = gmp_lcm($relation->getParentChemical()->getProduced(), $lcm);  //1
+//        }
+//        $lcm = gmp_lcm($lcm, $_timesReceipt); //4
+//
+//        if (($needed * $lcm) % $this->getProduced() != 0) {
+//            $timesReceipt = gmp_lcm($_timesReceipt, $this->getProduced());
+//            var_dump(((int)$timesReceipt /  (int)$_timesReceipt));
+//            return ((int)$timesReceipt / (int)$_timesReceipt);
+//
+//        } else {
+//            $timesReceipt = $needed * $lcm / $this->getProduced(); // 1,33333333333
+//        }
 
+//        foreach ($this->getParents() as $relation) {
+//            $myLCM = $relation->getParentChemical()->getLCM($relation->getAmount(), $timesReceipt) * $myLCM;
+//        }
+//
+//        if(is_int($myLCM)){
+//            $myLCM = gmp_lcm($myLCM, $lcm); //4
+//        }
+//        else{
+//            var_dump($this->getName());
+//            var_dump($myLCM);
+//            die();
+//
+//        }
+//        return (int)$myLCM;
+//    }
 }

@@ -72,24 +72,6 @@
 			mix_phrase = "The substance violently detonates!"
 			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
 
-		nitroglycerin_violent_reaction2
-			name = "Nitroglycerin Smoke"
-			id = "nitroglycerin_smoke"
-			result = "nitroglycerin_smoke"
-			required_reagents = list("nitroglycerin" = 1, "potassium" = 1, "phosphorus" = 1, "sugar" = 1)
-			instant = 1
-			mix_phrase = "The substance violently detonates!"
-			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
-
-		nitroglycerin_violent_reaction4
-			name = "Nitroglycerin Propellant"
-			id = "nitroglycerin_Propellant"
-			result = "nitroglycerin_propellant"
-			required_reagents = list("nitroglycerin" = 1, "chlorine" = 1, "sugar" = 1, "hydrogen" = 1, "platinum" = 1)
-			instant = 1
-			mix_phrase = "The substance violently detonates!"
-			mix_sound = 'sound/impact_sounds/Metal_Hit_Heavy_1.ogg'
-
 		no_fermid_foam
 			name = "no fermid foam"
 			id = "no_fermid_foam"
@@ -160,6 +142,14 @@
 			mix_phrase = "The mixture solidifies, taking a crystalline appearance."
 			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg'
 
+		enriched_msg
+			name = "Enriched MSG"
+			id = "enriched_msg"
+			result = "enriched_msg"
+			required_reagents = list("msg" = 1, "milk" = 1, "salt" = 1, "chickensoup" = 1, "sugar" = 1,	"cheese" = 1,"grease" = 1, "water_holy" = 1, "pepperoni" = 1, "beff" = 1, "juice_tomato" = 1, "ectocooler" = 1)
+			result_amount = 12
+			mix_phrase = "The mixture reduces into a fine crystalline powder and an unbelievably delicious smell wafts upwards."
+
 		infernite
 			name = "Chlorine Triflouride"
 			id = "infernite"
@@ -198,7 +188,7 @@
 			result = "ldmatter"
 			required_reagents = list("plasma" = 1, "radium" = 1, "carbon" = 1, "stabiliser" = 1)
 			result_amount = 4
-			mix_phrase = "The begins to glow in a dark purple."
+			mix_phrase = "The mix begins to glow a dim purple."
 
 		sorium
 			name = "Sorium"
@@ -265,6 +255,41 @@
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
+		blue_milk
+			name = "Blue Milk"
+			id = "blue milk"
+			result = "blue_milk"
+			required_reagents = list("milk" = 1, "juice_blueberry" = 1)
+			result_amount = 2
+			mix_phrase = "The mixture turns a pale blue color."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		milk_punch
+			name = "Milk Punch"
+			id = "milk_punch"
+			result = "milk_punch"
+			required_reagents = list("simplesyrup" = 1, "juice_lime" = 1, "juice_apple" = 1, "ginger_ale" = 1, "juice_pineapple" = 1, "milk" = 1)
+			result_amount = 6
+			mix_phrase = "You wonder why you made this drink at all."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		milk_punch/milk_punch2
+			id = "milk_punch2"
+			required_reagents = list("fruit_punch" = 5, "milk" = 1)
+			result_amount = 6
+
+		fruit_punch
+			name = "Fruit Punch"
+			id = "fruit punch"
+			result = "fruit_punch"
+			required_reagents = list("simplesyrup" = 1, "juice_apple" = 1, "juice_lime" = 1, "ginger_ale" = 1, "juice_pineapple" = 1)
+			result_amount = 5
+			mix_phrase = "You are reminded of family picnics and school functions as the syrup mixes with the juices."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
 		lipolicide
 			name = "Lipolicide"
 			id = "lipolicide"
@@ -286,6 +311,14 @@
 					boutput(M, "<span class='notice'>A faint cheesy smell drifts through the air...</span>")
 				return
 
+		cheese2
+			name = "Cheese"
+			id = "cheese2"
+			result = "cheese"
+			required_reagents = list("milk" = 1, "acetic_acid" = 0)
+			result_amount = 1
+			mix_phrase = "The mixture curdles up."
+
 		gcheese
 			name = "Weird Cheese"
 			id = "gcheese"
@@ -294,11 +327,6 @@
 			result_amount = 1
 			mix_phrase = "The disgusting mixture sloughs together horribly, emitting a foul stench."
 			mix_sound = 'sound/voice/farts/diarrhea.ogg'
-			on_reaction(var/datum/reagents/holder)
-				var/location = get_turf(holder.my_atom)
-				for(var/mob/M in all_viewers(8, location))
-					boutput(M, "<span class='alert'>A horrible smell assaults your nose! What in space is it?</span>")
-				return
 
 		lemonade
 			name = "Lemonade"
@@ -330,6 +358,31 @@
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
+		halfandhalf/halfandhalf2
+			id = "halfandhalf2"
+			required_reagents = list("juice_lemon" = 1, "sweet_tea" = 1)
+			result_amount = 2
+
+		halfandhalf/halfandhalf3
+			id = "halfandhalf3"
+			required_reagents = list("lemonade" = 1, "sweet_tea" = 1)
+			result_amount = 2
+
+		laurapalmer
+			name = "Laura Palmer"
+			id = "laurapalmer"
+			result = "laurapalmer"
+			required_reagents = list("lemonade" = 1, "coffee" = 1)
+			result_amount = 2
+			mix_phrase = "The coffee and lemonade mix together. Damn fine."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		laurapalmer/laurapalmer2
+			id = "laurapalmer2"
+			required_reagents = list("lemonade" = 1, "coffee_fresh" = 1)
+			result_amount = 2
+
 		eggnog
 			name = "Eggnog"
 			id = "eggnog"
@@ -337,16 +390,6 @@
 			required_reagents = list("egg" = 1, "milk" = 1, "sugar" = 1)
 			result_amount = 3
 			mix_phrase = "The eggs nog together. Pretend that \"nog\" is a verb."
-			drinkrecipe = 1
-
-		sweet_tea
-			name = "Sweet Tea"
-			id = "sweet_tea"
-			result = "sweet_tea"
-			required_reagents = list("sugar" = 1, "tea" = 1)
-			result_amount = 2
-			mix_phrase = "The tea sweetens. Visually. Somehow."
-			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
 		honey_tea
@@ -369,6 +412,70 @@
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
+		sun_tea
+			name = "sun tea"
+			id = "sun_tea"
+			result = "sun_tea"
+			required_reagents = list("tea" = 3, "juice_orange" = 1, "sugar" = 1)
+			result_amount = 5
+			mix_phrase = "The tea takes on a sweet, summery smell."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		sweet_tea
+			name = "Sweet Tea"
+			id = "sweet_tea"
+			result = "sweet_tea"
+			required_reagents = list("sugar" = 1, "tea" = 1)
+			result_amount = 2
+			mix_phrase = "The tea sweetens. Visually. Somehow."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		catamount
+			name = "catamount"
+			id = "catamount"
+			result = "catamount"
+			required_reagents = list("juice_orange" = 1, "grenadine" = 1, "ginger_ale" = 4, "ice" = 2)
+			result_amount = 8
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		pine_ginger
+			name = "pine-ginger"
+			id = "pine_ginger"
+			result = "pine_ginger"
+			required_reagents = list("juice_pineapple" = 2, "ice" = 1, "ginger_ale" = 1)
+			result_amount = 4
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		sail_boat
+			name = "sail boat"
+			id = "sail_boat"
+			result = "sail_boat"
+			required_reagents = list("juice_lime" = 1, "ginger_ale" = 4, "ice" = 1)
+			result_amount = 6
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		vermont_breeze
+			name = "vermont breeze"
+			id = "vermont_breeze"
+			result = "vermont_breeze"
+			required_reagents = list("lemonade" = 4, "grenadine" = 1, "tonic" = 1)
+			result_amount = 6
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		cafe_gele
+			name = "cafe gele"
+			id = "cafe_gele"
+			result = "cafe_gele"
+			required_reagents = list("coffee_fresh" = 6, "vanilla" = 1, "sugar" = 1)
+			result_amount = 8
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
 
 		sodawater
 			name = "soda water"
@@ -389,6 +496,26 @@
 			result_amount = 2
 			mix_phrase = "The sugar and water congeal in the heat into a gloopy syrup."
 			mix_sound = 'sound/impact_sounds/slimy_hit_3.ogg'
+			drinkrecipe = 1
+
+		cocktail_wellerman
+			name = "Wellerman"
+			id = "wellerman"
+			result = "wellerman"
+			required_reagents = list("sweet_tea" = 2, "rum" = 1)
+			result_amount = 3
+			mix_phrase = "Soon may the Wellerman come. To bring us sugar and tea and rum."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		cocktail_hardpunch
+			name = "Hard Punch"
+			id = "hard_punch"
+			result = "hard_punch"
+			required_reagents = list("simplesyrup" = 1, "sangria" = 1, "juice_apple" = 1, "ginger_ale" = 1, "juice_pineapple" = 1)
+			result_amount = 5
+			mix_phrase = "This drink is so disgustingly sweet you start to get a headache from smelling it."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
 		cocktail_kalimoxto
@@ -501,6 +628,14 @@
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
+		cocktail_nicotini
+			name = "Nicotini"
+			id = "nicotini"
+			result = "nicotini"
+			required_reagents = list("martini" = 1, "nicotine" = 1)
+			result_amount = 2
+			mix_phrase = "The drink fizzes and turns a bland violet color. James Bond is crying."
+
 		cocktail_radler
 			name = "Radler"
 			id = "radler"
@@ -517,7 +652,7 @@
 			result = "threemileislandicedtea"
 			required_reagents = list("vodka" = 1, "gin" = 1, "tequila" = 1, "cola" = 1, "curacao" = 1)
 			result_amount = 5
-			mix_phrase = "You swear you hear the sound of a nuclear bomb pushed through an airlock."
+			mix_phrase = "You swear you hear the sound of a nuclear bomb being pushed through an airlock."
 			mix_sound = 'sound/machines/decompress.ogg'
 			drinkrecipe = 1
 
@@ -542,7 +677,7 @@
 			drinkrecipe = 1
 
 		cocktail_beach
-			name = "Sex on the Beach"
+			name = "Bliss on the Beach"
 			id = "beach"
 			result = "beach"
 			required_reagents = list("vodka" = 1, "juice_cran" = 1, "juice_orange" = 1)
@@ -592,6 +727,26 @@
 			required_reagents = list("cider" = 1, "beer" = 1)
 			result_amount = 2
 			mix_phrase = "The beer and cider mix into an appetizing drink."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		cocktail_caipirinha
+			name = "Pineapple Caipirinha"
+			id = "caipirinha"
+			result = "caipirinha"
+			required_reagents = list("vodka" = 2, "sugar" = 1,"ice" = 1, "juice_pineapple" = 2)
+			result_amount = 5
+			mix_phrase = "The vodka and pineapple juice mix together into a yellowish drink."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		cocktail_piscosour
+			name = "Pisco Sour"
+			id = "piscosour"
+			result = "piscosour"
+			required_reagents = list("egg" = 1, "simplesyrup" = 1, "bitters"= 1, "juice_lime" = 1, "white_wine" = 1)
+			result_amount = 5
+			mix_phrase = "The egg white foams and floats atop the lime-colored drink."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
@@ -691,6 +846,15 @@
 			mix_phrase = "James Bond would be ashamed."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 
+		cocktail_appletini
+			name = "Appletini"
+			id = "appletini"
+			result = "appletini"
+			required_reagents = list("vodka" = 1, "cider" = 1, "juice_apple" = 1)
+			result_amount = 3
+			mix_phrase = "James Bond probably wouldn't know what this is."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+
 		cocktail_murdini
 			name = "Murdini"
 			id = "murdini"
@@ -767,6 +931,33 @@
 			id = "cosmo2"
 			required_reagents = list("v_gimlet" = 2, "juice_cran" = 1)
 			result_amount = 3
+
+		cocktail_blackbramble
+			name = "Blackberry Bramble"
+			id = "blackbramble"
+			result = "blackbramble"
+			required_reagents = list("gin" = 1, "juice_blackberry" = 1, "juice_lemon" = 1)
+			result_amount = 3
+			mix_phrase = "The blackberries turn almost purple as you muddle them into the gin and lemon."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+
+		cocktail_frenchmartini
+			name = "French Martini"
+			id = "frenchmartini"
+			result = "frenchmartini"
+			required_reagents = list("vodka" = 1, "juice_raspberry" = 1, "juice_pineapple" = 1)
+			result_amount = 3
+			mix_phrase = "Mon dieu, zis isn't even a martini."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+
+		cocktail_jazzberryhardlemonade
+			name = "Jazzberry Hard Lemonade"
+			id = "jazzlemon"
+			result = "jazzlemon"
+			required_reagents = list("lemonade" = 1, "juice_blueraspberry" = 1, "vodka" = 1)
+			result_amount = 3
+			mix_phrase = "The drink turns radically jazzalicious."
+			mix_sound = 'sound/musical_instruments/saxbonk3.ogg'
 
 		cocktail_v_gimlet
 			name = "Vodka Gimlet"
@@ -894,6 +1085,20 @@
 			mix_phrase = "A little pink umbrella magically appears in the drink."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 
+		cocktail_lemondrop
+			name = "Lemon Drop"
+			id = "lemondrop"
+			result = "lemondrop"
+			required_reagents = list("simplesyrup" = 1, "juice_lemon" = 1, "juice_orange" = 1, "vodka" = 1)
+			result_amount = 4
+			mix_phrase = "The sweet and sour contents mix together nicely to make a pastel yellow drink."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+
+		cocktail_lemondrop/lemondrop2
+			id = "lemondrop2"
+			required_reagents = list("simplesyrup" = 1, "juice_lemon" = 1, "screwdriver" = 2)
+			result_amount = 4
+
 		cocktail_harlow
 			name = "Jean Harlow"
 			id = "harlow"
@@ -971,6 +1176,7 @@
 			id = "lingtea"
 			result = "lingtea"
 			required_reagents = list("longisland" = 1, "neurotoxin" = 1)
+			required_temperature = T0C + 100
 			result_amount = 2
 			mix_phrase = "The toxin upsets the delicate balance of alcohol and sours in this mix. Ew."
 
@@ -989,7 +1195,7 @@
 			result = "hunchback"
 			required_reagents = list("bourbon" = 1, "cola" = 1, "juice_tomato" = 1)
 			result_amount = 3
-			mix_phrase = "The chunks of tomato paste hang in the bourbon and cola as an emulsion. It looks as horrible as that sounds."
+			mix_phrase = "The chunks of tomato paste hang in the bourbon and cola as an emulsion. It looks as horrible as it sounds."
 			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg'
 
 		cocktail_pinacolada
@@ -1056,6 +1262,24 @@
 			mix_phrase = "The vodka and peach juice fizz into a pleasantly pink hue."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 
+		cocktail_bellini
+			name = "Peach Bellini"
+			id = "peachbellini"
+			result = "peachbellini"
+			required_reagents = list("white_wine" = 2, "juice_peach" = 1)
+			result_amount = 3
+			mix_phrase = "You contemplate Renaissance paintings as the peach purée suspends in the white wine."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+
+		cocktail_rossini
+			name = "Rossini"
+			id = "rossini"
+			result = "rossini"
+			required_reagents = list("white_wine" = 2, "juice_strawberry" = 1)
+			result_amount = 3
+			mix_phrase = "Faint opera music echoes from the glass."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+
 		cocktail_moscowmule
 			name = "Moscow Mule"
 			id = "moscowmule"
@@ -1073,7 +1297,7 @@
 			name = "Tequila Sunrise"
 			id = "tequilasunrise"
 			result = "tequilasunrise"
-			required_reagents = list("tequila" = 1, "juice_orange" = 1, "sugar" = 1)
+			required_reagents = list("tequila" = 1, "juice_orange" = 1, "grenadine" = 1)
 			result_amount = 3
 			mix_phrase = "The drink fizzes into some liquid sunshine for the soul."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
@@ -1223,13 +1447,23 @@
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
+		hot_toddy_halfnhalf
+			name = "Hot Toddy"
+			id = "hottoddy_halfnhalf"
+			result = "hottoddy"
+			required_reagents = list("halfandhalf" = 2, "bourbon" = 1)
+			result_amount = 3
+			mix_phrase = "The drink suddenly fills the room with a festive aroma."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
 		bees_knees
-			name = "Bee's knees"
+			name = "Bee's Knees"
 			id = "beesknees"
 			result = "beesknees"
 			required_reagents = list("gin" = 1, "honey" = 1, "juice_lemon" = 1)
 			result_amount = 3
-			mix_phrase = "You hear a faint buzz from the solution and your knees faintly ache"
+			mix_phrase = "You hear a faint buzz from the solution and your knees slightly ache."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
@@ -1240,6 +1474,16 @@
 			required_reagents = list("rum" = 1, "capsaicin" = 1)
 			result_amount = 2
 			mix_phrase = "You feel like you might have misunderstood the recipe."
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			drinkrecipe = 1
+
+		romulale
+			name = "Romulale"
+			id = "romulale"
+			result = "romulale"
+			required_reagents =list("juice_blueberry" = 1, "juice_blueraspberry" = 1, "beer" = 2)
+			result_amount = 4
+			mix_phrase = "A strong smell comes from the solution."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
@@ -1259,7 +1503,7 @@
 			result = "duckfart"
 			required_reagents = list("bourbon" = 1, "coffee" =1 , "milk" = 1)
 			result_amount = 3
-			mix_phrase = "You hear a faint quack from the solution along with a pungent stretch"
+			mix_phrase = "You hear a faint quack from the solution along with a pungent stench."
 			mix_sound = 'sound/voice/farts/fart3.ogg'
 			drinkrecipe = 1
 
@@ -1269,7 +1513,7 @@
 			result = "pinklemonade"
 			required_reagents = list("grenadine" = 1,"lemonade" = 1)
 			result_amount = 2
-			mix_phrase = "You watch the pink colour dance around the container and slowly combine with the lemonade"
+			mix_phrase = "You watch the pink colour dance around the container and slowly combine with the lemonade."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 			drinkrecipe = 1
 
@@ -1366,6 +1610,16 @@
 			result_amount = 3
 			mix_phrase = "An iridescent black chemical forms in the container."
 
+		hemodissolve
+			name = "Copper"
+			id = "copper"
+			result = "copper"
+			mix_sound = 'sound/misc/drinkfizz.ogg'
+			required_reagents = list("hemolymph" = 5, "cleaner" = 1,  "acetone" = 1)
+			required_temperature = T0C + 30 // just a little bit of heat
+			result_amount = 1
+			mix_phrase = "The hemolymph bubbles as a black precipitate falls out of the solution, denaturing into basic components."
+
 		mutagen
 			name = "Unstable mutagen"
 			id = "mutagen"
@@ -1446,11 +1700,20 @@
 			mix_phrase = "Large white crystals precipitate out of the mixture."
 			mix_sound = 'sound/misc/drinkfizz.ogg'
 
+		iron_oxide
+			name = "Iron Oxide"
+			id = "iron_oxide"
+			result = "iron_oxide"
+			required_reagents = list("iron" = 1, "oxygen" = 1, "acetic_acid" = 1, "salt" = 1)
+			result_amount = 4
+			mix_phrase = "The iron rapidly rusts."
+			required_temperature = T0C + 100
+
 		thermite
 			name = "Thermite"
 			id = "thermite"
 			result = "thermite"
-			required_reagents = list("aluminium" = 1, "iron" = 1, "oxygen" = 1)
+			required_reagents = list("aluminium" = 1, "iron_oxide" = 1)
 			result_amount = 3
 			mix_phrase = "The solution mixes into a reddish-brown powder."
 
@@ -1487,6 +1750,14 @@
 			required_reagents = list("water" = 1, "silicon" = 1, "oxygen" = 1)
 			result_amount = 3
 			mix_phrase = "The substance turns a striking cyan and becomes oily."
+
+		glue
+			name = "Space Glue"
+			id = "spaceglue"
+			result = "spaceglue"
+			required_reagents = list("plasma" = 1, "phenol" = 1, "oxygen" = 1, "hydrogen" = 1, "formaldehyde" = 1)
+			result_amount = 5
+			mix_phrase = "The substance turns a dull yellow and becomes thick and sticky."
 
 		superlube
 			name = "Organic Superlube"
@@ -1872,6 +2143,15 @@
 			result_amount = 2
 			mix_phrase = "The substance becomes a pile of burning dust."
 
+		napalmfire
+			name = "Phlogiston Fire"
+			id = "phlogiston"
+			result = "phlogiston"
+			required_reagents = list("phosphorus" = 1, "plasma" = 1, "acid" = 1 )
+			inhibitors = list("stabiliser")
+			instant = 1
+			mix_phrase = "The substance erupts into wild flames."
+
 		napalm_goo
 			name = "Napalm"
 			id = "napalm_goo"
@@ -1910,25 +2190,8 @@
 			required_reagents = list("potassium" = 1, "sugar" = 1, "phosphorus" = 1)
 			inhibitors = list("stabiliser")
 			instant = 1
-			special_log_handling = 1
 			consume_all = 1
 			result_amount = 3
-
-		propellant
-			name = "Aeresol Propellant"
-			id = "propellant"
-			result = "propellant"
-			required_reagents = list("chlorine" = 1, "sugar" = 1, "hydrogen" = 1, "platinum" = 1, "stabiliser" = 1)
-			result_amount = 3
-
-		unstable_propellant
-			name = "unstable propellant"
-			id = "unstable_propellant"
-			required_reagents = list("chlorine" = 1, "sugar" = 1, "hydrogen" = 1, "platinum" = 1)
-			inhibitors = list("stabiliser")
-			instant = 1
-			special_log_handling = 1
-			consume_all = 1
 
 		blackpowder
 			name = "Black Powder"
@@ -1981,42 +2244,6 @@
 			result_amount = 2
 			mix_phrase = "The mixture ferments into a filthy morass."
 			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg'
-
-		plant_nutrients_quickgrow
-			name = "Gro-Boost Plant Formula"
-			id = "plant_nutrients_grow"
-			result = "plant_nutrients_grow"
-			required_reagents = list("saltpetre" = 1, "styptic_powder" = 1, "salbutamol" = 1)
-			result_amount = 3
-			mix_phrase = "The mixture smells earthy and yet strange."
-			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg'
-
-		plant_nutrients_cropyield
-			name = "Top Crop Plant Formula"
-			id = "plant_nutrients_crop"
-			result = "plant_nutrients_crop"
-			required_reagents = list("saltpetre" = 1, "charcoal" = 1, "antihol" = 1)
-			result_amount = 3
-			mix_phrase = "The substance dissolves into a thick silty soup."
-			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg'
-
-		plant_nutrients_potency
-			name = "Powerplant Plant Formula"
-			id = "plant_nutrients_potency"
-			result = "plant_nutrients_potency"
-			required_reagents = list("saltpetre" = 1, "silver_sulfadiazine" = 1, "methamphetamine" = 1)
-			result_amount = 3
-			mix_phrase = "A pungent and powerful earthy odor comes from the mixture."
-			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg'
-
-		plant_nutrients_balance
-			name = "Fruitful Farming Plant Formula"
-			id = "plant_nutrients_balance"
-			result = "plant_nutrients_balance"
-			required_reagents = list("saltpetre" = 1, "epinephrine" = 1, "teporone" = 1)
-			result_amount = 3
-			mix_phrase = "A calming, coffee-like scent comes from the dirt-like mixture."
-			mix_sound = 'sound/impact_sounds/Slimy_Hit_4.ogg' */
 
 		weedkiller
 			name = "Atrazine"
@@ -2075,6 +2302,14 @@
 			result_amount = 1
 			mix_phrase = "Silver hairlike strands of silver form in the mixture, and the mixture becomes more blue."
 
+		silver_nitrate_copper_nitrate_2
+			name = "Silver Nitrate and Copper"
+			id = "silver_nitrate_copper_nitrate"
+			result = "copper_nitrate"
+			required_reagents = list ("silver_nitrate" = 2, "copper" = 1, "ethanol" = 1)
+			result_amount = 1
+			mix_phrase = "Silver hairlike strands of silver form in the mixture, and the mixture becomes more blue."
+
 		silver_nitrate_decomposition
 			name = "Silver Nitrate Decomposition"
 			id = "silver_nitrate_decomposition"
@@ -2082,38 +2317,6 @@
 			required_reagents = list("silver_nitrate" = 1)
 			required_temperature = T0C + 300
 			result_amount = 1
-
-		allyl_chloride
-			name = "Allyl chloride"
-			id = "allyl_chloride"
-			result = "allyl_chloride"
-			required_reagents = list("oil" = 1, "chlorine" = 2)
-			required_temperature = T0C + 500
-			result_amount = 1
-
-		epichlorohydrin
-			name = "Epichlorohydrin"
-			id = "epichlorohydrin"
-			result = "epichlorohydrin"
-			required_reagents = list("allyl_chloride" = 1, "clacid" = 1, "sodium" = 1, "oxygen" = 2, "hydrogen" = 1)
-			result_amount = 1
-			mix_phrase = "The mixture gives of a garlic-like odor."
-
-		glycerol
-			name = "Glycerol"
-			id = "glycerol"
-			result = "glycerol"
-			required_reagents = list("epichlorohydrin" = 1, "water" = 1)
-			result_amount = 1
-			mix_phrase = "The mixture bubbles."
-
-		nitroglycerin
-			name = "Nitroglycerin"
-			id = "nitroglycerin"
-			result = "nitroglycerin"
-			required_reagents = list("glycerol" = 1, "nitric_acid" = 1, "acid" = 1)
-			result_amount = 3
-			mix_phrase = "The mixture becomes seemingly heavy and viscous."
 
 		surfactant
 			name = "Foam surfactant"
@@ -2247,7 +2450,7 @@
 			name = "Heparin"
 			id = "heparin"
 			result = "heparin"
-			required_reagents = list("sugar" = 1, "meat_slurry" = 1, "phenol" = 1, "acid" = 1)
+			required_reagents = list("sugar" = 1, "blood" = 1, "phenol" = 1, "acid" = 1)
 			result_amount = 2
 
 		proconvertin
@@ -2634,10 +2837,10 @@
 			result_amount = 4
 			mix_phrase = "The mixture becomes far more fabulous!"
 
-		glitter_harmless
+		sparkles
 			name = "harmless glitter"
-			id = "glitter_harmless"
-			result = "glitter_harmless"
+			id = "sparkles"
+			result = "sparkles"
 			required_reagents = list("colors" = 1, "paper" = 1, "platinum" = 1)
 			mix_phrase = "The mixture becomes far more fabulous- safely."
 
@@ -2742,7 +2945,7 @@
 			name = "expresso"
 			id = "expresso"
 			result = "expresso"
-			required_reagents = list("espresso" = 1, "neurotoxin" = 3)
+			required_reagents = list("espresso" = 1, "methamphetamine" = 3)
 			result_amount = 3
 			mix_phrase = "Irregardless and for all intense and purposes, the coffee becomes stupider."
 
@@ -2813,14 +3016,6 @@
 			required_reagents = list("love" = 1,"tea" = 1, "colors" = 1)
 			result_amount = 3
 			mix_phrase = "The substance emits the sweet scent of cherryblossoms!"
-
-		cocktail_nicotini
-			name = "Nicotini"
-			id = "nicotini"
-			result = "nicotini"
-			required_reagents = list("martini" = 1, "nicotine" = 1)
-			result_amount = 2
-			mix_phrase = "The drink fizzes and turns into a bland violent color. James Bond is crying."
 
 		lime
 			name = "calcium oxide"
