@@ -228,7 +228,7 @@ class Chemical
     public function getRecipe($needed = 1, $multiplicator = 1, &$steps = [], $depth = 0)
     {
         if ($depth == 0) {
-            echo $this->getLCM() . '<br /><br />';
+            $needed = $this->getLCM();
         }
         /**
          * @var ChemicalLinker $parent
@@ -238,11 +238,12 @@ class Chemical
 
         foreach ($this->getParents() as $parent) {
             if (count($parent->getParentChemical()->getParents()) > 0) {
-                $parent->getParentChemical()->getRecipe($parent->getAmount(), 1, $steps, ++$depth);
+                $parent->getParentChemical()->getRecipe($needed, 1, $steps, ++$depth);
                 continue;
             }
-            $step .= $parent->getParentChemical()->getName() . '=' . $parent->getAmount() . ';';
+            $step .= $parent->getParentChemical()->getName() . '=' . $parent->getAmount(). ';';
         }
+
         if ($this->getRequireHeat() > 0) {
             $step .= '   #heat!';
         }

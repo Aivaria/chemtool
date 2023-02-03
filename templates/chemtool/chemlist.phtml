@@ -29,9 +29,11 @@
                 <?= $badges ?>
             </div>
             <div class="content">
+                Id=<?= $chemical->getIdName(); ?><br/>
                 Name=<?= $chemical->getName(); ?><br/>
                 Produced=<?= $chemical->getProduced(); ?><br/>
                 Heat-Required=<?= $chemical->getRequireHeat(); ?><br/>
+                LCM=<?= $chemical->getLCM(); ?><br/>
 
                 Recipe String:
                 <div class="ingredientString">

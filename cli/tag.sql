@@ -52,6 +52,7 @@ INSERT INTO `tag` (`id`, `name`, `priority`, `hidden`, `color`) VALUES
 (10, 'hypospraysafe', 20, 1, '#00FFF6'),
 (11, 'hard to get', 500, 1, '#899EBA'),
 (12, 'misc', 400, 1, '#B70187');
+(13, 'no parent', 1000, 1, null);
 
 --
 -- Indizes der exportierten Tabellen
